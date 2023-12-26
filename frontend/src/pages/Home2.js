@@ -1079,7 +1079,8 @@ const Home2 = () => {
 
         <footer
           class="footer-area pt-300 sasup-footer-4-space pb-45"
-          data-bg-color="#110F2A"
+          // data-bg-color="#110F2A"
+          style={{ backgroundColor: "rgb(17, 15, 42)" }}
         >
           <div class="container">
             <div class="row">
