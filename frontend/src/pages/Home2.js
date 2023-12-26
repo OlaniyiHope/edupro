@@ -14,8 +14,6 @@ const Home2 = () => {
   return (
     <>
       <body>
-        <Header2 />
-
         <main>
           <div
             class="hero-area sasup-hero-height-4 p-rel bg-top-left d-flex align-items-center"
