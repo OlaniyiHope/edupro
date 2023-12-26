@@ -10,7 +10,7 @@ const About = () => {
       <main>
         <div
           class="breadcrumb-area pt-215 pb-140 mb-110 pb-130"
-          data-background="assets/img/bg/breadcrumb_bg.webp"
+          // data-background="assets/img/bg/breadcrumb_bg.webp"
           style={backgroundStyle}
         >
           <div class="container">
