@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from "react";
 
 import Header2 from "./Header2";
-
+import back from "./back2.jpg";
 const Home2 = () => {
+  const backgroundStyle = {
+    backgroundImage: `url(${back})`,
+  };
   return (
     <>
       <body>
@@ -11,7 +14,8 @@ const Home2 = () => {
         <main>
           <div
             class="hero-area sasup-hero-height-4 p-rel bg-top-left d-flex align-items-center"
-            data-background="assets/img/bg/banner-1.webp"
+            // data-background="assets/img/bg/banner-1.webp"
+            style={backgroundStyle}
           >
             <div class="hero-area-shape-wrap-4">
               <div class="shape-1">
