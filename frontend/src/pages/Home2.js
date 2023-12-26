@@ -2,9 +2,13 @@ import React, { useEffect, useState } from "react";
 
 import Header2 from "./Header2";
 import back from "./back2.jpg";
+import backs from "./footimg.jpg";
 const Home2 = () => {
   const backgroundStyle = {
     backgroundImage: `url(${back})`,
+  };
+  const backgroundStyles = {
+    backgroundImage: `url(${backs})`,
   };
   return (
     <>
@@ -1053,7 +1057,7 @@ const Home2 = () => {
                 <div class="col-xxl-12 col-xl-12">
                   <div
                     class="sasup-cta-box-4 text-center bg-default  pt-90 pb-95"
-                    data-background="assets/img/bg/footer-bg.webp"
+                    style={backgroundStyles}
                   >
                     <h4 class="sasup-cta-title-4">
                       Dont find the Answer?
