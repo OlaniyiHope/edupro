@@ -4,28 +4,28 @@ const Header = () => {
   return (
     <>
       <header>
-        <div class="header-area header_space header-transparent header-sticky">
-          <div class="sasup-header-4">
+        <div class="header-transparent theme_bg header-sticky">
+          <div class="header-main">
             <div class="container">
               <div class="row align-items-center">
-                <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-6 col-4">
+                <div class="col-xxl-9 col-xl-9 col-lg-9 d-flex align-items-center col-md-6 col-sm-4 col-6">
                   <div class="sasup-logo mr-35 d-inline-block">
-                    <a href="index.html" class="logo-1">
+                    <a href="index.html">
                       <img
                         src="assets/img/logo/logo-white.webp"
+                        class="logo-1"
                         alt="image not found"
                       />
                     </a>
-                    <a href="index.html" class="logo-2">
+                    <a href="index.html">
                       <img
                         src="assets/img/logo/logo.webp"
+                        class="logo-2"
                         alt="image not found"
-                      />{" "}
+                      />
                     </a>
                   </div>
-                </div>
-                <div class="col-xxl-7 col-xl-7 col-lg-7 d-none d-lg-inline-block">
-                  <div class="sasup-header-nav-4 sasup-header">
+                  <div class="sasup-header d-none d-lg-inline-block">
                     <nav id="mobile-menu">
                       <ul>
                         <li>
@@ -142,16 +142,16 @@ const Header = () => {
                     </nav>
                   </div>
                 </div>
-                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-8">
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-8 col-6">
                   <div class="sasup-header-action-btn">
                     <a href="sign-in.html" class="sasup-transparent-btn">
                       <i class="fal fa-user"></i>Log in
                     </a>
                     <a
                       href="sign-up.html"
-                      class="sasup-theme-btn ml-25 d-none d-sm-inline-block"
+                      class="sasup-theme-btn style-white ml-25 d-none d-sm-inline-block"
                     >
-                      <span>Free Trial</span>
+                      <span>Join Sasup</span>
                     </a>
                     <div class="mobile-bar-control mobile-bar-control-white d-inline-block d-lg-none">
                       <div class="line"></div>
