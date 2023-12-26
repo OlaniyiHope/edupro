@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const Header2 = () => {
+const Footer = () => {
   return (
     <>
       <footer
@@ -225,4 +225,4 @@ const Header2 = () => {
   );
 };
 
-export default Header2;
+export default Footer;
