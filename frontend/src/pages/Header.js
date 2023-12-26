@@ -4,28 +4,28 @@ const Header = () => {
   return (
     <>
       <header>
-        <div class="header-transparent theme_bg header-sticky">
-          <div class="header-main">
+        <div class="header-area header_space header-transparent header-sticky">
+          <div class="sasup-header-4">
             <div class="container">
               <div class="row align-items-center">
-                <div class="col-xxl-9 col-xl-9 col-lg-9 d-flex align-items-center col-md-6 col-sm-4 col-6">
+                <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-6 col-4">
                   <div class="sasup-logo mr-35 d-inline-block">
-                    <a href="index.html">
+                    <a href="index.html" class="logo-1">
                       <img
                         src="assets/img/logo/logo-white.webp"
-                        class="logo-1"
                         alt="image not found"
                       />
                     </a>
-                    <a href="index.html">
+                    <a href="index.html" class="logo-2">
                       <img
                         src="assets/img/logo/logo.webp"
-                        class="logo-2"
                         alt="image not found"
                       />
                     </a>
                   </div>
-                  <div class="sasup-header d-none d-lg-inline-block">
+                </div>
+                <div class="col-xxl-7 col-xl-7 col-lg-7 d-none d-lg-inline-block">
+                  <div class="sasup-header-nav-4 sasup-header">
                     <nav id="mobile-menu">
                       <ul>
                         <li>
@@ -142,16 +142,16 @@ const Header = () => {
                     </nav>
                   </div>
                 </div>
-                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-8 col-6">
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-8">
                   <div class="sasup-header-action-btn">
                     <a href="sign-in.html" class="sasup-transparent-btn">
                       <i class="fal fa-user"></i>Log in
                     </a>
                     <a
                       href="sign-up.html"
-                      class="sasup-theme-btn style-white ml-25 d-none d-sm-inline-block"
+                      class="sasup-theme-btn ml-25 d-none d-sm-inline-block"
                     >
-                      <span>Join Sasup</span>
+                      <span>Free Trial</span>
                     </a>
                     <div class="mobile-bar-control mobile-bar-control-white d-inline-block d-lg-none">
                       <div class="line"></div>
@@ -165,6 +165,42 @@ const Header = () => {
           </div>
         </div>
       </header>
+
+      <div class="responsive-sidebar d-block d-lg-none">
+        <div class="responsive-sidebar-inner">
+          <div class="logo mb-30">
+            <div class="row">
+              <div class="col-6">
+                <img src="assets/img/logo/logo.webp" alt="image not found" />
+              </div>
+              <div class="col-6">
+                <div class="text-end">
+                  <button class="responsive-sidebar-close">
+                    <i class="fal fa-times"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="resposive-sidebar-menu mb-50">
+            <div class="mobile-menu"></div>
+          </div>
+          <div class="responsive-sidebar-actions">
+            <a
+              href="contact.html"
+              class="sasup-border-btn d-block sasup-broder-btn-space-3 ms-0 text-center mb-2"
+            >
+              login
+            </a>
+            <a
+              href="contact.html"
+              class="sasup-theme-btn text-center d-inline-block d-sm-none w-100"
+            >
+              <span>Free Trial</span>
+            </a>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
