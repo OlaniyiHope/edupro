@@ -45,8 +45,7 @@ const About = () => {
                     Help you build better.
                   </h3>
                   <p class="s-desc">
-                    Naff the little rotter have gutted mate James cuppa baking
-                    legged.
+                    Here's a list of features that make us 90% better than most school portals
                   </p>
                 </div>
               </div>
@@ -65,11 +64,11 @@ const About = () => {
                   </div>
                   <div class="feature-content-2">
                     <h4 class="feature-content-title-2">
-                      <a href="service-details.html">Website Optimization</a>
+                      <a href="service-details.html">Fee Management</a>
                     </h4>
                     <p class="feature-content-desc-2">
-                      Only a quid victoria spong cack matie boy bum bag burke a
-                      blinding shot James bond pear.
+                    Simplify financial operations by effortlessly managing student fees, from invoicing to transparent financial reporting i.e: Receipts.
+
                     </p>
                   </div>
                   <div class="feature-action-2">
@@ -93,7 +92,7 @@ const About = () => {
                   </div>
                   <div class="feature-content-2">
                     <h4 class="feature-content-title-2">
-                      <a href="service-details.html">Built-in AI features</a>
+                      <a href="service-details.html">Student Management</a>
                     </h4>
                     <p class="feature-content-desc-2">
                       Only a quid victoria spong cack matie boy bum bag burke a
@@ -121,11 +120,10 @@ const About = () => {
                   </div>
                   <div class="feature-content-2">
                     <h4 class="feature-content-title-2">
-                      <a href="service-details.html">Full Optimization</a>
+                      <a href="service-details.html">Online Exam Administration</a>
                     </h4>
                     <p class="feature-content-desc-2">
-                      Only a quid victoria spong cack matie boy bum bag burke a
-                      blinding shot James bond pear.
+                    Facilitate online exams with a feature-rich module, empowering educators to create, conduct, and evaluate exams digitally.
                     </p>
                   </div>
                   <div class="feature-action-2">
@@ -209,16 +207,15 @@ const About = () => {
                       class="s-title visible-br-lg visible-br-md wow fadeInUp"
                       data-wow-delay=".2s"
                     >
-                      Designed with
+                      Created with
                       <br />
-                      the applicant in mind.
+                      the parents in mind.
                     </h3>
                     <p
                       class="s-desc wow fadeInUp line-height-24"
                       data-wow-delay=".4s"
                     >
-                      The wireless young delinquent get stuffed bugger super
-                      what a load of rubbish chimney pot.
+                      The parent is the connection between the school and pupils now imagine a parent being able to track down their child's journey in school, certainily that will be fantanstic right? Well that's basically what we have in store for you and lots more.
                     </p>
                   </div>
                   <div
@@ -227,19 +224,19 @@ const About = () => {
                   >
                     <ul>
                       <li class="service-right-list-item">
-                        <i class="fal fa-check"></i> Faster Response Time
+                        <i class="fal fa-check"></i> Top Notch Support
                       </li>
                       <li class="service-right-list-item">
-                        <i class="fal fa-check"></i> Top Audiences
+                        <i class="fal fa-check"></i> Report Card Preparation
                       </li>
                       <li class="service-right-list-item">
-                        <i class="fal fa-check"></i> Automation builder
+                        <i class="fal fa-check"></i> Lesson Notes
                       </li>
                       <li class="service-right-list-item">
-                        <i class="fal fa-check"></i> Safe and Private
+                        <i class="fal fa-check"></i> Generate Payment Receipts
                       </li>
                       <li class="service-right-list-item">
-                        <i class="fal fa-check"></i> External data
+                        <i class="fal fa-check"></i> Student Attendance
                       </li>
                     </ul>
                   </div>
@@ -403,7 +400,7 @@ const About = () => {
           </div>
         </div>
 
-        <div class="client-area pt-40 pb-115 mb-110" data-bg-color="#eeeff4">
+        {/* <div class="client-area pt-40 pb-115 mb-110" data-bg-color="#eeeff4">
           <div class="container">
             <div class="row">
               <div class="col-xxl-12">
@@ -460,9 +457,9 @@ const About = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <div class="team-area pb-130">
+        {/* <div class="team-area pb-130">
           <div class="container">
             <div class="row mb-45">
               <div class="col-xxl-12">
@@ -611,7 +608,7 @@ const About = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div
           class="cta-area cta-1-space pt-135 pb-135 bg-default"
@@ -628,7 +625,7 @@ const About = () => {
                 <div class="cta-left mb-30 mb-lg-0">
                   <span class="cta-subtitle-1">Call To Action</span>
                   <h3 class="cta-title-1">
-                    Join Sasup and increase your productivity.
+                    Use Edu Pro Solutions and increase your school's productivity.
                   </h3>
                 </div>
               </div>

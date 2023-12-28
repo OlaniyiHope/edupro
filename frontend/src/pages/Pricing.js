@@ -113,7 +113,7 @@ const Pricing = () => {
                           <p class="sasup-pricing-box-top-desc-2">
                             For those getting started with
                             <br />
-                            Company.
+                            Edu Pro Solutions.
                           </p>
                           <a
                             href="price-02.html"
@@ -124,31 +124,31 @@ const Pricing = () => {
                         </div>
                         <div class="sasup-pricing-box-bottom-2">
                           <div class="sasup-pricing-box-bottom-title-wrap-2">
-                            <h4 class="sasup-pricing-box-bottom-price-2">
+                            {/* <h4 class="sasup-pricing-box-bottom-price-2">
                               $0.0
                             </h4>
                             <span class="sasup-pricing-box-bottom-subtitle-2">
                               Free forever
-                            </span>
+                            </span> */}
                           </div>
                           <div class="sasup-pricing-box-bottom-list-2">
                             <ul>
                               <li>
                                 <i class="fal fa-check"></i>
                                 <span class="price-feature-text">
-                                  4 free projects
+                                  Educational account management
                                 </span>
                               </li>
                               <li>
                                 <i class="fal fa-check"></i>
                                 <span class="price-feature-text">
-                                  Data storage
+                                  Student Enrollment
                                 </span>
                               </li>
                               <li>
                                 <i class="fal fa-check"></i>
                                 <span class="price-feature-text">
-                                  For personal us
+                                  Report Card Preparation
                                 </span>
                               </li>
                             </ul>
@@ -166,15 +166,13 @@ const Pricing = () => {
                             />
                           </div>
                           <span class="sasup-pricing-box-top-subtitle-2">
-                            BEST SELLER
+                            STANDARD
                           </span>
                           <h3 class="sasup-pricing-box-top-title-2">
                             Professional
                           </h3>
                           <p class="sasup-pricing-box-top-desc-2">
-                            For smaller teams and professional
-                            <br />
-                            users.
+                            For access to more features
                           </p>
                           <a
                             href="price-02.html"
@@ -184,50 +182,44 @@ const Pricing = () => {
                           </a>
                         </div>
                         <div class="sasup-pricing-box-bottom-2">
-                          <div class="sasup-pricing-box-bottom-title-wrap-2">
+                          {/* <div class="sasup-pricing-box-bottom-title-wrap-2">
                             <h4 class="sasup-pricing-box-bottom-price-2">
                               $40
                             </h4>
                             <span class="sasup-pricing-box-bottom-subtitle-2">
                               Per editor, per month
                             </span>
-                          </div>
+                          </div> */}
                           <div class="sasup-pricing-box-bottom-list-2">
                             <ul>
-                              <li>
+                            <li>
                                 <i class="fal fa-check"></i>
                                 <span class="price-feature-text">
-                                  Unlimited projects
+                                  Educational account management
                                 </span>
                               </li>
                               <li>
                                 <i class="fal fa-check"></i>
                                 <span class="price-feature-text">
-                                  Data storage
+                                  Student Enrollment
                                 </span>
                               </li>
                               <li>
                                 <i class="fal fa-check"></i>
                                 <span class="price-feature-text">
-                                  For personal us
+                                  Report Card Preparation
                                 </span>
                               </li>
                               <li>
                                 <i class="fal fa-check"></i>
                                 <span class="price-feature-text">
-                                  Mobile verison
+                                  Generate Payment Receipt
                                 </span>
                               </li>
                               <li>
                                 <i class="fal fa-check"></i>
                                 <span class="price-feature-text">
-                                  Full security
-                                </span>
-                              </li>
-                              <li>
-                                <i class="fal fa-check"></i>
-                                <span class="price-feature-text">
-                                  Priority support
+                                  Online Exam
                                 </span>
                               </li>
                             </ul>
@@ -245,23 +237,62 @@ const Pricing = () => {
                             />
                           </div>
                           <span class="sasup-pricing-box-top-subtitle-2">
-                            POG CHAMP
+                            Premium
                           </span>
                           <h3 class="sasup-pricing-box-top-title-2">
                             Enterprise
                           </h3>
                           <p class="sasup-pricing-box-top-desc-2">
-                            For scaling teams requiring customization and
-                            security.
+                            For even more features
                           </p>
-                          <a
-                            href="price-02.html"
-                            class="sasup-pricing-box-top-action-2 "
-                          >
-                            Contact Sales
-                          </a>
+                          <div class="sasup-pricing-box-bottom-list-2">
+                            <ul>
+                            <li>
+                                <i class="fal fa-check"></i>
+                                <span class="price-feature-text">
+                                  Educational account management
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fal fa-check"></i>
+                                <span class="price-feature-text">
+                                  Student Enrollment
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fal fa-check"></i>
+                                <span class="price-feature-text">
+                                  Report Card Preparation
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fal fa-check"></i>
+                                <span class="price-feature-text">
+                                  Generate Payment Receipt
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fal fa-check"></i>
+                                <span class="price-feature-text">
+                                  Online Exam
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fal fa-check"></i>
+                                <span class="price-feature-text">
+                                  Lesson Notes 
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fal fa-check"></i>
+                                <span class="price-feature-text">
+                                  Student Attendance
+                                </span>
+                              </li>
+                            </ul>
+                          </div>
                         </div>
-                        <div class="sasup-pricing-box-bottom-2">
+                        {/* <div class="sasup-pricing-box-bottom-2">
                           <div class="sasup-pricing-box-bottom-title-wrap-2">
                             <h4 class="sasup-pricing-box-bottom-price-2">
                               Custom
@@ -310,12 +341,12 @@ const Pricing = () => {
                               </li>
                             </ul>
                           </div>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                   </div>
                 </div>
-                <div
+                {/* <div
                   class="tab-pane fade show "
                   id="monthly-tab-content1"
                   role="tabpanel"
@@ -539,13 +570,13 @@ const Pricing = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
         </div>
 
-        <div class="service-area pb-115">
+        {/* <div class="service-area pb-115">
           <div class="container">
             <div class="row pb-55 wow fadeInUp">
               <div class="col-xxl-12">
@@ -642,7 +673,7 @@ const Pricing = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div class="faq-area pb-130">
           <div class="container">
@@ -662,8 +693,7 @@ const Pricing = () => {
                       Asked questions.
                     </h3>
                     <p class="sasup-s-desc wow fadeInUp" data-wow-delay=".4s">
-                      Lorem ipsum dolor sit consectetur adipiscing elit
-                      Suspendisse varius enim.
+                      Here are some frequently asked questions on Edu Pro Solutions
                     </p>
                   </div>
                   <div
@@ -704,7 +734,7 @@ const Pricing = () => {
                         data-bs-target="#collapseOne"
                         aria-expanded="true"
                       >
-                        1. What is Sasup?
+                        1. What is Edu Pro Solutions?
                       </button>
                       <div
                         id="collapseOne"
@@ -713,15 +743,13 @@ const Pricing = () => {
                       >
                         <div class="sasup-accordion-desc">
                           <p>
-                            A SaaS landing page template like Sasup would
-                            typically feature a modern and clean design. This
-                            design approach helps convey professionalism and
-                            trustworthiness to potential users.
+                          A School Portal that enhances the Schools Administrations to not only work more efficiently but effortlessly as well.
+                          Our platform is extremely user friendly and has the embodiment of proffesionalism
                           </p>
                         </div>
                       </div>
                     </div>
-                    <div class="sasup-accordion-item">
+                    {/* <div class="sasup-accordion-item">
                       <button
                         class="collapsed"
                         type="button"
@@ -799,7 +827,7 @@ const Pricing = () => {
                           </p>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                     <div class="sasup-accordion-item">
                       <button
                         class="collapsed"
@@ -809,7 +837,7 @@ const Pricing = () => {
                         aria-expanded="false"
                         aria-controls="collapseFive"
                       >
-                        5. How do I contact the Sasup support team if I
+                        2. How do I contact the support team if I
                         encounter an issue?
                       </button>
                       <div
@@ -819,10 +847,7 @@ const Pricing = () => {
                       >
                         <div class="sasup-accordion-desc">
                           <p>
-                            Depending on the template, there may be options for
-                            customization, allowing the SaaS company to tailor
-                            the design and content to their specific needs and
-                            branding.
+                            If there is an issue whatsoever you can simply go to the contact page/section and send us a message
                           </p>
                         </div>
                       </div>
@@ -847,7 +872,7 @@ const Pricing = () => {
                 <div class="cta-left mb-30 mb-lg-0">
                   <span class="cta-subtitle-1">Call To Action</span>
                   <h3 class="cta-title-1">
-                    Join Sasup and increase your productivity.
+                    Join Edu Pro Solutions and increase your productivity.
                   </h3>
                 </div>
               </div>
@@ -885,10 +910,10 @@ const Pricing = () => {
                       />
                     </a>
                   </div>
-                  <p class="widget-text">
+                  {/* <p class="widget-text">
                     Me old mucker cheeky bugger is dont
                     <br /> want agro in my flat little.
-                  </p>
+                  </p> */}
                   <a
                     href="contact.html"
                     class="sasup-theme-btn sasup-theme-btn-2"
