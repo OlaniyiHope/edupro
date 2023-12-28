@@ -60,7 +60,7 @@ const Home2 = () => {
                 <div class="col-xxl-6 col-xl-6 col-lg-6">
                   <div class="sasup-hero-content-4">
                     <span class="sasup-hero-subtitle-4">
-                      Build better websites
+                      Welcome to Edu Pro
                     </span>
                     <h3 class="sasup-hero-title-4" style={{ color: "#ffc107" }}>
                       Take your <br />
@@ -68,8 +68,8 @@ const Home2 = () => {
                       <br /> To the next level
                     </h3>
                     <p class="sasup-hero-text-4">
-                      Grow your business with an online store that lets you sell
-                      to anyone small business global.
+                      Get your school management solution and other school
+                      related software from us
                     </p>
                     <a href="contact.html" class="sasup-hero-started-btn-4">
                       <span>Get Started</span>
