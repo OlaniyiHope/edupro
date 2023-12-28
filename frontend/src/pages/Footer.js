@@ -204,7 +204,7 @@ const Footer = () => {
             <div class="row">
               <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                 <p class="sasup-copyright-text-4">
-                  Copyright © 2022. Created with love by{" "}
+                  2023 © Edu Pro.
                   <a target="_blank" href="https://themeforest.net/user/bdevs">
                     Bdevs
                   </a>

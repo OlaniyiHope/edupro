@@ -40,7 +40,7 @@ const Contact = () => {
                   <div class="contact-info-left-top mb-30">
                     <h4 class="contact-info-title">Contact Information</h4>
                     <span class="contact-info-subtitle">
-                      Having an issue of some sort? Or any enquiries? Just leave us a message!
+                      Naff the little rotter have gutted mate baking legged.
                     </span>
                   </div>
                   <div class="contact-left-list-wrapper">
@@ -51,7 +51,7 @@ const Contact = () => {
                       <div class="content">
                         <h4 class="single-contact-left-label">Phone Number</h4>
                         <span class="single-contact-left-info">
-                          +(234) 703 841 2640
+                          +(536) 84 95 62 45
                         </span>
                       </div>
                     </div>
@@ -67,7 +67,7 @@ const Contact = () => {
                             class="__cf_email__"
                             data-cfemail="0e7d6f7d7b7e4e69636f6762206d6163"
                           >
-                            info@edupro.com.ng
+                            [email&#160;protected]
                           </a>
                         </span>
                       </div>
@@ -79,7 +79,7 @@ const Contact = () => {
                       <div class="content">
                         <h4 class="single-contact-left-label">Local Address</h4>
                         <span class="single-contact-left-info">
-                          Lagos, Nigeria
+                          Dhaka-1506 Bangladesh
                         </span>
                       </div>
                     </div>
@@ -150,7 +150,7 @@ const Contact = () => {
                       <div class="col-xl-12">
                         <div class="post-input post-input-2">
                           <label for="name" class="post-input-label-defualt">
-                            Title *
+                            Website *
                           </label>
                           <input
                             type="text"
@@ -162,7 +162,7 @@ const Contact = () => {
                       </div>
                       <div class="col-xl-12">
                         <label for="comment" class="post-input-label-defualt">
-                          Context *
+                          Comment *
                         </label>
                         <div class="post-input has-textarea">
                           <textarea
@@ -222,7 +222,8 @@ const Contact = () => {
                     </a>
                   </div>
                   <p class="widget-text">
-                    Links
+                    Me old mucker cheeky bugger is dont
+                    <br /> want agro in my flat little.
                   </p>
                   <a
                     href="service-details.html"
@@ -232,7 +233,7 @@ const Contact = () => {
                   </a>
                 </div>
               </div>
-              {/* <div class="col-xxl-8 col-xl-8 col-lg-8">
+              <div class="col-xxl-8 col-xl-8 col-lg-8">
                 <div class="row mb-30 mb-lg-0">
                   <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6 mb-30 mb-lg-0">
                     <div
@@ -319,7 +320,7 @@ const Contact = () => {
                     </div>
                   </div>
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>
