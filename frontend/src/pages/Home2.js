@@ -62,7 +62,7 @@ const Home2 = () => {
                     <span class="sasup-hero-subtitle-4">
                       Build better websites
                     </span>
-                    <h3 class="sasup-hero-title-4">
+                    <h3 class="sasup-hero-title-4" style={{ color: "#ffc107" }}>
                       Take your <br />
                       School
                       <br /> To the next level
