@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 import Header2 from "./Header2";
-import back from "./out.png";
+import back from "./outo.png";
 import backs from "./footimg.jpg";
 import pro from "./protwo.webp";
 import Footer from "./Footer";
