@@ -15,7 +15,7 @@ const Pricing = () => {
                 <nav>
                   <ul class="trail-items">
                     <li class="trail-item">
-                      <a href="index.html">
+                      <a href="/">
                         <span>Home</span>
                       </a>
                     </li>

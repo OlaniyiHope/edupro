@@ -10,13 +10,13 @@ const Header = () => {
               <div class="row align-items-center">
                 <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-6 col-4">
                   <div class="sasup-logo mr-35 d-inline-block">
-                    <a href="index.html" class="logo-1">
+                    <a href="/" class="logo-1">
                       <img
                         src="assets/img/logo/logo-white.webp"
                         alt="image not found"
                       />
                     </a>
-                    <a href="index.html" class="logo-2">
+                    <a href="/" class="logo-2">
                       <img
                         src="assets/img/logo/logo.webp"
                         alt="image not found"
@@ -29,10 +29,10 @@ const Header = () => {
                     <nav id="mobile-menu">
                       <ul>
                         <li>
-                          <a href="index.html">Home</a>
+                          <a href="/">Home</a>
                           <ul class="sub-menu">
                             <li>
-                              <a href="index.html">Home Layout 1</a>
+                              <a href="/">Home Layout 1</a>
                             </li>
                             <li>
                               <a href="index-2.html">Home Layout 2</a>
