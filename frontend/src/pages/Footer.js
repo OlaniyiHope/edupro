@@ -123,7 +123,7 @@ const Footer = () => {
                 <h5 class="sasup-footer-widget-title-4">Overview</h5>
                 <ul class="mt-35">
                   <li>
-                    <a href="index.html">Home</a>
+                    <a href="/">Home</a>
                   </li>
                   <li>
                     <a href="portfolio.html">Product</a>
