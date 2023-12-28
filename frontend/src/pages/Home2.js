@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import Header2 from "./Header2";
 import back from "./back2.jpg";
 import backs from "./footimg.jpg";
+import pro from "./protwo.webp";
 import Footer from "./Footer";
 const Home2 = () => {
   const backgroundStyle = {
@@ -63,7 +64,7 @@ const Home2 = () => {
                     </span>
                     <h3 class="sasup-hero-title-4">
                       Take your <br />
-                      Saas business
+                      School
                       <br /> To the next level
                     </h3>
                     <p class="sasup-hero-text-4">
@@ -78,8 +79,11 @@ const Home2 = () => {
                 <div class="col-xxl-6 col-xl-6 col-lg-6">
                   <div class="sasup-hero-content-right-img-4">
                     <img
-                      src="assets/img/hero/hero-2.webp"
+                      src={pro}
                       alt="image not found"
+                      style={{
+                        float: "right",
+                      }}
                     />
                   </div>
                 </div>
