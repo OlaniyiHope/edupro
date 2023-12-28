@@ -45,7 +45,8 @@ const About = () => {
                     Help you build better.
                   </h3>
                   <p class="s-desc">
-                    Here's a list of features that make us 90% better than most school portals
+                    Here's a list of features that make us 90% better than most
+                    school portals
                   </p>
                 </div>
               </div>
@@ -67,8 +68,9 @@ const About = () => {
                       <a href="service-details.html">Fee Management</a>
                     </h4>
                     <p class="feature-content-desc-2">
-                    Simplify financial operations by effortlessly managing student fees, from invoicing to transparent financial reporting i.e: Receipts.
-
+                      Simplify financial operations by effortlessly managing
+                      student fees, from invoicing to transparent financial
+                      reporting i.e: Receipts.
                     </p>
                   </div>
                   <div class="feature-action-2">
@@ -120,10 +122,14 @@ const About = () => {
                   </div>
                   <div class="feature-content-2">
                     <h4 class="feature-content-title-2">
-                      <a href="service-details.html">Online Exam Administration</a>
+                      <a href="service-details.html">
+                        Online Exam Administration
+                      </a>
                     </h4>
                     <p class="feature-content-desc-2">
-                    Facilitate online exams with a feature-rich module, empowering educators to create, conduct, and evaluate exams digitally.
+                      Facilitate online exams with a feature-rich module,
+                      empowering educators to create, conduct, and evaluate
+                      exams digitally.
                     </p>
                   </div>
                   <div class="feature-action-2">
@@ -215,7 +221,11 @@ const About = () => {
                       class="s-desc wow fadeInUp line-height-24"
                       data-wow-delay=".4s"
                     >
-                      The parent is the connection between the school and pupils now imagine a parent being able to track down their child's journey in school, certainily that will be fantanstic right? Well that's basically what we have in store for you and lots more.
+                      The parent is the connection between the school and pupils
+                      now imagine a parent being able to track down their
+                      child's journey in school, certainily that will be
+                      fantanstic right? Well that's basically what we have in
+                      store for you and lots more.
                     </p>
                   </div>
                   <div
@@ -247,152 +257,6 @@ const About = () => {
                     <a href="service-details.html" class="sasup-theme-btn">
                       <span>Discover More</span>
                     </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="testimonial-area pt-110 pb-40" data-bg-color="#eeeff4">
-          <div class="container">
-            <div class="row align-items-end mb-45">
-              <div class="col-xxl-7 col-sm-8 col-md-8">
-                <div class="section-title-2">
-                  <h3
-                    class="s-title s-title-about visible-br-lg visible-br-md wow fadeInUp"
-                    data-wow-delay=".2s"
-                  >
-                    We have got over
-                    <br />
-                    7,000 companies covered.
-                  </h3>
-                  <p class="s-desc wow fadeInUp" data-wow-delay=".4s">
-                    Naff the little rotter have gutted mate James cuppa baking
-                    legged.
-                  </p>
-                </div>
-              </div>
-              <div class="col-xxl-5 col-sm-4 col-md-4">
-                <div class="saasup-news-nav-controls text-sm-end sasup-news-nav-transform">
-                  <div class="testi-swiper-button-next-2">
-                    <i class="fal fa-angle-left"></i>
-                  </div>
-                  <div class="testi-swiper-button-prev-2">
-                    <i class="fal fa-angle-right"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="testimonial-active-2 swiper-container">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <div
-                    class="single-testimonial-2 wow fadeInUp"
-                    data-wow-delay=".2s"
-                  >
-                    <div class="single-testimonial-2-content">
-                      <div class="rating">
-                        <i class="fas fa-star active"></i>
-                        <i class="fas fa-star active"></i>
-                        <i class="fas fa-star active"></i>
-                        <i class="fas fa-star active"></i>
-                        <i class="fas fa-star active"></i>
-                      </div>
-                      <h4 class="single-testimonial-2-link">
-                        Top notch support
-                      </h4>
-                      <p class="single-testimonial-2-desc">
-                        On your bike mate for quaint burke naff daft bite, your
-                        arm give us bell blimey barmy crack school.
-                      </p>
-                    </div>
-                    <div class="single-testimonial-2-user">
-                      <div class="thumb mr-15">
-                        <img
-                          src="assets/img/user/user-1.webp"
-                          alt="image not found"
-                        />
-                      </div>
-                      <div class="content">
-                        <h4 class="testimonial-user-title">Eleanor Fant</h4>
-                        <span class="testimonial-user-designation">
-                          Developer
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div
-                    class="single-testimonial-2 wow fadeInUp"
-                    data-wow-delay=".2s"
-                  >
-                    <div class="single-testimonial-2-content">
-                      <div class="rating">
-                        <i class="fas fa-star active"></i>
-                        <i class="fas fa-star active"></i>
-                        <i class="fas fa-star active"></i>
-                        <i class="fas fa-star active"></i>
-                        <i class="fas fa-star active"></i>
-                      </div>
-                      <h4 class="single-testimonial-2-link">
-                        Featured customer
-                      </h4>
-                      <p class="single-testimonial-2-desc">
-                        On your bike mate for quaint burke naff daft bite, your
-                        arm give us bell blimey barmy crack school.
-                      </p>
-                    </div>
-                    <div class="single-testimonial-2-user">
-                      <div class="thumb mr-15">
-                        <img
-                          src="assets/img/user/user-2.webp"
-                          alt="image not found"
-                        />
-                      </div>
-                      <div class="content">
-                        <h4 class="testimonial-user-title">Hilary Ouse</h4>
-                        <span class="testimonial-user-designation">
-                          Customer
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div
-                    class="single-testimonial-2 wow fadeInUp"
-                    data-wow-delay=".2s"
-                  >
-                    <div class="single-testimonial-2-content">
-                      <div class="rating">
-                        <i class="fas fa-star active"></i>
-                        <i class="fas fa-star active"></i>
-                        <i class="fas fa-star active"></i>
-                        <i class="fas fa-star active"></i>
-                        <i class="fas fa-star active"></i>
-                      </div>
-                      <h4 class="single-testimonial-2-link">Amazing product</h4>
-                      <p class="single-testimonial-2-desc">
-                        On your bike mate for quaint burke naff daft bite, your
-                        arm give us bell blimey barmy crack school.
-                      </p>
-                    </div>
-                    <div class="single-testimonial-2-user">
-                      <div class="thumb mr-15">
-                        <img
-                          src="assets/img/user/user-1.webp"
-                          alt="image not found"
-                        />
-                      </div>
-                      <div class="content">
-                        <h4 class="testimonial-user-title">Fig Nelson</h4>
-                        <span class="testimonial-user-designation">
-                          Manager
-                        </span>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -625,7 +489,8 @@ const About = () => {
                 <div class="cta-left mb-30 mb-lg-0">
                   <span class="cta-subtitle-1">Call To Action</span>
                   <h3 class="cta-title-1">
-                    Use Edu Pro Solutions and increase your school's productivity.
+                    Use Edu Pro Solutions and increase your school's
+                    productivity.
                   </h3>
                 </div>
               </div>
