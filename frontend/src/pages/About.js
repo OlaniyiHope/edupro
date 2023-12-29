@@ -40,9 +40,9 @@ const About = () => {
               <div class="col-xxl-12">
                 <div class="section-title-2 text-center">
                   <h3 class="s-title visile-br-lg">
-                    Features that
+                    How Edu Pro makes your school
                     <br />
-                    Help you build better.
+                    better that it is.
                   </h3>
                   <p class="s-desc">
                     Here's a list of features that make us 90% better than most
@@ -244,6 +244,9 @@ const About = () => {
                       </li>
                       <li class="service-right-list-item">
                         <i class="fal fa-check"></i> Generate Payment Receipts
+                      </li>
+                      <li class="service-right-list-item">
+                        <i class="fal fa-check"></i> Online Exams
                       </li>
                       <li class="service-right-list-item">
                         <i class="fal fa-check"></i> Student Attendance
