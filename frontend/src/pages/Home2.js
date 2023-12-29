@@ -100,13 +100,12 @@ const Home2 = () => {
                     data-wow-delay=".2s"
                   >
                     <h4 class="sasup-section-title-4">
-                      We build ideas driven
-                      <br /> by the future.
+                      Simplify your child's education
+                      <br /> with Edu Pro Solutions
                     </h4>
                     <p class="sasup-section-subtitle-4">
-                      We have three projects with this template and that is
-                      because we love the design,
-                      <br /> the large number of possibilities.
+                      We offer a remedy to stressful school management task
+                      <br /> Here are some of the key features we offer:
                     </p>
                   </div>
                 </div>
@@ -125,7 +124,9 @@ const Home2 = () => {
                     </div>
                     <div class="sasup-service-box-content-4 text-center">
                       <h5 class="sasup-service-box-title-4">
-                        <a href="service-details.html">Powerful Analytics</a>
+                        <a href="service-details.html">
+                          Educational account management
+                        </a>
                       </h5>
                       <p class="sasup-service-box-text-4">
                         Grow your business with an online store that anyonesmall
@@ -154,7 +155,7 @@ const Home2 = () => {
                     </div>
                     <div class="sasup-service-box-content-4 text-center">
                       <h5 class="sasup-service-box-title-4">
-                        <a href="service-details.html">Digital Solutions</a>
+                        <a href="service-details.html">Student Enrollment</a>
                       </h5>
                       <p class="sasup-service-box-text-4">
                         Grow your business with an online store that anyonesmall
@@ -183,7 +184,101 @@ const Home2 = () => {
                     </div>
                     <div class="sasup-service-box-content-4 text-center">
                       <h5 class="sasup-service-box-title-4">
-                        <a href="service-details.html">Digital Solutions</a>
+                        <a href="service-details.html">
+                          Report card preparation
+                        </a>
+                      </h5>
+                      <p class="sasup-service-box-text-4">
+                        Grow your business with an online store that anyonesmall
+                        business global.
+                      </p>
+                      <a
+                        href="service-details.html"
+                        class="sasup-service-box-read-more-link-4"
+                      >
+                        Learn More <i class="fal fa-long-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                  <div
+                    class="sasup-service-box-4 p-rel wow fadeInUp"
+                    data-wow-delay=".2s"
+                  >
+                    <div class="sasup-service-box-img-4 pb-35">
+                      <img
+                        src="assets/img/service/service-4-1.webp"
+                        alt="image not found"
+                      />
+                    </div>
+                    <div class="sasup-service-box-content-4 text-center">
+                      <h5 class="sasup-service-box-title-4">
+                        <a href="service-details.html">
+                          Online School fees Payment
+                        </a>
+                      </h5>
+                      <p class="sasup-service-box-text-4">
+                        Grow your business with an online store that anyonesmall
+                        business global.
+                      </p>
+                      <a
+                        href="service-details.html"
+                        class="sasup-service-box-read-more-link-4"
+                      >
+                        Learn More <i class="fal fa-long-arrow-right"></i>
+                      </a>
+                    </div>
+                    <div class="sasup-vertical-animated-line-4"></div>
+                  </div>
+                </div>
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                  <div
+                    class="sasup-service-box-4 pl-55 p-rel wow fadeInUp"
+                    data-wow-delay=".4s"
+                  >
+                    <div class="sasup-service-box-img-4 pb-35">
+                      <img
+                        src="assets/img/service/service-4-2.webp"
+                        alt="image not found"
+                      />
+                    </div>
+                    <div class="sasup-service-box-content-4 text-center">
+                      <h5 class="sasup-service-box-title-4">
+                        <a href="service-details.html">Online Exams</a>
+                      </h5>
+                      <p class="sasup-service-box-text-4">
+                        Grow your business with an online store that anyonesmall
+                        business global.
+                      </p>
+                      <a
+                        href="service-details.html"
+                        class="sasup-service-box-read-more-link-4"
+                      >
+                        Learn More <i class="fal fa-long-arrow-right"></i>
+                      </a>
+                    </div>
+                    <div class="sasup-vertical-animated-line-4 slow"></div>
+                  </div>
+                </div>
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                  <div
+                    class="sasup-service-box-4 pl-65 p-rel wow fadeInUp"
+                    data-wow-delay=".6s"
+                  >
+                    <div class="sasup-service-box-img-4 pb-35">
+                      <img
+                        src="assets/img/service/service-4-3.webp"
+                        alt="image not found"
+                      />
+                    </div>
+                    <div class="sasup-service-box-content-4 text-center">
+                      <h5 class="sasup-service-box-title-4">
+                        <a href="service-details.html">
+                          Lesson Notes and Attendance
+                        </a>
                       </h5>
                       <p class="sasup-service-box-text-4">
                         Grow your business with an online store that anyonesmall
@@ -271,11 +366,14 @@ const Home2 = () => {
                         Modern Graphics
                       </span>
                       <h4 class="sasup-section-title-4">
-                        See where your efforts are paying your strategy.
+                        A feature rich software that puts you in charge
                       </h4>
                       <p class="sasup-section-subtitle-4">
-                        Lorem ipsum dolor sit amet consectet cing elit, sed do
-                        eiusmod tempor.
+                        Edu Pro is loaded with numerous features that puts you
+                        in charge and allow you to manage your school from
+                        anywhere. Our features includes School fees payment
+                        online, CBT, E-learning, school accounting amongst,
+                        staff payroll system and many others
                       </p>
                     </div>
                     <a
@@ -300,8 +398,9 @@ const Home2 = () => {
                   >
                     <span class="sasup-section-badge-4 mb-15">Features</span>
                     <h4 class="sasup-section-title-4">
-                      If you can think it,you
-                      <br /> Can build it.
+                      How Edu Pro Can Benefit your School
+                      <br />
+                      Get the best solution
                     </h4>
                   </div>
                 </div>
@@ -316,8 +415,8 @@ const Home2 = () => {
                     <div class="sasup-features-box-content-top-4 mb-65">
                       <h4 class="sasup-features-box-title-4">
                         <a href="service.html">
-                          Collaborate and plan your
-                          <br /> Campaigns
+                          Reduce Costs and increase
+                          <br /> financial efficiency
                         </a>
                       </h4>
                       <a
@@ -364,8 +463,8 @@ const Home2 = () => {
                     <div class="sasup-features-box-content-top-4 mb-95">
                       <h4 class="sasup-features-box-title-4">
                         <a href="service.html">
-                          No screen is
-                          <br /> Too big or too small.
+                          Enhanced parent
+                          <br /> engagement systems
                         </a>
                       </h4>
                       <a
@@ -400,8 +499,8 @@ const Home2 = () => {
                     <div class="sasup-features-box-content-top-4 mb-60">
                       <h4 class="sasup-features-box-title-4">
                         <a href="service.html">
-                          Wasting time
-                          <br /> On Google Analytics
+                          Enhance student’s
+                          <br /> learning experience
                         </a>
                       </h4>
                       <a
@@ -452,8 +551,8 @@ const Home2 = () => {
                     <div class="sasup-features-box-content-top-4 mb-60">
                       <h4 class="sasup-features-box-title-4">
                         <a href="service.html">
-                          Respond to
-                          <br /> Comments twice as fast
+                          Improve staff productivity
+                          <br /> Productivity
                         </a>
                       </h4>
                       <a
@@ -489,7 +588,7 @@ const Home2 = () => {
             </div>
           </div>
 
-          <div class="testimonial-area p-rel pt-180 pb-145">
+          {/*}   <div class="testimonial-area p-rel pt-180 pb-145">
             <div class="sasup-testimonial-line-shape-4">
               <img
                 src="assets/img/shape/line-testimonial.webp"
@@ -661,7 +760,7 @@ const Home2 = () => {
                 </div>
               </div>
             </div>
-          </div>
+                    </div>*/}
 
           <div
             class="about-dashbord-area pt-120 pb-130 p-rel"
@@ -862,7 +961,555 @@ const Home2 = () => {
             </div>
           </div>
 
-          <div class="blog-area pt-120 pb-90">
+          <div class="priceing-area pt-115 pb-115 fix">
+            <div class="container">
+              <div class="row">
+                <div class="col-xxl-12">
+                  <div
+                    class="sasup-section-heading-5 text-center wow fadeInUp"
+                    data-wow-delay=".4s"
+                  >
+                    <h5 class="sasup-section-heading-5-subtitle">
+                      Our Pricing
+                    </h5>
+                    <h3
+                      class="sasup-section-heading-5-title"
+                      data-wow-delay=".2s"
+                    >
+                      The right <span>Pricing </span>for you
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="advanced-pricing-tab text-center">
+                <div class="d-inline-block p-rel advance-pricing-inline-content-2">
+                  <div class="advanced-pricing-tab-key">
+                    <span class="advanced-pricing-tab-key-text">
+                      Save up to <span>50%</span>
+                    </span>
+                    <div class="advanced-pricing-tab-key-shape">
+                      <img
+                        src="assets/img/shape/line_pricing.webp"
+                        alt="no image found"
+                      />
+                    </div>
+                  </div>
+                  <div class="advanced-pricing-tab-key-2">
+                    <ul class="nav" id="myTab" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <a
+                          class="advanced-tab-1 active annual-tab-btn"
+                          id="monthly-tab0"
+                          data-bs-toggle="tab"
+                          href="#monthly-tab-content0"
+                          role="tab"
+                        >
+                          Monthly{" "}
+                        </a>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a
+                          class="advanced-tab-2 "
+                          id="monthly-tab1"
+                          data-bs-toggle="tab"
+                          href="#monthly-tab-content1"
+                          role="tab"
+                        >
+                          Yearly
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="advanced-pricing-widget-tab-content-wrapper-2">
+                <div class="tab-content" id="myTabContent">
+                  <div
+                    class="tab-pane fade show show active"
+                    id="monthly-tab-content0"
+                    role="tabpanel"
+                    aria-labelledby="monthly-tab0"
+                  >
+                    <div class="row">
+                      <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="sasup-pricing-box-2 mb-30">
+                          <div class="sasup-pricing-box-top-2">
+                            <div class="sasup-pricing-box-hover-bg">
+                              <img
+                                src="assets/img/shape/shape_circle_price.webp"
+                                alt="image not found"
+                              />
+                            </div>
+                            <span class="sasup-pricing-box-top-subtitle-2">
+                              Free
+                            </span>
+                            <h3 class="sasup-pricing-box-top-title-2">Basic</h3>
+                            <p class="sasup-pricing-box-top-desc-2">
+                              For those getting started with
+                              <br />
+                              Edu Pro Solutions.
+                            </p>
+                            <a
+                              href="price-02.html"
+                              class="sasup-pricing-box-top-action-2 "
+                            >
+                              Try for Free
+                            </a>
+                          </div>
+                          <div class="sasup-pricing-box-bottom-2">
+                            <div class="sasup-pricing-box-bottom-title-wrap-2">
+                              {/* <h4 class="sasup-pricing-box-bottom-price-2">
+                              $0.0
+                            </h4>
+                            <span class="sasup-pricing-box-bottom-subtitle-2">
+                              Free forever
+                            </span> */}
+                            </div>
+                            <div class="sasup-pricing-box-bottom-list-2">
+                              <ul>
+                                <li>
+                                  <i class="fal fa-check"></i>
+                                  <span class="price-feature-text">
+                                    Educational account management
+                                  </span>
+                                </li>
+                                <li>
+                                  <i class="fal fa-check"></i>
+                                  <span class="price-feature-text">
+                                    Student Enrollment
+                                  </span>
+                                </li>
+                                <li>
+                                  <i class="fal fa-check"></i>
+                                  <span class="price-feature-text">
+                                    Report Card Preparation
+                                  </span>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="sasup-pricing-box-2 mb-30">
+                          <div class="sasup-pricing-box-top-2 ">
+                            <div class="sasup-pricing-box-hover-bg">
+                              <img
+                                src="assets/img/shape/shape_circle_price.webp"
+                                alt="image not found"
+                              />
+                            </div>
+                            <span class="sasup-pricing-box-top-subtitle-2">
+                              STANDARD
+                            </span>
+                            <h3 class="sasup-pricing-box-top-title-2">
+                              Professional
+                            </h3>
+                            <p class="sasup-pricing-box-top-desc-2">
+                              For access to more features
+                            </p>
+                            <a
+                              href="price-02.html"
+                              class="sasup-pricing-box-top-action-2 active"
+                            >
+                              Get Started
+                            </a>
+                          </div>
+                          <div class="sasup-pricing-box-bottom-2">
+                            {/* <div class="sasup-pricing-box-bottom-title-wrap-2">
+                            <h4 class="sasup-pricing-box-bottom-price-2">
+                              $40
+                            </h4>
+                            <span class="sasup-pricing-box-bottom-subtitle-2">
+                              Per editor, per month
+                            </span>
+                          </div> */}
+                            <div class="sasup-pricing-box-bottom-list-2">
+                              <ul>
+                                <li>
+                                  <i class="fal fa-check"></i>
+                                  <span class="price-feature-text">
+                                    Educational account management
+                                  </span>
+                                </li>
+                                <li>
+                                  <i class="fal fa-check"></i>
+                                  <span class="price-feature-text">
+                                    Student Enrollment
+                                  </span>
+                                </li>
+                                <li>
+                                  <i class="fal fa-check"></i>
+                                  <span class="price-feature-text">
+                                    Report Card Preparation
+                                  </span>
+                                </li>
+                                <li>
+                                  <i class="fal fa-check"></i>
+                                  <span class="price-feature-text">
+                                    Generate Payment Receipt
+                                  </span>
+                                </li>
+                                <li>
+                                  <i class="fal fa-check"></i>
+                                  <span class="price-feature-text">
+                                    Online Exam
+                                  </span>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="sasup-pricing-box-2 mb-30">
+                          <div class="sasup-pricing-box-top-2 ">
+                            <div class="sasup-pricing-box-hover-bg">
+                              <img
+                                src="assets/img/shape/shape_circle_price.webp"
+                                alt="image not found"
+                              />
+                            </div>
+                            <span class="sasup-pricing-box-top-subtitle-2">
+                              Premium
+                            </span>
+                            <h3 class="sasup-pricing-box-top-title-2">
+                              Enterprise
+                            </h3>
+                            <p class="sasup-pricing-box-top-desc-2">
+                              For even more features
+                            </p>
+                            <div class="sasup-pricing-box-bottom-list-2">
+                              <ul>
+                                <li>
+                                  <i class="fal fa-check"></i>
+                                  <span class="price-feature-text">
+                                    Educational account management
+                                  </span>
+                                </li>
+                                <li>
+                                  <i class="fal fa-check"></i>
+                                  <span class="price-feature-text">
+                                    Student Enrollment
+                                  </span>
+                                </li>
+                                <li>
+                                  <i class="fal fa-check"></i>
+                                  <span class="price-feature-text">
+                                    Report Card Preparation
+                                  </span>
+                                </li>
+                                <li>
+                                  <i class="fal fa-check"></i>
+                                  <span class="price-feature-text">
+                                    Generate Payment Receipt
+                                  </span>
+                                </li>
+                                <li>
+                                  <i class="fal fa-check"></i>
+                                  <span class="price-feature-text">
+                                    Online Exam
+                                  </span>
+                                </li>
+                                <li>
+                                  <i class="fal fa-check"></i>
+                                  <span class="price-feature-text">
+                                    Lesson Notes
+                                  </span>
+                                </li>
+                                <li>
+                                  <i class="fal fa-check"></i>
+                                  <span class="price-feature-text">
+                                    Student Attendance
+                                  </span>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          {/* <div class="sasup-pricing-box-bottom-2">
+                          <div class="sasup-pricing-box-bottom-title-wrap-2">
+                            <h4 class="sasup-pricing-box-bottom-price-2">
+                              Custom
+                            </h4>
+                            <span class="sasup-pricing-box-bottom-subtitle-2">
+                              Contact our sales team
+                            </span>
+                          </div>
+                          <div class="sasup-pricing-box-bottom-list-2">
+                            <ul>
+                              <li>
+                                <i class="fal fa-check"></i>
+                                <span class="price-feature-text">
+                                  Private cloud hosting
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fal fa-check"></i>
+                                <span class="price-feature-text">
+                                  SSO / SAML
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fal fa-check"></i>
+                                <span class="price-feature-text">
+                                  Full security
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fal fa-check"></i>
+                                <span class="price-feature-text">
+                                  Uptime agreement
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fal fa-check"></i>
+                                <span class="price-feature-text">
+                                  Custom integrations
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fal fa-check"></i>
+                                <span class="price-feature-text">
+                                  Priority support
+                                </span>
+                              </li>
+                            </ul>
+                          </div>
+                        </div> */}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* <div
+                  class="tab-pane fade show "
+                  id="monthly-tab-content1"
+                  role="tabpanel"
+                  aria-labelledby="monthly-tab1"
+                >
+                  <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                      <div class="sasup-pricing-box-2 mb-30">
+                        <div class="sasup-pricing-box-top-2 ">
+                          <div class="sasup-pricing-box-hover-bg">
+                            <img
+                              src="assets/img/shape/shape_circle_price.webp"
+                              alt="image not found"
+                            />
+                          </div>
+                          <span class="sasup-pricing-box-top-subtitle-2">
+                            Free
+                          </span>
+                          <h3 class="sasup-pricing-box-top-title-2">Basic</h3>
+                          <p class="sasup-pricing-box-top-desc-2">
+                            For those getting started with
+                            <br />
+                            Company.
+                          </p>
+                          <a
+                            href="price-02.html"
+                            class="sasup-pricing-box-top-action-2 "
+                          >
+                            Get Started
+                          </a>
+                        </div>
+                        <div class="sasup-pricing-box-bottom-2">
+                          <div class="sasup-pricing-box-bottom-title-wrap-2">
+                            <h4 class="sasup-pricing-box-bottom-price-2">
+                              $30.0
+                            </h4>
+                            <span class="sasup-pricing-box-bottom-subtitle-2">
+                              Free forever
+                            </span>
+                          </div>
+                          <div class="sasup-pricing-box-bottom-list-2">
+                            <ul>
+                              <li>
+                                <i class="fal fa-check"></i>
+                                <span class="price-feature-text">
+                                  4 free projects
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fal fa-check"></i>
+                                <span class="price-feature-text">
+                                  Data storage
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fal fa-check"></i>
+                                <span class="price-feature-text">
+                                  For personal us
+                                </span>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                      <div class="sasup-pricing-box-2 mb-30">
+                        <div class="sasup-pricing-box-top-2 ">
+                          <div class="sasup-pricing-box-hover-bg">
+                            <img
+                              src="assets/img/shape/shape_circle_price.webp"
+                              alt="image not found"
+                            />
+                          </div>
+                          <span class="sasup-pricing-box-top-subtitle-2">
+                            BEST SELLER
+                          </span>
+                          <h3 class="sasup-pricing-box-top-title-2">
+                            Professional
+                          </h3>
+                          <p class="sasup-pricing-box-top-desc-2">
+                            For smaller teams and professional
+                            <br />
+                            users.
+                          </p>
+                          <a
+                            href="price-02.html"
+                            class="sasup-pricing-box-top-action-2 active"
+                          >
+                            Get Started
+                          </a>
+                        </div>
+                        <div class="sasup-pricing-box-bottom-2">
+                          <div class="sasup-pricing-box-bottom-title-wrap-2">
+                            <h4 class="sasup-pricing-box-bottom-price-2">
+                              $45
+                            </h4>
+                            <span class="sasup-pricing-box-bottom-subtitle-2">
+                              Per editor, per month
+                            </span>
+                          </div>
+                          <div class="sasup-pricing-box-bottom-list-2">
+                            <ul>
+                              <li>
+                                <i class="fal fa-check"></i>
+                                <span class="price-feature-text">
+                                  Unlimited projects
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fal fa-check"></i>
+                                <span class="price-feature-text">
+                                  Data storage
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fal fa-check"></i>
+                                <span class="price-feature-text">
+                                  For personal us
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fal fa-check"></i>
+                                <span class="price-feature-text">
+                                  Mobile verison
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fal fa-check"></i>
+                                <span class="price-feature-text">
+                                  Full security
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fal fa-check"></i>
+                                <span class="price-feature-text">
+                                  Priority support
+                                </span>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                      <div class="sasup-pricing-box-2 mb-30">
+                        <div class="sasup-pricing-box-top-2 ">
+                          <div class="sasup-pricing-box-hover-bg">
+                            <img
+                              src="assets/img/shape/shape_circle_price.webp"
+                              alt="image not found"
+                            />
+                          </div>
+                          <span class="sasup-pricing-box-top-subtitle-2">
+                            POG CHAMP
+                          </span>
+                          <h3 class="sasup-pricing-box-top-title-2">
+                            Enterprise
+                          </h3>
+                          <p class="sasup-pricing-box-top-desc-2">
+                            For scaling teams requiring customization and
+                            security.
+                          </p>
+                          <a
+                            href="price-02.html"
+                            class="sasup-pricing-box-top-action-2 "
+                          >
+                            Get Started
+                          </a>
+                        </div>
+                        <div class="sasup-pricing-box-bottom-2">
+                          <div class="sasup-pricing-box-bottom-title-wrap-2">
+                            <h4 class="sasup-pricing-box-bottom-price-2">
+                              Custom
+                            </h4>
+                            <span class="sasup-pricing-box-bottom-subtitle-2">
+                              Contact our sales team
+                            </span>
+                          </div>
+                          <div class="sasup-pricing-box-bottom-list-2">
+                            <ul>
+                              <li>
+                                <i class="fal fa-check"></i>
+                                <span class="price-feature-text">
+                                  Private cloud hosting
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fal fa-check"></i>
+                                <span class="price-feature-text">
+                                  SSO / SAML
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fal fa-check"></i>
+                                <span class="price-feature-text">
+                                  Full security
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fal fa-check"></i>
+                                <span class="price-feature-text">
+                                  Uptime agreement
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fal fa-check"></i>
+                                <span class="price-feature-text">
+                                  Custom integrations
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fal fa-check"></i>
+                                <span class="price-feature-text">
+                                  Priority support
+                                </span>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> */}
+                </div>
+              </div>
+            </div>
+          </div>
+          {/*}    <div class="blog-area pt-120 pb-90">
             <div class="container">
               <div class="row">
                 <div class="col-xxl-12">
@@ -980,7 +1627,7 @@ const Home2 = () => {
                 </div>
               </div>
             </div>
-          </div>
+                    </div>*/}
 
           <div class="cta-area wow fadeInUp" data-wow-delay=".6s">
             <div class="container">
@@ -991,14 +1638,14 @@ const Home2 = () => {
                     style={backgroundStyles}
                   >
                     <h4 class="sasup-cta-title-4">
-                      Dont find the Answer?
+                      Do you want to get in touch with us?
                       <br />
-                      Contact us for any Query.
+                      Do you have any question?
                     </h4>
                     <span class="sasup-cta-subtitle-4 mb-30">
-                      Request a demo today,
+                      We implore you to try out school solution without stress
                     </span>
-                    <a href="contact.html" class="sasup-hero-started-btn-4">
+                    <a href="/contact" class="sasup-hero-started-btn-4">
                       <span>Contact Us</span>
                     </a>
                   </div>
