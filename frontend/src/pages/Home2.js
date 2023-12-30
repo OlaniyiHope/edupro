@@ -64,12 +64,13 @@ const Home2 = () => {
                     </span>
                     <h3 class="sasup-hero-title-4" style={{ color: "#ffc107" }}>
                       Take your <br />
-                      School
-                      <br /> To the next level
+                      school
+                      <br /> to the next level
                     </h3>
                     <p class="sasup-hero-text-4">
-                      Get your school management solution and other school
-                      related software from us
+                      Your solution to school management hurdles. It has
+                      encompassing features that makes school administration
+                      stress-free.
                     </p>
                     <a href="contact.html" class="sasup-hero-started-btn-4">
                       <span>Get Started</span>
@@ -100,12 +101,11 @@ const Home2 = () => {
                     data-wow-delay=".2s"
                   >
                     <h4 class="sasup-section-title-4">
-                      Simplify your child's education
-                      <br /> with Edu Pro Solutions
+                      Be abreast with your child's educational
+                      <br /> progress with Edu Pro Solutions
                     </h4>
                     <p class="sasup-section-subtitle-4">
-                      We offer a remedy to stressful school management task
-                      <br /> Here are some of the key features we offer:
+                      Our distinctive features for an all round school task.
                     </p>
                   </div>
                 </div>
@@ -118,22 +118,22 @@ const Home2 = () => {
                   >
                     <div class="sasup-service-box-img-4 pb-35">
                       <img
-                        src="assets/img/service/service-4-1.webp"
+                        src="assets/img/service/stu.png"
                         alt="image not found"
                       />
                     </div>
                     <div class="sasup-service-box-content-4 text-center">
                       <h5 class="sasup-service-box-title-4">
-                        <a href="service-details.html">
-                          Educational account management
+                        <a href="/services">
+                          Educational account management and Enrollment
                         </a>
                       </h5>
                       <p class="sasup-service-box-text-4">
-                        Grow your business with an online store that anyonesmall
-                        business global.
+                        Easiness in admitting new and returning students. Keeps
+                        records of enrolled students over time.
                       </p>
                       <a
-                        href="service-details.html"
+                        href="/services"
                         class="sasup-service-box-read-more-link-4"
                       >
                         Learn More <i class="fal fa-long-arrow-right"></i>
@@ -149,20 +149,20 @@ const Home2 = () => {
                   >
                     <div class="sasup-service-box-img-4 pb-35">
                       <img
-                        src="assets/img/service/service-4-2.webp"
+                        src="assets/img/service/time.png"
                         alt="image not found"
                       />
                     </div>
                     <div class="sasup-service-box-content-4 text-center">
                       <h5 class="sasup-service-box-title-4">
-                        <a href="service-details.html">Student Enrollment</a>
+                        <a href="/services">Student Attendance</a>
                       </h5>
                       <p class="sasup-service-box-text-4">
-                        Grow your business with an online store that anyonesmall
-                        business global.
+                        The teachers marks the automated attendance which can be
+                        sent to their parent via sms or mail.
                       </p>
                       <a
-                        href="service-details.html"
+                        href="/services"
                         class="sasup-service-box-read-more-link-4"
                       >
                         Learn More <i class="fal fa-long-arrow-right"></i>
@@ -178,22 +178,20 @@ const Home2 = () => {
                   >
                     <div class="sasup-service-box-img-4 pb-35">
                       <img
-                        src="assets/img/service/service-4-3.webp"
+                        src="assets/img/service/rep.png"
                         alt="image not found"
                       />
                     </div>
                     <div class="sasup-service-box-content-4 text-center">
                       <h5 class="sasup-service-box-title-4">
-                        <a href="service-details.html">
-                          Report card preparation
-                        </a>
+                        <a href="/services">Report card preparation</a>
                       </h5>
                       <p class="sasup-service-box-text-4">
-                        Grow your business with an online store that anyonesmall
-                        business global.
+                        Auto-generated report that collates and prepares result.
+                        Automatically received by parents through sms and mail.
                       </p>
                       <a
-                        href="service-details.html"
+                        href="/services"
                         class="sasup-service-box-read-more-link-4"
                       >
                         Learn More <i class="fal fa-long-arrow-right"></i>
@@ -210,22 +208,21 @@ const Home2 = () => {
                   >
                     <div class="sasup-service-box-img-4 pb-35">
                       <img
-                        src="assets/img/service/service-4-1.webp"
+                        src="assets/img/service/pay.png"
                         alt="image not found"
                       />
                     </div>
                     <div class="sasup-service-box-content-4 text-center">
                       <h5 class="sasup-service-box-title-4">
-                        <a href="service-details.html">
-                          Online School fees Payment
-                        </a>
+                        <a href="/services">Online School fees Payment</a>
                       </h5>
                       <p class="sasup-service-box-text-4">
-                        Grow your business with an online store that anyonesmall
-                        business global.
+                        It automatically generates receipts for the students for
+                        each transactions a student makes and provides instant
+                        confirmation of payments to guardians or parents.
                       </p>
                       <a
-                        href="service-details.html"
+                        href="/services"
                         class="sasup-service-box-read-more-link-4"
                       >
                         Learn More <i class="fal fa-long-arrow-right"></i>
@@ -241,20 +238,21 @@ const Home2 = () => {
                   >
                     <div class="sasup-service-box-img-4 pb-35">
                       <img
-                        src="assets/img/service/service-4-2.webp"
+                        src="assets/img/service/exam.png"
                         alt="image not found"
                       />
                     </div>
                     <div class="sasup-service-box-content-4 text-center">
                       <h5 class="sasup-service-box-title-4">
-                        <a href="service-details.html">Online Exams</a>
+                        <a href="/services">Online Exams</a>
                       </h5>
                       <p class="sasup-service-box-text-4">
-                        Grow your business with an online store that anyonesmall
-                        business global.
+                        Bulk exams can be set for different classes and time
+                        frame can be fixed. Online exams are uploaded to the
+                        result portal immediately.
                       </p>
                       <a
-                        href="service-details.html"
+                        href="/services"
                         class="sasup-service-box-read-more-link-4"
                       >
                         Learn More <i class="fal fa-long-arrow-right"></i>
@@ -270,118 +268,25 @@ const Home2 = () => {
                   >
                     <div class="sasup-service-box-img-4 pb-35">
                       <img
-                        src="assets/img/service/service-4-3.webp"
+                        src="assets/img/service/note.png"
                         alt="image not found"
                       />
                     </div>
                     <div class="sasup-service-box-content-4 text-center">
                       <h5 class="sasup-service-box-title-4">
-                        <a href="service-details.html">
-                          Lesson Notes and Attendance
-                        </a>
+                        <a href="/services">Lesson Notes and Attendance</a>
                       </h5>
                       <p class="sasup-service-box-text-4">
-                        Grow your business with an online store that anyonesmall
-                        business global.
+                        Upload lesson notes for each subject in different
+                        formats, pdf or images. mail.
                       </p>
                       <a
-                        href="service-details.html"
+                        href="/services"
                         class="sasup-service-box-read-more-link-4"
                       >
                         Learn More <i class="fal fa-long-arrow-right"></i>
                       </a>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="features-about-area pb-150">
-            <div class="container p-rel">
-              <div class="sasup-features-about-left-shape-4">
-                <img
-                  src="assets/img/shape/line-section.webp"
-                  alt="image not found"
-                />
-              </div>
-              <div class="sasup-features-about-left-shape-4-2">
-                <img
-                  src="assets/img/shape/line-section-inner.webp"
-                  alt="image not found"
-                />
-              </div>
-              <div class="row">
-                <div class="col-xxl-8 col-xl-6 col-lg-6">
-                  <div class="sasup-features-about-box-main-space pl-10 pr-90">
-                    <div class="sasup-features-about-dashbord-wrap-4 sasup-features-about-dashbord-has-before">
-                      <div class="row g-20  sasup-features-about-custom-row">
-                        <div class="col-xxl-6 col-xl-6 col-lg-6">
-                          <div class="sasup-features-about-dashbord-img-4-1">
-                            <img
-                              src="assets/img/dashbord/dashbord-4-1.webp"
-                              class="wow bounceInUp"
-                              data-wow-delay=".1"
-                              alt="image not found"
-                            />
-                          </div>
-                          <div class="sasup-features-about-dashbord-img-4-2">
-                            <img
-                              src="assets/img/dashbord/dashbord-4-3.webp"
-                              class="wow bounceInUp"
-                              data-wow-delay=".2s"
-                              alt="image not found"
-                            />
-                          </div>
-                        </div>
-                        <div class="col-xxl-6 col-xl-6 col-lg-6">
-                          <div class="sasup-features-about-dashbord-img-4-3">
-                            <img
-                              src="assets/img/dashbord/dashbord-4-2.webp"
-                              class="wow bounceInUp"
-                              data-wow-delay=".3s"
-                              alt="image not found"
-                            />
-                          </div>
-                          <div class="sasup-features-about-dashbord-img-4-4">
-                            <img
-                              src="assets/img/dashbord/dashbord-4-4.webp"
-                              class="wow bounceInUp"
-                              data-wow-delay=".4s"
-                              alt="image not found"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xxl-4 col-xl-6 col-lg-6">
-                  <div
-                    class="sasup-features-about-box-right pt-15 wow fadeInUp"
-                    data-wow-delay=".2s"
-                  >
-                    <div class="sasup-section-title-wrap-4 mb-30">
-                      <span class="sasup-section-badge-4 mb-15">
-                        Modern Graphics
-                      </span>
-                      <h4 class="sasup-section-title-4">
-                        A feature rich software that puts you in charge
-                      </h4>
-                      <p class="sasup-section-subtitle-4">
-                        Edu Pro is loaded with numerous features that puts you
-                        in charge and allow you to manage your school from
-                        anywhere. Our features includes School fees payment
-                        online, CBT, E-learning, school accounting amongst,
-                        staff payroll system and many others
-                      </p>
-                    </div>
-                    <a
-                      href="service-details.html"
-                      class="sasup-featured-bordered-btn-4"
-                    >
-                      <span>View all Features</span>
-                    </a>
                   </div>
                 </div>
               </div>
@@ -406,7 +311,7 @@ const Home2 = () => {
                 </div>
               </div>
               <div class="row">
-                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                   <div
                     class="sasup-features-box-4 mb-30 bg-default wow fadeInRight"
                     data-wow-delay=".2s"
@@ -426,35 +331,9 @@ const Home2 = () => {
                         Learn More <i class="fal fa-long-arrow-right"></i>
                       </a>
                     </div>
-                    <div class="sasup-features-box-content-bottom-4-1">
-                      <div class="sasup-features-box-content-img-left-4">
-                        <img
-                          src="assets/img/feature/feature-3d-1.webp"
-                          alt="image not found"
-                        />
-                      </div>
-                      <div class="sasup-features-box-content-img-wrap-4">
-                        <div class="item-1">
-                          <img
-                            src="assets/img/dashbord/dashbord-feature-4-1.webp"
-                            class="wow bounceInUp"
-                            data-wow-delay=".1s"
-                            alt="image not found"
-                          />
-                        </div>
-                        <div class="item-2">
-                          <img
-                            src="assets/img/dashbord/dashbord-feature-4-2.webp"
-                            class="wow bounceInUp"
-                            data-wow-delay=".3s"
-                            alt="image not found"
-                          />
-                        </div>
-                      </div>
-                    </div>
                   </div>
                 </div>
-                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                   <div
                     class="sasup-features-box-4 mb-30 style-2 bg-default wow fadeInLeft"
                     data-wow-delay=".3s"
@@ -474,33 +353,19 @@ const Home2 = () => {
                         Learn More <i class="fal fa-long-arrow-right"></i>
                       </a>
                     </div>
-                    <div class="sasup-features-box-content-bottom-4-2">
-                      <div class="sasup-features-box-3d-img-4-2">
-                        <img
-                          src="assets/img/feature/feature-3d-2.webp"
-                          alt="image not found"
-                        />
-                      </div>
-                      <div class="sasup-features-box-3d-img-4-2-2">
-                        <img
-                          src="assets/img/dashbord/dashbord-4-2-1.webp"
-                          alt="image not found"
-                        />
-                      </div>
-                    </div>
                   </div>
                 </div>
-                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                   <div
-                    class="sasup-features-box-4 mb-30 style-3 bg-default wow fadeInRight"
-                    data-wow-delay=".4s"
-                    data-background="assets/img/bg/feature-bg-4.webp"
+                    class="sasup-features-box-4 mb-30 style-2 bg-default wow fadeInLeft"
+                    data-wow-delay=".3s"
+                    data-background="assets/img/bg/feature-bg-2.webp"
                   >
-                    <div class="sasup-features-box-content-top-4 mb-60">
+                    <div class="sasup-features-box-content-top-4 mb-95">
                       <h4 class="sasup-features-box-title-4">
                         <a href="service.html">
-                          Enhance student’s
-                          <br /> learning experience
+                          Enhanced parent
+                          <br /> engagement systems
                         </a>
                       </h4>
                       <a
@@ -509,451 +374,6 @@ const Home2 = () => {
                       >
                         Learn More <i class="fal fa-long-arrow-right"></i>
                       </a>
-                    </div>
-                    <div class="row">
-                      <div class="col-xxl-8">
-                        <div class="sasup-features-box-content-bottom-4-3">
-                          <div class="sasup-features-box-3d-img-4-3">
-                            <img
-                              src="assets/img/dashbord/analytics-dashbord-4-1.webp"
-                              class="wow bounceInUp"
-                              data-wow-delay=".1s"
-                              alt="image not found"
-                            />
-                          </div>
-                          <div class="sasup-features-box-3d-img-4-2-3">
-                            <img
-                              src="assets/img/dashbord/analytics-dashbord-4-2.webp"
-                              class="wow bounceInUp"
-                              data-wow-delay=".3s"
-                              alt="image not found"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-xxl-4">
-                        <div class="sasup-features-box-3d-img-4-3-img">
-                          <img
-                            src="assets/img/feature/feature-3d-3.webp"
-                            alt="image not found"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
-                  <div
-                    class="sasup-features-box-4 mb-30 style-4 bg-default wow fadeInLeft"
-                    data-wow-delay=".6s"
-                    data-background="assets/img/bg/feature-bg-5.webp"
-                  >
-                    <div class="sasup-features-box-content-top-4 mb-60">
-                      <h4 class="sasup-features-box-title-4">
-                        <a href="service.html">
-                          Improve staff productivity
-                          <br /> Productivity
-                        </a>
-                      </h4>
-                      <a
-                        href="service.html"
-                        class="sasup-service-box-read-more-link-4"
-                      >
-                        Learn More <i class="fal fa-long-arrow-right"></i>
-                      </a>
-                    </div>
-                    <div class="row">
-                      <div class="col-xxl-7">
-                        <div class="sasup-features-message-img-4-1">
-                          <img
-                            src="assets/img/feature/feature-3d-4.webp"
-                            class="wow bounceInUp"
-                            data-wow-delay=".1s"
-                            alt="image not found"
-                          />
-                        </div>
-                      </div>
-                      <div class="col-xxl-5">
-                        <div class="sasup-features-message-img-4-2">
-                          <img
-                            src="assets/img/feature/feature-3d-5.webp"
-                            alt="image not found"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/*}   <div class="testimonial-area p-rel pt-180 pb-145">
-            <div class="sasup-testimonial-line-shape-4">
-              <img
-                src="assets/img/shape/line-testimonial.webp"
-                alt="image not found"
-              />
-            </div>
-            <div class="sasup-testimonial-user-control-active-4">
-              <div class="sasup-t-user-1">
-                <img
-                  src="assets/img/user/t-user-1.webp"
-                  alt="image not found"
-                />
-              </div>
-              <div class="sasup-t-user-2">
-                <img
-                  src="assets/img/user/t-user-2.webp"
-                  alt="image not found"
-                />
-              </div>
-              <div class="sasup-t-user-3">
-                <img
-                  src="assets/img/user/t-user-4.webp"
-                  alt="image not found"
-                />
-              </div>
-              <div class="sasup-t-user-4">
-                <img
-                  src="assets/img/user/t-user-5.webp"
-                  alt="image not found"
-                />
-              </div>
-            </div>
-            <div class="container">
-              <div
-                class="sasup-testimonial-has-map-bg-4"
-                data-background="assets/img/bg/map.webp"
-              >
-                <div class="row justify-content-center mb-40">
-                  <div class="col-xxl-8 col-xl-10">
-                    <div class="p-rel">
-                      <div class=" swiper-container">
-                        <div class="swiper-wrapper">
-                          <div class="swiper-slide">
-                            <div class="sasup-testimonial-box-4  text-center">
-                              <div class="sasup-testimonial-author-box mb-15">
-                                <div class="sasup-testimonial-author-box-img-4">
-                                  <img
-                                    src="assets/img/user/user-4.webp"
-                                    alt="image not found"
-                                  />
-                                </div>
-                                <div class="sasup-testimonial-author-box-content-4">
-                                  <h5 class="sasup-testimonial-author-box-name-4">
-                                    Elle Rabe,{" "}
-                                  </h5>
-                                  <span class="sasup-testimonial-author-box-designation-4">
-                                    co founder
-                                  </span>
-                                </div>
-                              </div>
-                              <div class="sasup-testimonial-box-content-main-4">
-                                <h4 class="sasup-testimonial-box-content-title-4">
-                                  “Helps me Stay
-                                  <br /> On top of saas and software."
-                                </h4>
-                                <p class="sasup-testimonial-box-content-text-4">
-                                  Explain how the customer was in a similar
-                                  situation as your user, struggling with
-                                  similar problems. Talk about their transition
-                                  to your product and the outcome: how it solved
-                                  their problems and helped them achieve their
-                                  goals.
-                                </p>
-                                <div class="sasup-testimonial-box-brand-4">
-                                  <img
-                                    src="assets/img/brand/brand-4-1-1.webp"
-                                    alt="image not found"
-                                  />
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="swiper-slide">
-                            <div class="sasup-testimonial-box-4  text-center">
-                              <div class="sasup-testimonial-author-box mb-15">
-                                <div class="sasup-testimonial-author-box-img-4">
-                                  <img
-                                    src="assets/img/user/user-4.webp"
-                                    alt="image not found"
-                                  />
-                                </div>
-                                <div class="sasup-testimonial-author-box-content-4">
-                                  <h5 class="sasup-testimonial-author-box-name-4">
-                                    Elle Rabe,{" "}
-                                  </h5>
-                                  <span class="sasup-testimonial-author-box-designation-4">
-                                    co founder
-                                  </span>
-                                </div>
-                              </div>
-                              <div class="sasup-testimonial-box-content-main-4">
-                                <h4 class="sasup-testimonial-box-content-title-4">
-                                  “Helps me Stay
-                                  <br /> On top of saas and software."
-                                </h4>
-                                <p class="sasup-testimonial-box-content-text-4">
-                                  Explain how the customer was in a similar
-                                  situation as your user, struggling with
-                                  similar problems. Talk about their transition
-                                  to your product and the outcome: how it solved
-                                  their problems and helped them achieve their
-                                  goals.
-                                </p>
-                                <div class="sasup-testimonial-box-brand-4">
-                                  <img
-                                    src="assets/img/brand/brand-4-1-1.webp"
-                                    alt="image not found"
-                                  />
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="sasup-testimonial-arrow-4">
-                        <button class="testimonial-swiper-button-prev-4 sasup-common-swiper-arrow">
-                          <i class="fal fa-angle-left"></i>
-                        </button>
-                        <button class="testimonial-swiper-button-next-4 sasup-common-swiper-arrow">
-                          <i class="fal fa-angle-right"></i>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="row justify-content-center">
-                  <div class="col-xxl-6 col-xl-8">
-                    <div class="sasup-testimonial-funfect-wrap-4">
-                      <div class="row">
-                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-6">
-                          <div class="pl-85">
-                            <div class="sasup-testimonial-funfect-single-4">
-                              <h4 class="sasup-testimonial-funfect-title-4">
-                                28%
-                              </h4>
-                              <span class="sasup-testimonial-funfect-subtitle-4">
-                                Primary Result Stat
-                              </span>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-6">
-                          <div class="text-end">
-                            <div class="pr-25">
-                              <div class="sasup-testimonial-funfect-single-4 d-inline-block text-start">
-                                <h4 class="sasup-testimonial-funfect-title-4">
-                                  34x
-                                </h4>
-                                <span class="sasup-testimonial-funfect-subtitle-4">
-                                  Return on Investment
-                                </span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-                    </div>*/}
-
-          <div
-            class="about-dashbord-area pt-120 pb-130 p-rel"
-            data-bg-color="#F8F9FA"
-          >
-            <div class="sasup-about-dashbord-shape-wrap">
-              <div class="shape-1">
-                <img
-                  src="assets/img/shape/shape-4-1.webp"
-                  alt="image not found"
-                />
-              </div>
-              <div class="shape-2">
-                <img
-                  src="assets/img/shape/shape-4-2.webp"
-                  alt="image not found"
-                />
-              </div>
-              <div class="shape-3">
-                <img
-                  src="assets/img/shape/shape-4-3.webp"
-                  alt="image not found"
-                />
-              </div>
-              <div class="shape-4">
-                <img
-                  src="assets/img/shape/shape-4-4.webp"
-                  alt="image not found"
-                />
-              </div>
-              <div class="shape-5">
-                <img
-                  src="assets/img/shape/shape-4-5.webp"
-                  alt="image not found"
-                />
-              </div>
-            </div>
-            <div class="container">
-              <div class="row pb-65">
-                <div class="col-xxl-7 col-xl-7 col-lg-12">
-                  <div class="sasup-about-dashbord-left-4">
-                    <div class="sasup-about-dashbord-avatar-4">
-                      <img
-                        src="assets/img/feature/about-3d.webp"
-                        alt="image not found"
-                      />
-                    </div>
-                    <div class="sasup-about-dashbord-avatar-4-2">
-                      <img
-                        src="assets/img/dashbord/tablet.webp"
-                        alt="image not found"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xxl-5 col-xl-5 col-lg-12">
-                  <div
-                    class="sasup-about-dashbord-right-4 pt-25 wow fadeInUp"
-                    data-wow-delay=".2s"
-                  >
-                    <div class="sasup-section-title-wrap-4 mb-30">
-                      <span class="sasup-section-badge-4 mb-15">
-                        {" "}
-                        Workflow Integration
-                      </span>
-                      <h4 class="sasup-section-title-4">
-                        Why you
-                        <br /> Should choose Sasup
-                      </h4>
-                      <p class="sasup-section-subtitle-4">
-                        So how does it work? Lets check our Getting Started
-                        tutorial pre-made templates.
-                      </p>
-                    </div>
-                    <div class="sasup-sm-project-template-box-4">
-                      <div class="sasup-sm-project-template-box-img-4">
-                        <img
-                          src="assets/img/user/t-user-2.webp"
-                          alt="image not found"
-                        />
-                        <div class="sasup-sm-project-template-box-icon-4">
-                          <img
-                            src="assets/img/icon/star.webp"
-                            alt="image not found"
-                          />
-                        </div>
-                      </div>
-                      <div class="sasup-sm-project-template-box-content-4">
-                        <p>
-                          <span>We have three projects template</span> large
-                          number of possibilities to customize.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="sasup-about-dashbord-service-wrap-4">
-                <div class="row">
-                  <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                    <div
-                      class="sasup-about-dashbord-service-single-4 wow fadeInUp"
-                      data-wow-delay=".2s"
-                    >
-                      <div class="sasup-about-dashbord-service-icon-4">
-                        <img
-                          src="assets/img/icon/service-icon-1.webp"
-                          alt="image not found"
-                        />
-                      </div>
-                      <div class="sasup-about-dashbord-service-content-4">
-                        <h5 class="sasup-about-dashbord-service-title-4">
-                          Daily Auto Update
-                        </h5>
-                        <a
-                          href="service.html"
-                          class="sasup-about-dashbord-service-link-4"
-                        >
-                          Learn More <i class="fal fa-long-arrow-right"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                    <div
-                      class="sasup-about-dashbord-service-single-4 wow fadeInUp"
-                      data-wow-delay=".3s"
-                    >
-                      <div class="sasup-about-dashbord-service-icon-4">
-                        <img
-                          src="assets/img/icon/service-icon-2.webp"
-                          alt="image not found"
-                        />
-                      </div>
-                      <div class="sasup-about-dashbord-service-content-4">
-                        <h5 class="sasup-about-dashbord-service-title-4">
-                          Why Choose Sasup
-                        </h5>
-                        <a
-                          href="service.html"
-                          class="sasup-about-dashbord-service-link-4"
-                        >
-                          Learn More <i class="fal fa-long-arrow-right"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                    <div
-                      class="sasup-about-dashbord-service-single-4 wow fadeInUp"
-                      data-wow-delay=".4s"
-                    >
-                      <div class="sasup-about-dashbord-service-icon-4">
-                        <img
-                          src="assets/img/icon/service-icon-3.webp"
-                          alt="image not found"
-                        />
-                      </div>
-                      <div class="sasup-about-dashbord-service-content-4">
-                        <h5 class="sasup-about-dashbord-service-title-4">
-                          Accelerated Process
-                        </h5>
-                        <a
-                          href="service.html"
-                          class="sasup-about-dashbord-service-link-4"
-                        >
-                          Learn More <i class="fal fa-long-arrow-right"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                    <div
-                      class="sasup-about-dashbord-service-single-4 wow fadeInUp"
-                      data-wow-delay=".5s"
-                    >
-                      <div class="sasup-about-dashbord-service-icon-4">
-                        <img
-                          src="assets/img/icon/service-icon-4.webp"
-                          alt="image not found"
-                        />
-                      </div>
-                      <div class="sasup-about-dashbord-service-content-4">
-                        <h5 class="sasup-about-dashbord-service-title-4">
-                          Google Analytics
-                        </h5>
-                        <a
-                          href="service.html"
-                          class="sasup-about-dashbord-service-link-4"
-                        >
-                          Learn More <i class="fal fa-long-arrow-right"></i>
-                        </a>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -976,7 +396,7 @@ const Home2 = () => {
                       class="sasup-section-heading-5-title"
                       data-wow-delay=".2s"
                     >
-                      The right <span>Pricing </span>for you
+                      Edu Pro <span>Termly </span>Price
                     </h3>
                   </div>
                 </div>
@@ -985,7 +405,7 @@ const Home2 = () => {
                 <div class="d-inline-block p-rel advance-pricing-inline-content-2">
                   <div class="advanced-pricing-tab-key">
                     <span class="advanced-pricing-tab-key-text">
-                      Save up to <span>50%</span>
+                      Save up to <span>20% on referring another school</span>
                     </span>
                     <div class="advanced-pricing-tab-key-shape">
                       <img
@@ -993,32 +413,6 @@ const Home2 = () => {
                         alt="no image found"
                       />
                     </div>
-                  </div>
-                  <div class="advanced-pricing-tab-key-2">
-                    <ul class="nav" id="myTab" role="tablist">
-                      <li class="nav-item" role="presentation">
-                        <a
-                          class="advanced-tab-1 active annual-tab-btn"
-                          id="monthly-tab0"
-                          data-bs-toggle="tab"
-                          href="#monthly-tab-content0"
-                          role="tab"
-                        >
-                          Monthly{" "}
-                        </a>
-                      </li>
-                      <li class="nav-item" role="presentation">
-                        <a
-                          class="advanced-tab-2 "
-                          id="monthly-tab1"
-                          data-bs-toggle="tab"
-                          href="#monthly-tab-content1"
-                          role="tab"
-                        >
-                          Yearly
-                        </a>
-                      </li>
-                    </ul>
                   </div>
                 </div>
               </div>
@@ -1171,14 +565,30 @@ const Home2 = () => {
                               />
                             </div>
                             <span class="sasup-pricing-box-top-subtitle-2">
-                              Premium
+                              PREMIUM
                             </span>
                             <h3 class="sasup-pricing-box-top-title-2">
-                              Enterprise
+                              Professional
                             </h3>
                             <p class="sasup-pricing-box-top-desc-2">
-                              For even more features
+                              For access to more features
                             </p>
+                            <a
+                              href="price-02.html"
+                              class="sasup-pricing-box-top-action-2 active"
+                            >
+                              Get Started
+                            </a>
+                          </div>
+                          <div class="sasup-pricing-box-bottom-2">
+                            {/* <div class="sasup-pricing-box-bottom-title-wrap-2">
+                          <h4 class="sasup-pricing-box-bottom-price-2">
+                            $40
+                          </h4>
+                          <span class="sasup-pricing-box-bottom-subtitle-2">
+                            Per editor, per month
+                          </span>
+                        </div> */}
                             <div class="sasup-pricing-box-bottom-list-2">
                               <ul>
                                 <li>
@@ -1226,56 +636,6 @@ const Home2 = () => {
                               </ul>
                             </div>
                           </div>
-                          {/* <div class="sasup-pricing-box-bottom-2">
-                          <div class="sasup-pricing-box-bottom-title-wrap-2">
-                            <h4 class="sasup-pricing-box-bottom-price-2">
-                              Custom
-                            </h4>
-                            <span class="sasup-pricing-box-bottom-subtitle-2">
-                              Contact our sales team
-                            </span>
-                          </div>
-                          <div class="sasup-pricing-box-bottom-list-2">
-                            <ul>
-                              <li>
-                                <i class="fal fa-check"></i>
-                                <span class="price-feature-text">
-                                  Private cloud hosting
-                                </span>
-                              </li>
-                              <li>
-                                <i class="fal fa-check"></i>
-                                <span class="price-feature-text">
-                                  SSO / SAML
-                                </span>
-                              </li>
-                              <li>
-                                <i class="fal fa-check"></i>
-                                <span class="price-feature-text">
-                                  Full security
-                                </span>
-                              </li>
-                              <li>
-                                <i class="fal fa-check"></i>
-                                <span class="price-feature-text">
-                                  Uptime agreement
-                                </span>
-                              </li>
-                              <li>
-                                <i class="fal fa-check"></i>
-                                <span class="price-feature-text">
-                                  Custom integrations
-                                </span>
-                              </li>
-                              <li>
-                                <i class="fal fa-check"></i>
-                                <span class="price-feature-text">
-                                  Priority support
-                                </span>
-                              </li>
-                            </ul>
-                          </div>
-                        </div> */}
                         </div>
                       </div>
                     </div>
