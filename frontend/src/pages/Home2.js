@@ -158,7 +158,7 @@ const Home2 = () => {
                         <a href="/services">Student Attendance</a>
                       </h5>
                       <p class="sasup-service-box-text-4">
-                        The teachers marks the automated attendance which can be
+                        The teachers mark the automated attendance which can be
                         sent to their parent via sms or mail.
                       </p>
                       <a
@@ -218,7 +218,7 @@ const Home2 = () => {
                       </h5>
                       <p class="sasup-service-box-text-4">
                         It automatically generates receipts for the students for
-                        each transactions a student makes and provides instant
+                        each transaction a student makes and provides instant
                         confirmation of payments to guardians or parents.
                       </p>
                       <a
@@ -317,7 +317,8 @@ const Home2 = () => {
                   >
                     <div class="sasup-features-box-content-top-4 mb-65">
                       <h4 class="sasup-features-box-title-4">
-                        To ease the rigor of school administration
+                        To ease the rigor of school administration and to enable
+                        vast activities being monitored at a go
                       </h4>
                       <a
                         href="/about"
@@ -336,7 +337,8 @@ const Home2 = () => {
                   >
                     <div class="sasup-features-box-content-top-4 mb-95">
                       <h4 class="sasup-features-box-title-4">
-                        To enable vast activities being monitored at a go
+                        To keep on tab with the financial growth of the school -
+                        generate invoices, receipts and fees payment logbook
                       </h4>
                       <a
                         href="/about"
@@ -355,13 +357,10 @@ const Home2 = () => {
                   >
                     <div class="sasup-features-box-content-top-4 mb-95">
                       <h4 class="sasup-features-box-title-4">
-                        <a href="service.html">
-                          Enhanced parent
-                          <br /> engagement systems
-                        </a>
+                        For coordination of stressless online examination format
                       </h4>
                       <a
-                        href="service.html"
+                        href="/about"
                         class="sasup-service-box-read-more-link-4"
                       >
                         Learn More <i class="fal fa-long-arrow-right"></i>
