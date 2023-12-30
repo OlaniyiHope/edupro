@@ -434,20 +434,14 @@ const Home2 = () => {
                                 alt="image not found"
                               />
                             </div>
-                            <span class="sasup-pricing-box-top-subtitle-2">
-                              Free
-                            </span>
+
                             <h3 class="sasup-pricing-box-top-title-2">Basic</h3>
-                            <p class="sasup-pricing-box-top-desc-2">
-                              For those getting started with
-                              <br />
-                              Edu Pro Solutions.
-                            </p>
+
                             <a
-                              href="price-02.html"
-                              class="sasup-pricing-box-top-action-2 "
+                              href="/contact"
+                              class="sasup-pricing-box-top-action-2 active"
                             >
-                              Try for Free
+                              Get Started
                             </a>
                           </div>
                           <div class="sasup-pricing-box-bottom-2">
@@ -496,14 +490,12 @@ const Home2 = () => {
                             <span class="sasup-pricing-box-top-subtitle-2">
                               STANDARD
                             </span>
-                            <h3 class="sasup-pricing-box-top-title-2">
-                              Professional
-                            </h3>
+
                             <p class="sasup-pricing-box-top-desc-2">
                               For access to more features
                             </p>
                             <a
-                              href="price-02.html"
+                              href="/contact"
                               class="sasup-pricing-box-top-action-2 active"
                             >
                               Get Started
@@ -574,7 +566,7 @@ const Home2 = () => {
                               For access to more features
                             </p>
                             <a
-                              href="price-02.html"
+                              href="/contact"
                               class="sasup-pricing-box-top-action-2 active"
                             >
                               Get Started
