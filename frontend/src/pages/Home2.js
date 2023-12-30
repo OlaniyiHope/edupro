@@ -301,11 +301,9 @@ const Home2 = () => {
                     class="sasup-section-title-wrap-4 mb-70 text-center wow fadeInUp"
                     data-wow-delay=".2s"
                   >
-                    <span class="sasup-section-badge-4 mb-15">Features</span>
+                    <span class="sasup-section-badge-4 mb-15">About Us</span>
                     <h4 class="sasup-section-title-4">
-                      How Edu Pro Can Benefit your School
-                      <br />
-                      Get the best solution
+                      Why Choose Edu Pro Solution?
                     </h4>
                   </div>
                 </div>
@@ -319,13 +317,10 @@ const Home2 = () => {
                   >
                     <div class="sasup-features-box-content-top-4 mb-65">
                       <h4 class="sasup-features-box-title-4">
-                        <a href="service.html">
-                          Reduce Costs and increase
-                          <br /> financial efficiency
-                        </a>
+                        To ease the rigor of school administration
                       </h4>
                       <a
-                        href="service.html"
+                        href="/about"
                         class="sasup-service-box-read-more-link-4"
                       >
                         Learn More <i class="fal fa-long-arrow-right"></i>
@@ -341,13 +336,10 @@ const Home2 = () => {
                   >
                     <div class="sasup-features-box-content-top-4 mb-95">
                       <h4 class="sasup-features-box-title-4">
-                        <a href="service.html">
-                          Enhanced parent
-                          <br /> engagement systems
-                        </a>
+                        To enable vast activities being monitored at a go
                       </h4>
                       <a
-                        href="service.html"
+                        href="/about"
                         class="sasup-service-box-read-more-link-4"
                       >
                         Learn More <i class="fal fa-long-arrow-right"></i>
@@ -559,9 +551,7 @@ const Home2 = () => {
                             <span class="sasup-pricing-box-top-subtitle-2">
                               PREMIUM
                             </span>
-                            <h3 class="sasup-pricing-box-top-title-2">
-                              Professional
-                            </h3>
+
                             <p class="sasup-pricing-box-top-desc-2">
                               For access to more features
                             </p>
