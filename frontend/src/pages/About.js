@@ -39,14 +39,17 @@ const About = () => {
             <div class="row mb-45">
               <div class="col-xxl-12">
                 <div class="section-title-2 text-center">
-                  <h3 class="s-title visile-br-lg">
-                    How Edu Pro makes your school
-                    <br />
-                    better that it is.
-                  </h3>
+                  <h3 class="s-title visile-br-lg">About Edu Pro Solution</h3>
                   <p class="s-desc">
-                    Here's a list of features that make us 90% better than most
-                    school portals
+                    Welcome to Edu Pro Solutions, we envision a future where
+                    education is seamlessly integrated with technology,
+                    fostering a dynamic and engaging learning environment for
+                    all. We strive to be a leading force in shaping the future
+                    of education through our innovative software solutions. Our
+                    mission is to empower schools, educators and students with
+                    intuitive and effective software solutions that elevate the
+                    learning experience. Below is a list of some of the features
+                    you will get:
                   </p>
                 </div>
               </div>
@@ -59,22 +62,22 @@ const About = () => {
                 <div class="single-feature-2 mb-55">
                   <div class="feature-icon-2">
                     <img
-                      src="assets/img/icon/icon_1.webp"
+                      src="assets/img/service/exam.png"
                       alt="image not found"
                     />
                   </div>
                   <div class="feature-content-2">
                     <h4 class="feature-content-title-2">
-                      <a href="service-details.html">Fee Management</a>
+                      <a>Online Exams</a>
                     </h4>
                     <p class="feature-content-desc-2">
-                      Simplify financial operations by effortlessly managing
-                      student fees, from invoicing to transparent financial
-                      reporting i.e: Receipts.
+                      Bulk exams can be set for different classes and time frame
+                      can be fixed. Online exams are uploaded to the result
+                      portal immediately.
                     </p>
                   </div>
                   <div class="feature-action-2">
-                    <a href="service-details.html" class="icon-box-rounded">
+                    <a href="/services" class="icon-box-rounded">
                       <i class="fal fa-arrow-right"></i>
                       <i class="fal fa-arrow-right"></i>
                     </a>
@@ -88,21 +91,22 @@ const About = () => {
                 <div class="single-feature-2 mb-55">
                   <div class="feature-icon-2">
                     <img
-                      src="assets/img/icon/icon_2.webp"
+                      src="assets/img/service/pay.png"
                       alt="image not found"
                     />
                   </div>
                   <div class="feature-content-2">
                     <h4 class="feature-content-title-2">
-                      <a href="service-details.html">Student Management</a>
+                      <a>Online School fees Payment</a>
                     </h4>
                     <p class="feature-content-desc-2">
-                      Only a quid victoria spong cack matie boy bum bag burke a
-                      blinding shot James bond pear.
+                      It automatically generates receipts for the students for
+                      each transaction a student makes and provides instant
+                      confirmation of payments to guardians or parents.
                     </p>
                   </div>
                   <div class="feature-action-2">
-                    <a href="service-details.html" class="icon-box-rounded">
+                    <a href="/services" class="icon-box-rounded">
                       <i class="fal fa-arrow-right"></i>
                       <i class="fal fa-arrow-right"></i>
                     </a>
@@ -116,24 +120,21 @@ const About = () => {
                 <div class="single-feature-2 mb-55">
                   <div class="feature-icon-2">
                     <img
-                      src="assets/img/icon/icon-3.webp"
+                      src="assets/img/service/rep.png"
                       alt="image not found"
                     />
                   </div>
                   <div class="feature-content-2">
                     <h4 class="feature-content-title-2">
-                      <a href="service-details.html">
-                        Online Exam Administration
-                      </a>
+                      <a>Report card preparation</a>
                     </h4>
                     <p class="feature-content-desc-2">
-                      Facilitate online exams with a feature-rich module,
-                      empowering educators to create, conduct, and evaluate
-                      exams digitally.
+                      Auto-generated report that collates and prepares result.
+                      Automatically received by parents through sms and mail.
                     </p>
                   </div>
                   <div class="feature-action-2">
-                    <a href="service-details.html" class="icon-box-rounded">
+                    <a href="/services" class="icon-box-rounded">
                       <i class="fal fa-arrow-right"></i>
                       <i class="fal fa-arrow-right"></i>
                     </a>
@@ -144,7 +145,7 @@ const About = () => {
             <div class="row">
               <div class="col-xxl-12">
                 <div class="feature-link-2 text-center">
-                  <a href="service.html">
+                  <a href="/services">
                     View All Services <i class="fal fa-arrow-right"></i>
                   </a>
                 </div>
@@ -213,54 +214,44 @@ const About = () => {
                       class="s-title visible-br-lg visible-br-md wow fadeInUp"
                       data-wow-delay=".2s"
                     >
-                      Created with
-                      <br />
-                      the parents in mind.
+                      Role-Based Solution
                     </h3>
                     <p
                       class="s-desc wow fadeInUp line-height-24"
                       data-wow-delay=".4s"
                     >
-                      The parent is the connection between the school and pupils
-                      now imagine a parent being able to track down their
-                      child's journey in school, certainily that will be
-                      fantanstic right? Well that's basically what we have in
-                      store for you and lots more.
+                      Both the Students, Teacher and the parents have access to
+                      their portal. The parent is the connection between the
+                      school and pupils now imagine a parent being able to track
+                      down their child's journey in school, certainily that will
+                      be fantanstic right? Well that's basically what we have in
+                      store for you and lots more. We also have:
                     </p>
                   </div>
                   <div
-                    class="service-right-list-2 w-list-50 mb-30 wow fadeInUp"
+                    class="service-right-list-2  mb-30 wow fadeInUp"
                     data-wow-delay=".6s"
                   >
                     <ul>
                       <li class="service-right-list-item">
-                        <i class="fal fa-check"></i> Top Notch Support
+                        <i class="fal fa-check"></i> 24/7 customer support
                       </li>
+                      <br></br>
                       <li class="service-right-list-item">
-                        <i class="fal fa-check"></i> Report Card Preparation
+                        <i class="fal fa-check"></i> Custom branding for your
+                        school
                       </li>
+                      <br></br>
                       <li class="service-right-list-item">
-                        <i class="fal fa-check"></i> Lesson Notes
-                      </li>
-                      <li class="service-right-list-item">
-                        <i class="fal fa-check"></i> Generate Payment Receipts
-                      </li>
-                      <li class="service-right-list-item">
-                        <i class="fal fa-check"></i> Online Exams
-                      </li>
-                      <li class="service-right-list-item">
-                        <i class="fal fa-check"></i> Student Attendance
+                        <i class="fal fa-check"></i> You getting exclusive
+                        access to the platform
                       </li>
                     </ul>
                   </div>
                   <div
                     class="service-right-link-2 wow fadeInUp"
                     data-wow-delay=".8s"
-                  >
-                    <a href="service-details.html" class="sasup-theme-btn">
-                      <span>Discover More</span>
-                    </a>
-                  </div>
+                  ></div>
                 </div>
               </div>
             </div>
