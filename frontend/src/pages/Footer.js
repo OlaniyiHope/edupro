@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import park from "./edu.PNG";
 const Footer = () => {
   return (
     <>
@@ -14,14 +14,13 @@ const Footer = () => {
               <div class="sasup-footer-widget-4 sasup-footer-widget-4-1 mb-40">
                 <div class="sasup-logo-4 mb-25">
                   <a href="#">
-                    <img
-                      src="assets/img/logo/logo-4.webp"
-                      alt="image not found"
-                    />
+                    <img src={park} alt="image not found" />
                   </a>
                 </div>
                 <p class="mb-25">
-                  Build a better website for your technology business today.
+                  Your solution to school management hurdles. It has
+                  encompassing features that makes school administration
+                  stress-free.
                 </p>
                 <div class="sasup-footer-widget-contact-4 mb-25">
                   <a href="#">
@@ -53,7 +52,7 @@ const Footer = () => {
                         stroke-linejoin="round"
                       />
                     </svg>
-                    +(264) 474 832 088
+                    +(234) 703 841 2640, +(234) 816 505 1826
                   </a>
                   <a href="#">
                     <svg
@@ -100,17 +99,17 @@ const Footer = () => {
                       class="__cf_email__"
                       data-cfemail="e088858c8c8fa09381939590ce838f8d"
                     >
-                      [email&#160;protected]
+                      info@edupro.com.ng
                     </span>
                   </a>
                 </div>
                 <div class="sasup-footer-widget-social-link-4">
                   <h5 class="title">Follow Us</h5>
-                  <a href="#">
+                  <a href="https://facebook.com/edu_school_solution">
                     <i class="fab fa-facebook-f"></i>
                   </a>
-                  <a href="#">
-                    <i class="fab fa-twitter"></i>
+                  <a href="https://instagram.com/eduprosolution">
+                    <i class="fab fa-instagram"></i>
                   </a>
                   <a href="#">
                     <i class="fab fa-linkedin-in"></i>
@@ -126,50 +125,36 @@ const Footer = () => {
                     <a href="/">Home</a>
                   </li>
                   <li>
-                    <a href="portfolio.html">Product</a>
+                    <a href="portfolio.html">About</a>
                   </li>
                   <li>
                     <a href="price.html">Pricing</a>
                   </li>
                   <li>
-                    <a href="service-details.html">Integrations</a>
+                    <a href="service-details.html">Services</a>
                   </li>
-                  <li>
-                    <a href="portfolio-details.html">Faq Details</a>
-                  </li>
+
                   <li>
                     <a href="team.html">Team</a>
                   </li>
                   <li>
-                    <a href="contact.html">Contact US</a>
+                    <a href="contact.html">Contact Us</a>
                   </li>
                 </ul>
               </div>
             </div>
             <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6">
               <div class="sasup-footer-widget-4 pl-30 sasup-footer-widget-4-2 mb-40">
-                <h5 class="sasup-footer-widget-title-4">Company</h5>
+                <h5 class="sasup-footer-widget-title-4">Quick Links</h5>
                 <ul class="mt-35">
                   <li>
-                    <a href="service-details.html">Web Design</a>
+                    <a href="service-details.html">Privacy Policy</a>
                   </li>
                   <li>
-                    <a href="portfolio-details.html">Our customers</a>
+                    <a href="portfolio-details.html">Terms</a>
                   </li>
                   <li>
-                    <a href="contact.html">Wordpress</a>
-                  </li>
-                  <li>
-                    <a href="contact.html">Login</a>
-                  </li>
-                  <li>
-                    <a href="portfolio.html">Password</a>
-                  </li>
-                  <li>
-                    <a href="service-details.html">Online Marketing</a>
-                  </li>
-                  <li>
-                    <a href="contact.html">404 page</a>
+                    <a href="contact.html">Help</a>
                   </li>
                 </ul>
               </div>

@@ -51,7 +51,7 @@ const Contact = () => {
                       <div class="content">
                         <h4 class="single-contact-left-label">Phone Number</h4>
                         <span class="single-contact-left-info">
-                          +(536) 84 95 62 45
+                          +(234) 70 38 41 2640, +(234) 81 65 05 1826
                         </span>
                       </div>
                     </div>
@@ -62,13 +62,7 @@ const Contact = () => {
                       <div class="content">
                         <h4 class="single-contact-left-label">Email Adress</h4>
                         <span class="single-contact-left-info">
-                          <a
-                            href="https://www.devsnews.com/cdn-cgi/l/email-protection"
-                            class="__cf_email__"
-                            data-cfemail="0e7d6f7d7b7e4e69636f6762206d6163"
-                          >
-                            [email&#160;protected]
-                          </a>
+                          <a>info@edupro.com.ng</a>
                         </span>
                       </div>
                     </div>
@@ -77,9 +71,9 @@ const Contact = () => {
                         <i class="fal fa-map-marker-alt"></i>
                       </div>
                       <div class="content">
-                        <h4 class="single-contact-left-label">Local Address</h4>
+                        <h4 class="single-contact-left-label"> Address</h4>
                         <span class="single-contact-left-info">
-                          Dhaka-1506 Bangladesh
+                          Lagos, Nigeria.
                         </span>
                       </div>
                     </div>
@@ -92,17 +86,17 @@ const Contact = () => {
                           Share
                         </h4>
                         <div class="share-social">
-                          <a href="#" data-color="#1877f2">
+                          <a
+                            href="https://facebook.com/edu_solution"
+                            data-color="#1877f2"
+                          >
                             <i class="fab fa-facebook-f"></i>
                           </a>
-                          <a href="#" data-color="#1da1f2">
-                            <i class="fab fa-twitter"></i>
-                          </a>
-                          <a href="#" data-color="#ed445e">
-                            <i class="fab fa-pinterest-p"></i>
-                          </a>
-                          <a href="#" data-color="#1ab7ea">
-                            <i class="fab fa-vimeo-v"></i>
+                          <a
+                            href="https://instagram.com/edu_school_solutions"
+                            data-color="#1da1f2"
+                          >
+                            <i class="fab fa-instagram"></i>
                           </a>
                         </div>
                       </div>
@@ -150,19 +144,19 @@ const Contact = () => {
                       <div class="col-xl-12">
                         <div class="post-input post-input-2">
                           <label for="name" class="post-input-label-defualt">
-                            Website *
+                            Name of your school*
                           </label>
                           <input
                             type="text"
                             name="website"
-                            placeholder="Website"
+                            placeholder="School Name"
                             id="website"
                           />
                         </div>
                       </div>
                       <div class="col-xl-12">
                         <label for="comment" class="post-input-label-defualt">
-                          Comment *
+                          What plan do you want your school to subscribe to *
                         </label>
                         <div class="post-input has-textarea">
                           <textarea
