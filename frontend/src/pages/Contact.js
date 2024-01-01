@@ -39,10 +39,9 @@ const Contact = () => {
               <div class="col-xxl-5 col-xl-6 col-lg-6 mb-40 mb-lg-0">
                 <div class="contact-left-info">
                   <div class="contact-info-left-top mb-30">
-                    <h4 class="contact-info-title">Contact Information</h4>
-                    <span class="contact-info-subtitle">
-                      Naff the little rotter have gutted mate baking legged.
-                    </span>
+                    <h4 class="contact-info-title" style={{ color: "#042954" }}>
+                      Contact Information
+                    </h4>
                   </div>
                   <div class="contact-left-list-wrapper">
                     <div class="single-contact-left-item mb-10">
@@ -210,13 +209,13 @@ const Contact = () => {
                       />
                     </a>
                   </div>
-                  <p class="mb-25">
+                  <p class="mb-25" style={{ color: "#042954" }}>
                     Your solution to school management hurdles. It has
                     encompassing features that makes school administration
                     stress-free.
                   </p>
                   <div class="sasup-footer-widget-contact-4 mb-25">
-                    <a href="#" style={{ color: "black" }}>
+                    <a style={{ color: "#042954" }}>
                       <svg
                         width="19"
                         height="19"
@@ -247,7 +246,7 @@ const Contact = () => {
                       </svg>
                       +(234) 703 841 2640, +(234) 816 505 1826
                     </a>
-                    <a href="#">
+                    <a style={{ color: "#042954" }}>
                       <svg
                         width="20"
                         height="18"
@@ -291,7 +290,7 @@ const Contact = () => {
                       <span
                         class="__cf_email__"
                         data-cfemail="e088858c8c8fa09381939590ce838f8d"
-                        style={{ color: "black" }}
+                        style={{ color: "#042954" }}
                       >
                         info@edupro.com.ng
                       </span>
@@ -318,26 +317,41 @@ const Contact = () => {
                       class="footer-widget wow fadeInUp mb-30 mb-md-0"
                       data-wow-delay=".4s"
                     >
-                      <h5>Overview</h5>
+                      <h5 style={{ color: "#042954" }}>Overview</h5>
                       <ul>
                         <li></li>
                         <li>
-                          <a href="service.html">Home</a>
+                          <a href="service.html" style={{ color: "#042954" }}>
+                            Home
+                          </a>
                         </li>
                         <li>
-                          <a href="about.html">About</a>
+                          <a href="about.html" style={{ color: "#042954" }}>
+                            About
+                          </a>
                         </li>
                         <li>
-                          <a href="service-details.html">Pricing</a>
+                          <a
+                            href="service-details.html"
+                            style={{ color: "#042954" }}
+                          >
+                            Pricing
+                          </a>
                         </li>
                         <li>
-                          <a href="about.html">Services</a>
+                          <a href="about.html" style={{ color: "#042954" }}>
+                            Services
+                          </a>
                         </li>
                         <li>
-                          <a href="portfolio.html">Team</a>
+                          <a href="portfolio.html" style={{ color: "#042954" }}>
+                            Team
+                          </a>
                         </li>
                         <li>
-                          <a href="about.html">Contact Us</a>
+                          <a href="about.html" style={{ color: "#042954" }}>
+                            Contact Us
+                          </a>
                         </li>
                       </ul>
                     </div>
@@ -347,17 +361,23 @@ const Contact = () => {
                     data-wow-delay=".6s"
                   >
                     <div class="footer-widget">
-                      <h5>Quick Links</h5>
+                      <h5 style={{ color: "#042954" }}> Quick Links</h5>
                       <ul>
                         <li></li>
                         <li>
-                          <a href="about.html">Privacy policy</a>
+                          <a href="about.html" style={{ color: "#042954" }}>
+                            Privacy policy
+                          </a>
                         </li>
                         <li>
-                          <a href="service.html">Terms</a>
+                          <a href="service.html" style={{ color: "#042954" }}>
+                            Terms
+                          </a>
                         </li>
                         <li>
-                          <a href="about.html">Help</a>
+                          <a href="about.html" style={{ color: "#042954" }}>
+                            Help
+                          </a>
                         </li>
                       </ul>
                     </div>
@@ -366,7 +386,7 @@ const Contact = () => {
                     <div class="sasup-footer-widget-4 sasup-footer-widget-4-2 mb-40">
                       <h5
                         class="sasup-footer-widget-title-4"
-                        style={{ color: "black" }}
+                        style={{ color: "#042954" }}
                       >
                         Newsletter
                       </h5>

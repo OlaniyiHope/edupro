@@ -1,9 +1,13 @@
 import React, { useEffect, useState } from "react";
 import back from "./breads.jpg";
 import park from "./edu.PNG";
+import backs from "./footimg.jpg";
 const Services = () => {
   const backgroundStyle = {
     backgroundImage: `url('/static/media/breads.png')`,
+  };
+  const backgroundStyles = {
+    backgroundImage: `url(${backs})`,
   };
   return (
     <>
@@ -796,49 +800,26 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div class="pricing-tab-extra-info text-center">
-              <div class="icon d-inline-block mb-3 mb-lg-0">
-                <img src="assets/img/icon/i_icon.webp" alt="image not found" />
-              </div>
-              <div class="content d-inline-block">
-                <p class="text-center text-md-start">
-                  Les services de paiement sont disponibles via des
-                  <br />
-                  applications mobiles et de bureau.
-                </p>
-              </div>
-            </div>
           </div>
         </div>
-
-        <div
-          class="cta-area cta-1-space pt-135 pb-135 bg-default"
-          data-bg-color="#4a2593"
-          style={{ backgroundColor: "rgb(74, 37, 147)" }}
-        >
+        <div class="cta-area wow fadeInUp" data-wow-delay=".6s">
           <div class="container">
-            <div class="row align-items-center">
-              <div
-                class="col-xxl-6 col-xl-8 col-lg-7 wow fadeInUp"
-                data-wow-delay=".2s"
-              >
-                <div class="cta-left mb-30 mb-lg-0">
-                  <span class="cta-subtitle-1">Call To Action</span>
-                  <h3 class="cta-title-1">
-                    Join Sasup and increase your productivity.
-                  </h3>
-                </div>
-              </div>
-              <div
-                class="col-xxl-6 col-xl-4 col-lg-5 wow fadeInUp"
-                data-wow-delay=".4s"
-              >
-                <div class="cta-actions text-lg-end">
-                  <a href="sign-in.html" class="cta-border-btn">
-                    Get Started
-                  </a>
-                  <a href="sign-up.html" class="cta-solid-btn ml-15">
-                    Sign Up Free
+            <div class="row">
+              <div class="col-xxl-12 col-xl-12">
+                <div
+                  class="sasup-cta-box-4 text-center bg-default  pt-90 pb-95"
+                  style={backgroundStyles}
+                >
+                  <h4 class="sasup-cta-title-4">
+                    Do you want to get in touch with us?
+                    <br />
+                    Do you have any question?
+                  </h4>
+                  <span class="sasup-cta-subtitle-4 mb-30">
+                    We implore you to try out school solution without stress
+                  </span>
+                  <a href="/contact" class="sasup-hero-started-btn-4">
+                    <span>Contact Us</span>
                   </a>
                 </div>
               </div>
@@ -863,13 +844,13 @@ const Services = () => {
                         />
                       </a>
                     </div>
-                    <p class="mb-25">
+                    <p class="mb-25" style={{ color: "#042954" }}>
                       Your solution to school management hurdles. It has
                       encompassing features that makes school administration
                       stress-free.
                     </p>
                     <div class="sasup-footer-widget-contact-4 mb-25">
-                      <a href="#" style={{ color: "black" }}>
+                      <a style={{ color: "#042954" }}>
                         <svg
                           width="19"
                           height="19"
@@ -900,7 +881,7 @@ const Services = () => {
                         </svg>
                         +(234) 703 841 2640, +(234) 816 505 1826
                       </a>
-                      <a href="#">
+                      <a style={{ color: "#042954" }}>
                         <svg
                           width="20"
                           height="18"
@@ -944,7 +925,7 @@ const Services = () => {
                         <span
                           class="__cf_email__"
                           data-cfemail="e088858c8c8fa09381939590ce838f8d"
-                          style={{ color: "black" }}
+                          style={{ color: "#042954" }}
                         >
                           info@edupro.com.ng
                         </span>
@@ -971,26 +952,44 @@ const Services = () => {
                         class="footer-widget wow fadeInUp mb-30 mb-md-0"
                         data-wow-delay=".4s"
                       >
-                        <h5>Overview</h5>
+                        <h5 style={{ color: "#042954" }}>Overview</h5>
                         <ul>
                           <li></li>
                           <li>
-                            <a href="service.html">Home</a>
+                            <a href="service.html" style={{ color: "#042954" }}>
+                              Home
+                            </a>
                           </li>
                           <li>
-                            <a href="about.html">About</a>
+                            <a href="about.html" style={{ color: "#042954" }}>
+                              About
+                            </a>
                           </li>
                           <li>
-                            <a href="service-details.html">Pricing</a>
+                            <a
+                              href="service-details.html"
+                              style={{ color: "#042954" }}
+                            >
+                              Pricing
+                            </a>
                           </li>
                           <li>
-                            <a href="about.html">Services</a>
+                            <a href="about.html" style={{ color: "#042954" }}>
+                              Services
+                            </a>
                           </li>
                           <li>
-                            <a href="portfolio.html">Team</a>
+                            <a
+                              href="portfolio.html"
+                              style={{ color: "#042954" }}
+                            >
+                              Team
+                            </a>
                           </li>
                           <li>
-                            <a href="about.html">Contact Us</a>
+                            <a href="about.html" style={{ color: "#042954" }}>
+                              Contact Us
+                            </a>
                           </li>
                         </ul>
                       </div>
@@ -1000,17 +999,23 @@ const Services = () => {
                       data-wow-delay=".6s"
                     >
                       <div class="footer-widget">
-                        <h5>Quick Links</h5>
+                        <h5 style={{ color: "#042954" }}> Quick Links</h5>
                         <ul>
                           <li></li>
                           <li>
-                            <a href="about.html">Privacy policy</a>
+                            <a href="about.html" style={{ color: "#042954" }}>
+                              Privacy policy
+                            </a>
                           </li>
                           <li>
-                            <a href="service.html">Terms</a>
+                            <a href="service.html" style={{ color: "#042954" }}>
+                              Terms
+                            </a>
                           </li>
                           <li>
-                            <a href="about.html">Help</a>
+                            <a href="about.html" style={{ color: "#042954" }}>
+                              Help
+                            </a>
                           </li>
                         </ul>
                       </div>
@@ -1019,7 +1024,7 @@ const Services = () => {
                       <div class="sasup-footer-widget-4 sasup-footer-widget-4-2 mb-40">
                         <h5
                           class="sasup-footer-widget-title-4"
-                          style={{ color: "black" }}
+                          style={{ color: "#042954" }}
                         >
                           Newsletter
                         </h5>

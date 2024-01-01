@@ -125,20 +125,20 @@ const Footer = () => {
                     <a href="/">Home</a>
                   </li>
                   <li>
-                    <a href="portfolio.html">About</a>
+                    <a href="/about">About</a>
                   </li>
                   <li>
-                    <a href="price.html">Pricing</a>
+                    <a href="/pricing">Pricing</a>
                   </li>
                   <li>
-                    <a href="service-details.html">Services</a>
+                    <a href="/services">Services</a>
                   </li>
 
                   <li>
-                    <a href="team.html">Team</a>
+                    <a href="/team">Team</a>
                   </li>
                   <li>
-                    <a href="contact.html">Contact Us</a>
+                    <a href="/contact">Contact Us</a>
                   </li>
                 </ul>
               </div>
@@ -148,13 +148,13 @@ const Footer = () => {
                 <h5 class="sasup-footer-widget-title-4">Quick Links</h5>
                 <ul class="mt-35">
                   <li>
-                    <a href="service-details.html">Privacy Policy</a>
+                    <a href="/privacy">Privacy Policy</a>
                   </li>
                   <li>
-                    <a href="portfolio-details.html">Terms</a>
+                    <a href="/term">Terms</a>
                   </li>
                   <li>
-                    <a href="contact.html">Help</a>
+                    <a href="/help">Help</a>
                   </li>
                 </ul>
               </div>
@@ -188,18 +188,13 @@ const Footer = () => {
           <div class="sasup-has-copyright-border-top pt-25 pb-20">
             <div class="row">
               <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
-                <p class="sasup-copyright-text-4">
-                  2023 © Edu Pro.
-                  <a target="_blank" href="https://themeforest.net/user/bdevs">
-                    Bdevs
-                  </a>
-                </p>
+                <p class="sasup-copyright-text-4">2023 © Edu Pro.</p>
               </div>
               <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                 <div class="sasup-copyright-menu-link-4 text-end">
-                  <a href="terms.html">Terms & Conditions</a>
-                  <a href="policy.html">Privacy Policy</a>
-                  <a href="contact.html">Help</a>
+                  <a href="/term">Terms & Conditions</a>
+                  <a href="/privacy">Privacy Policy</a>
+                  <a href="/help">Help</a>
                 </div>
               </div>
             </div>
