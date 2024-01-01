@@ -308,63 +308,52 @@ const Home2 = () => {
                   </div>
                 </div>
               </div>
+
               <div class="row">
-                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-                  <div
-                    class="sasup-features-box-4 mb-30 bg-default wow fadeInRight"
-                    data-wow-delay=".2s"
-                    data-background="assets/img/bg/feature-bg-1.webp"
-                  >
-                    <div class="sasup-features-box-content-top-4 mb-65">
-                      <h4 class="sasup-features-box-title-4">
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                  <div class="single-service-list">
+                    <div class="service-count-list">
+                      <span class="service-count-number">1</span>
+                    </div>
+                    <div class="service-content-list">
+                      <h4 class="service-title-list">
+                        <a href="service-details.html">Easiness</a>
+                      </h4>
+                      <p class="service-content-list">
                         To ease the rigor of school administration and to enable
                         vast activities being monitored at a go
-                      </h4>
-                      <a
-                        href="/about"
-                        class="sasup-service-box-read-more-link-4"
-                      >
-                        Learn More <i class="fal fa-long-arrow-right"></i>
-                      </a>
+                      </p>
                     </div>
                   </div>
                 </div>
-                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-                  <div
-                    class="sasup-features-box-4 mb-30 style-2 bg-default wow fadeInLeft"
-                    data-wow-delay=".3s"
-                    data-background="assets/img/bg/feature-bg-2.webp"
-                  >
-                    <div class="sasup-features-box-content-top-4 mb-95">
-                      <h4 class="sasup-features-box-title-4">
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                  <div class="single-service-list">
+                    <div class="service-count-list">
+                      <span class="service-count-number">2</span>
+                    </div>
+                    <div class="service-content-list">
+                      <h4 class="service-title-list">
+                        <a href="service-details.html">Financial growth</a>
+                      </h4>
+                      <p class="service-content-list">
                         To keep on tab with the financial growth of the school -
                         generate invoices, receipts and fees payment logbook
-                      </h4>
-                      <a
-                        href="/about"
-                        class="sasup-service-box-read-more-link-4"
-                      >
-                        Learn More <i class="fal fa-long-arrow-right"></i>
-                      </a>
+                      </p>
                     </div>
                   </div>
                 </div>
-                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-                  <div
-                    class="sasup-features-box-4 mb-30 style-2 bg-default wow fadeInLeft"
-                    data-wow-delay=".3s"
-                    data-background="assets/img/bg/feature-bg-2.webp"
-                  >
-                    <div class="sasup-features-box-content-top-4 mb-95">
-                      <h4 class="sasup-features-box-title-4">
-                        For coordination of stressless online examination format
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                  <div class="single-service-list">
+                    <div class="service-count-list">
+                      <span class="service-count-number">3</span>
+                    </div>
+                    <div class="service-content-list">
+                      <h4 class="service-title-list">
+                        <a href="service-details.html">Stress-free</a>
                       </h4>
-                      <a
-                        href="/about"
-                        class="sasup-service-box-read-more-link-4"
-                      >
-                        Learn More <i class="fal fa-long-arrow-right"></i>
-                      </a>
+                      <p class="service-content-list">
+                        For coordination of stressless online examination format
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -392,21 +381,7 @@ const Home2 = () => {
                   </div>
                 </div>
               </div>
-              <div class="advanced-pricing-tab text-center">
-                <div class="d-inline-block p-rel advance-pricing-inline-content-2">
-                  <div class="advanced-pricing-tab-key">
-                    <span class="advanced-pricing-tab-key-text">
-                      Save up to <span>20% on referring another school</span>
-                    </span>
-                    <div class="advanced-pricing-tab-key-shape">
-                      <img
-                        src="assets/img/shape/line_pricing.webp"
-                        alt="no image found"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
+
               <div class="advanced-pricing-widget-tab-content-wrapper-2">
                 <div class="tab-content" id="myTabContent">
                   <div
