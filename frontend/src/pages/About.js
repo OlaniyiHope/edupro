@@ -5,10 +5,14 @@ import park from "./edu.PNG";
 import r1 from "./r1.jpg";
 import r2 from "./r2.jpg";
 import r3 from "./r3.jpg";
+import backs from "./footimg.jpg";
 import r4 from "./r4.jpg";
 const About = () => {
   const backgroundStyle = {
     backgroundImage: `url('/static/media/breads.png')`,
+  };
+  const backgroundStyles = {
+    backgroundImage: `url(${backs})`,
   };
   return (
     <>
@@ -461,36 +465,24 @@ const About = () => {
           </div>
         </div> */}
 
-        <div
-          class="cta-area cta-1-space pt-135 pb-135 bg-default"
-          data-bg-color="#4a2593"
-          // data-background="assets/img/bg/cta-1.webp"
-          style={{ backgroundColor: "rgb(74, 37, 147)" }}
-        >
+        <div class="cta-area wow fadeInUp" data-wow-delay=".6s">
           <div class="container">
-            <div class="row align-items-center">
-              <div
-                class="col-xxl-6 col-xl-8 col-lg-7 wow fadeInUp"
-                data-wow-delay=".2s"
-              >
-                <div class="cta-left mb-30 mb-lg-0">
-                  <span class="cta-subtitle-1">Call To Action</span>
-                  <h3 class="cta-title-1">
-                    Use Edu Pro Solutions and increase your school's
-                    productivity.
-                  </h3>
-                </div>
-              </div>
-              <div
-                class="col-xxl-6 col-xl-4 col-lg-5 wow fadeInUp"
-                data-wow-delay=".4s"
-              >
-                <div class="cta-actions text-lg-end">
-                  <a href="sign-in.html" class="cta-border-btn">
-                    Get Started
-                  </a>
-                  <a href="sign-up.html" class="cta-solid-btn ml-15">
-                    Sign Up Free
+            <div class="row">
+              <div class="col-xxl-12 col-xl-12">
+                <div
+                  class="sasup-cta-box-4 text-center bg-default  pt-90 pb-95"
+                  style={backgroundStyles}
+                >
+                  <h4 class="sasup-cta-title-4">
+                    Do you want to get in touch with us?
+                    <br />
+                    Do you have any question?
+                  </h4>
+                  <span class="sasup-cta-subtitle-4 mb-30">
+                    We implore you to try out school solution without stress
+                  </span>
+                  <a href="/contact" class="sasup-hero-started-btn-4">
+                    <span>Contact Us</span>
                   </a>
                 </div>
               </div>
