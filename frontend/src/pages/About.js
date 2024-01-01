@@ -2,6 +2,10 @@ import React, { useEffect, useState } from "react";
 import back from "./breads.jpg";
 import Footer from "./Footer";
 import park from "./edu.PNG";
+import r1 from "./r1.jpg";
+import r2 from "./r2.jpg";
+import r3 from "./r3.jpg";
+import r4 from "./r4.jpg";
 const About = () => {
   const backgroundStyle = {
     backgroundImage: `url('/static/media/breads.png')`,
@@ -167,19 +171,13 @@ const About = () => {
                           class="service-left-2-thumb mb-30 wow fadeInUp"
                           data-wow-delay=".2s"
                         >
-                          <img
-                            src="assets/img/service/service_img_1.webp"
-                            alt="image not found"
-                          />
+                          <img src={r1} alt="image not found" />
                         </div>
                         <div
                           class="service-left-2-thumb mb-30 wow fadeInUp"
                           data-wow-delay=".6s"
                         >
-                          <img
-                            src="assets/img/service/service_img_2.webp"
-                            alt="image not found"
-                          />
+                          <img src={r2} alt="image not found" />
                         </div>
                       </div>
                     </div>
@@ -189,19 +187,13 @@ const About = () => {
                           class="service-left-2-thumb mb-30 wow fadeInUp"
                           data-wow-delay=".4s"
                         >
-                          <img
-                            src="assets/img/service/service_img_3.webp"
-                            alt="image not found"
-                          />
+                          <img src={r3} alt="image not found" />
                         </div>
                         <div
                           class="service-left-2-thumb mb-30 wow fadeInUp"
                           data-wow-delay=".8s"
                         >
-                          <img
-                            src="assets/img/service/service_img_4.webp"
-                            alt="image not found"
-                          />
+                          <img src={r4} alt="image not found" />
                         </div>
                       </div>
                     </div>
