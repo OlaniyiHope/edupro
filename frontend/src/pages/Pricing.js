@@ -49,19 +49,7 @@ const Pricing = () => {
               </div>
             </div>
             <div class="advanced-pricing-tab text-center">
-              <div class="d-inline-block p-rel advance-pricing-inline-content-2">
-                <div class="advanced-pricing-tab-key">
-                  <span class="advanced-pricing-tab-key-text">
-                    Save up to <span>20% on referring another school</span>
-                  </span>
-                  <div class="advanced-pricing-tab-key-shape">
-                    <img
-                      src="assets/img/shape/line_pricing.webp"
-                      alt="no image found"
-                    />
-                  </div>
-                </div>
-              </div>
+              <div class="d-inline-block p-rel advance-pricing-inline-content-2"></div>
             </div>
             <div class="advanced-pricing-widget-tab-content-wrapper-2">
               <div class="tab-content" id="myTabContent">
