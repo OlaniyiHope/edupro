@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
 import back from "./breads.jpg";
 import Footer from "./Footer";
+import park from "./edu.PNG";
 const About = () => {
   const backgroundStyle = {
-    backgroundImage: `url(${back})`,
+    backgroundImage: `url('/static/media/breads.png')`,
   };
   return (
     <>
@@ -517,8 +518,9 @@ const About = () => {
                   <div class="logo mb-20">
                     <a href="index-3.html">
                       <img
-                        src="assets/img/logo/logo.webp"
+                        src={park}
                         alt="image not found"
+                        style={{ width: "100px", height: "30px" }}
                       />
                     </a>
                   </div>

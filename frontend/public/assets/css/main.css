@@ -2037,6 +2037,7 @@ input:-ms-input-placeholder {
 @media (min-width: 992px) and (max-width: 1199px) {
   .breadcrumb-area {
     padding-top: 165px;
+    background-image: url('../../static//media//breads.png');
     padding-bottom: 117px;
   }
 }

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import park from "./edu.PNG";
+import park from "./white.png";
 const Footer = () => {
   return (
     <>
