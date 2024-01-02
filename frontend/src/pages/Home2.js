@@ -489,6 +489,12 @@ const Home2 = () => {
                             </span> */}
                             </div>
                             <div class="sasup-pricing-box-bottom-list-2">
+                              <h3
+                                class="single-pricing-amount"
+                                style={{ fontWeight: "700", fontSize: "20px" }}
+                              >
+                                Free
+                              </h3>
                               <ul>
                                 <li>
                                   <i class="fal fa-check"></i>
@@ -545,6 +551,12 @@ const Home2 = () => {
                               Per editor, per month
                             </span>
                           </div> */}
+                            <h3
+                              class="single-pricing-amount"
+                              style={{ fontSize: "20px", fontWeight: "700" }}
+                            >
+                              N500 / Per Child / Per term
+                            </h3>
                             <div class="sasup-pricing-box-bottom-list-2">
                               <ul>
                                 <li>
@@ -614,6 +626,12 @@ const Home2 = () => {
                             Per editor, per month
                           </span>
                         </div> */}
+                            <h3
+                              class="single-pricing-amount"
+                              style={{ fontSize: "20px", fontWeight: "700" }}
+                            >
+                              N1000 / Per Child / Per term
+                            </h3>
                             <div class="sasup-pricing-box-bottom-list-2">
                               <ul>
                                 <li>
