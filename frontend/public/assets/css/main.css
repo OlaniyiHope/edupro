@@ -2037,7 +2037,7 @@ input:-ms-input-placeholder {
 @media (min-width: 992px) and (max-width: 1199px) {
   .breadcrumb-area {
     padding-top: 165px;
-    background-image: url('../../static//media//breads.png');
+    background-image: url("../../static//media//breads.png");
     padding-bottom: 117px;
   }
 }
@@ -9765,7 +9765,7 @@ input:-ms-input-placeholder {
   color: var(--clr-common-white);
 }
 .sasup-pricing-box-2:hover .sasup-pricing-box-top-2 {
-  background: linear-gradient(180deg, #ff6d4d 0%, #ff4820 100%);
+  background: linear-gradient(180deg, #ffc107 0%, #ffc107 100%);
 }
 .sasup-pricing-box-2:hover .sasup-pricing-box-top-action-2 {
   border-color: var(--clr-common-white);
