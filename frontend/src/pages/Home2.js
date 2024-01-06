@@ -495,7 +495,7 @@ const Home2 = () => {
                                 class="single-pricing-amount"
                                 style={{ fontWeight: "700", fontSize: "20px " }}
                               >
-                                Free
+                                N300 / Per Child / Per term
                               </h3>
                               <ul>
                                 <li>
