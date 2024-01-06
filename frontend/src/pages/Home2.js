@@ -5,6 +5,7 @@ import back from "./outo.png";
 import backs from "./footimg.jpg";
 import pro from "./protwo.webp";
 import Footer from "./Footer";
+import "./style.css";
 const Home2 = () => {
   const backgroundStyle = {
     backgroundImage: `url(${back})`,
@@ -17,17 +18,18 @@ const Home2 = () => {
       <body>
         <main>
           <div
-            class="hero-area sasup-hero-height-4 p-rel bg-top-left d-flex align-items-center"
+            class="hero-area sasup-hero-height-4 p-rel bg-top-left d-flex align-items-center "
             // data-background="assets/img/bg/banner-1.webp"
             style={backgroundStyle}
           >
             <div class="hero-area-shape-wrap-4">
-              <div class="shape-1">
+              <div class="shape-1 drop">
                 <img
                   src="assets/img/icon/icon-4-1.webp"
                   alt="image not found"
                 />
               </div>
+
               <div class="shape-2">
                 <img
                   src="assets/img/icon/icon-4-4.webp"
@@ -310,7 +312,7 @@ const Home2 = () => {
                     <div class="sasup-service-box-content-4 text-center">
                       <h5 class="sasup-service-box-title-4">
                         <a href="/services" style={{ color: "#042954" }}>
-                          Lesson Notes and Attendance
+                          Lesson Notes
                         </a>
                       </h5>
                       <p
@@ -491,7 +493,7 @@ const Home2 = () => {
                             <div class="sasup-pricing-box-bottom-list-2">
                               <h3
                                 class="single-pricing-amount"
-                                style={{ fontWeight: "700", fontSize: "20px" }}
+                                style={{ fontWeight: "700", fontSize: "20px " }}
                               >
                                 Free
                               </h3>
