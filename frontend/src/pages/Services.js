@@ -80,9 +80,6 @@ const Services = () => {
                             Educational account management and Enrollment
                           </a>
                         </h4>
-                        <a href="service-details.html" class="read-more-btn">
-                          Read More<i class="fal fa-arrow-right"></i>
-                        </a>
                       </div>
                     </div>
                   </div>
@@ -102,9 +99,6 @@ const Services = () => {
                         <h4 class="sasup-feature-title">
                           <a href="service-details.html">Student Attendance</a>
                         </h4>
-                        <a href="service-details.html" class="read-more-btn">
-                          Read More<i class="fal fa-arrow-right"></i>
-                        </a>
                       </div>
                     </div>
                   </div>
@@ -126,9 +120,6 @@ const Services = () => {
                             Report card preparation
                           </a>
                         </h4>
-                        <a href="service-details.html" class="read-more-btn">
-                          Read More<i class="fal fa-arrow-right"></i>
-                        </a>
                       </div>
                     </div>
                   </div>
@@ -150,9 +141,6 @@ const Services = () => {
                             Online School fees Payment
                           </a>
                         </h4>
-                        <a href="service-details.html" class="read-more-btn">
-                          Read More<i class="fal fa-arrow-right"></i>
-                        </a>
                       </div>
                     </div>
                   </div>
@@ -170,11 +158,10 @@ const Services = () => {
                       </div>
                       <div class="sasup-feature-content">
                         <h4 class="sasup-feature-title">
-                          <a href="service-details.html">Online Exams</a>
+                          <a href="service-details.html">
+                            Online Exams and OSM(Onscreen marking)
+                          </a>
                         </h4>
-                        <a href="service-details.html" class="read-more-btn">
-                          Read More<i class="fal fa-arrow-right"></i>
-                        </a>
                       </div>
                     </div>
                   </div>
@@ -194,9 +181,6 @@ const Services = () => {
                         <h4 class="sasup-feature-title">
                           <a href="service-details.html">Lesson Notes</a>
                         </h4>
-                        <a href="service-details.html" class="read-more-btn">
-                          Read More<i class="fal fa-arrow-right"></i>
-                        </a>
                       </div>
                     </div>
                   </div>
@@ -240,7 +224,7 @@ const Services = () => {
                     data-wow-delay=".2s"
                   >
                     <div class="logo mb-20">
-                      <a href="index-3.html">
+                      <a href="/">
                         <img
                           src={park}
                           alt="image not found"
@@ -360,38 +344,32 @@ const Services = () => {
                         <ul>
                           <li></li>
                           <li>
-                            <a href="service.html" style={{ color: "#042954" }}>
+                            <a href="/" style={{ color: "#042954" }}>
                               Home
                             </a>
                           </li>
                           <li>
-                            <a href="about.html" style={{ color: "#042954" }}>
+                            <a href="/about" style={{ color: "#042954" }}>
                               About
                             </a>
                           </li>
                           <li>
-                            <a
-                              href="service-details.html"
-                              style={{ color: "#042954" }}
-                            >
+                            <a href="/pricing" style={{ color: "#042954" }}>
                               Pricing
                             </a>
                           </li>
                           <li>
-                            <a href="about.html" style={{ color: "#042954" }}>
+                            <a href="/services" style={{ color: "#042954" }}>
                               Services
                             </a>
                           </li>
                           <li>
-                            <a
-                              href="portfolio.html"
-                              style={{ color: "#042954" }}
-                            >
+                            <a href="/" style={{ color: "#042954" }}>
                               Team
                             </a>
                           </li>
                           <li>
-                            <a href="about.html" style={{ color: "#042954" }}>
+                            <a href="/contact" style={{ color: "#042954" }}>
                               Contact Us
                             </a>
                           </li>
@@ -407,17 +385,17 @@ const Services = () => {
                         <ul>
                           <li></li>
                           <li>
-                            <a href="about.html" style={{ color: "#042954" }}>
+                            <a href="/" style={{ color: "#042954" }}>
                               Privacy policy
                             </a>
                           </li>
                           <li>
-                            <a href="service.html" style={{ color: "#042954" }}>
+                            <a href="/" style={{ color: "#042954" }}>
                               Terms
                             </a>
                           </li>
                           <li>
-                            <a href="about.html" style={{ color: "#042954" }}>
+                            <a href="/" style={{ color: "#042954" }}>
                               Help
                             </a>
                           </li>

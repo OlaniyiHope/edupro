@@ -8,6 +8,8 @@ import Contact from "./pages/Contact";
 import Pricing from "./pages/Pricing";
 import Terms from "./pages/Terms";
 import Login from "./pages/Login";
+import Test from "./pages/Test";
+import reviews from "./data";
 
 const App = () => {
   return (
@@ -22,6 +24,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/terms" element={<Terms />} />
+          <Route path="/terms" element={<Test reviews={reviews} />} />
         </Routes>
       </BrowserRouter>
     </>

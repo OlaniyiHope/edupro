@@ -201,7 +201,7 @@ const Contact = () => {
                   data-wow-delay=".2s"
                 >
                   <div class="logo mb-20">
-                    <a href="index-3.html">
+                    <a href="/">
                       <img
                         src={park}
                         alt="image not found"
@@ -321,35 +321,32 @@ const Contact = () => {
                       <ul>
                         <li></li>
                         <li>
-                          <a href="service.html" style={{ color: "#042954" }}>
+                          <a href="/" style={{ color: "#042954" }}>
                             Home
                           </a>
                         </li>
                         <li>
-                          <a href="about.html" style={{ color: "#042954" }}>
+                          <a href="/about" style={{ color: "#042954" }}>
                             About
                           </a>
                         </li>
                         <li>
-                          <a
-                            href="service-details.html"
-                            style={{ color: "#042954" }}
-                          >
+                          <a href="/pricing" style={{ color: "#042954" }}>
                             Pricing
                           </a>
                         </li>
                         <li>
-                          <a href="about.html" style={{ color: "#042954" }}>
+                          <a href="/services" style={{ color: "#042954" }}>
                             Services
                           </a>
                         </li>
                         <li>
-                          <a href="portfolio.html" style={{ color: "#042954" }}>
+                          <a href="/" style={{ color: "#042954" }}>
                             Team
                           </a>
                         </li>
                         <li>
-                          <a href="about.html" style={{ color: "#042954" }}>
+                          <a href="/contact" style={{ color: "#042954" }}>
                             Contact Us
                           </a>
                         </li>
@@ -365,17 +362,17 @@ const Contact = () => {
                       <ul>
                         <li></li>
                         <li>
-                          <a href="about.html" style={{ color: "#042954" }}>
+                          <a href="/" style={{ color: "#042954" }}>
                             Privacy policy
                           </a>
                         </li>
                         <li>
-                          <a href="service.html" style={{ color: "#042954" }}>
+                          <a href="/" style={{ color: "#042954" }}>
                             Terms
                           </a>
                         </li>
                         <li>
-                          <a href="about.html" style={{ color: "#042954" }}>
+                          <a href="/" style={{ color: "#042954" }}>
                             Help
                           </a>
                         </li>
