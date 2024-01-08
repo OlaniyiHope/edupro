@@ -192,7 +192,7 @@ const Footer = () => {
               </div>
               <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                 <div class="sasup-copyright-menu-link-4 text-end">
-                  <a href="/term">Terms & Conditions</a>
+                  <a href="/terms">Terms & Conditions</a>
                   <a href="/privacy">Privacy Policy</a>
                   <a href="/help">Help</a>
                 </div>

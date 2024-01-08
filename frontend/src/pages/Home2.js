@@ -6,6 +6,7 @@ import backs from "./footimg.jpg";
 import pro from "./protwo.webp";
 import Footer from "./Footer";
 import "./style.css";
+import Test from "./Test";
 const Home2 = () => {
   const backgroundStyle = {
     backgroundImage: `url(${back})`,
@@ -65,12 +66,12 @@ const Home2 = () => {
                       Welcome to Edu Pro
                     </span>
                     <h3 class="sasup-hero-title-4" style={{ color: "#ffc107" }}>
-                      Take your <br />
-                      school
-                      <br /> to the next level
+                      Your trusted <br />
+                      school management
+                      <br /> solution
                     </h3>
                     <p class="sasup-hero-text-4">
-                      Your solution to school management hurdles. It has
+                      We effortlessly manage your school hurdles. We have
                       encompassing features that makes school administration
                       stress-free.
                     </p>
@@ -276,7 +277,7 @@ const Home2 = () => {
                     <div class="sasup-service-box-content-4 text-center">
                       <h5 class="sasup-service-box-title-4">
                         <a href="/services" style={{ color: "#042954" }}>
-                          Online Exams
+                          Online Exams and OSM(On screen marking)
                         </a>
                       </h5>
                       <p
@@ -285,7 +286,8 @@ const Home2 = () => {
                       >
                         Bulk exams can be set for different classes and time
                         frame can be fixed. Online exams are uploaded to the
-                        result portal immediately.
+                        result portal immediately. OSM solution is available to
+                        mark Answer Scripts and assignments for your student
                       </p>
                       <a
                         href="/services"
@@ -516,6 +518,18 @@ const Home2 = () => {
                                     Report Card Preparation
                                   </span>
                                 </li>
+                                <li>
+                                  <i class="fal fa-check"></i>
+                                  <span class="price-feature-text">
+                                    Generate Payment Receipt
+                                  </span>
+                                </li>
+                                <li>
+                                  <i class="fal fa-check"></i>
+                                  <span class="price-feature-text">
+                                    Online Exam
+                                  </span>
+                                </li>
                               </ul>
                             </div>
                           </div>
@@ -589,6 +603,18 @@ const Home2 = () => {
                                   <i class="fal fa-check"></i>
                                   <span class="price-feature-text">
                                     Online Exam
+                                  </span>
+                                </li>
+                                <li>
+                                  <i class="fal fa-check"></i>
+                                  <span class="price-feature-text">
+                                    Lesson Notes
+                                  </span>
+                                </li>
+                                <li>
+                                  <i class="fal fa-check"></i>
+                                  <span class="price-feature-text">
+                                    Student Attendance
                                   </span>
                                 </li>
                               </ul>
@@ -676,6 +702,18 @@ const Home2 = () => {
                                   <i class="fal fa-check"></i>
                                   <span class="price-feature-text">
                                     Student Attendance
+                                  </span>
+                                </li>
+                                <li>
+                                  <i class="fal fa-check"></i>
+                                  <span class="price-feature-text">
+                                    OSM(On Screen Marking)
+                                  </span>
+                                </li>
+                                <li>
+                                  <i class="fal fa-check"></i>
+                                  <span class="price-feature-text">
+                                    Intuitive grading
                                   </span>
                                 </li>
                               </ul>

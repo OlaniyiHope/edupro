@@ -46,15 +46,14 @@ const Pricing = () => {
                   <h3
                     class="sasup-section-heading-5-title"
                     data-wow-delay=".2s"
+                    style={{ color: "#042954" }}
                   >
                     Edu Pro <span>Termly </span>Price
                   </h3>
                 </div>
               </div>
             </div>
-            <div class="advanced-pricing-tab text-center">
-              <div class="d-inline-block p-rel advance-pricing-inline-content-2"></div>
-            </div>
+
             <div class="advanced-pricing-widget-tab-content-wrapper-2">
               <div class="tab-content" id="myTabContent">
                 <div
@@ -93,63 +92,12 @@ const Pricing = () => {
                         </span> */}
                           </div>
                           <div class="sasup-pricing-box-bottom-list-2">
-                            <ul>
-                              <li>
-                                <i class="fal fa-check"></i>
-                                <span class="price-feature-text">
-                                  Educational account management
-                                </span>
-                              </li>
-                              <li>
-                                <i class="fal fa-check"></i>
-                                <span class="price-feature-text">
-                                  Student Enrollment
-                                </span>
-                              </li>
-                              <li>
-                                <i class="fal fa-check"></i>
-                                <span class="price-feature-text">
-                                  Report Card Preparation
-                                </span>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                      <div class="sasup-pricing-box-2 mb-30">
-                        <div class="sasup-pricing-box-top-2 ">
-                          <div class="sasup-pricing-box-hover-bg">
-                            <img
-                              src="assets/img/shape/shape_circle_price.webp"
-                              alt="image not found"
-                            />
-                          </div>
-                          <span class="sasup-pricing-box-top-subtitle-2">
-                            STANDARD
-                          </span>
-
-                          <p class="sasup-pricing-box-top-desc-2">
-                            For access to more features
-                          </p>
-                          <a
-                            href="/contact"
-                            class="sasup-pricing-box-top-action-2 active"
-                          >
-                            Get Started
-                          </a>
-                        </div>
-                        <div class="sasup-pricing-box-bottom-2">
-                          {/* <div class="sasup-pricing-box-bottom-title-wrap-2">
-                        <h4 class="sasup-pricing-box-bottom-price-2">
-                          $40
-                        </h4>
-                        <span class="sasup-pricing-box-bottom-subtitle-2">
-                          Per editor, per month
-                        </span>
-                      </div> */}
-                          <div class="sasup-pricing-box-bottom-list-2">
+                            <h3
+                              class="single-pricing-amount"
+                              style={{ fontWeight: "700", fontSize: "20px " }}
+                            >
+                              N300 / Per Child / Per term
+                            </h3>
                             <ul>
                               <li>
                                 <i class="fal fa-check"></i>
@@ -196,7 +144,7 @@ const Pricing = () => {
                             />
                           </div>
                           <span class="sasup-pricing-box-top-subtitle-2">
-                            PREMIUM
+                            STANDARD
                           </span>
 
                           <p class="sasup-pricing-box-top-desc-2">
@@ -211,13 +159,19 @@ const Pricing = () => {
                         </div>
                         <div class="sasup-pricing-box-bottom-2">
                           {/* <div class="sasup-pricing-box-bottom-title-wrap-2">
-                      <h4 class="sasup-pricing-box-bottom-price-2">
-                        $40
-                      </h4>
-                      <span class="sasup-pricing-box-bottom-subtitle-2">
-                        Per editor, per month
-                      </span>
-                    </div> */}
+                        <h4 class="sasup-pricing-box-bottom-price-2">
+                          $40
+                        </h4>
+                        <span class="sasup-pricing-box-bottom-subtitle-2">
+                          Per editor, per month
+                        </span>
+                      </div> */}
+                          <h3
+                            class="single-pricing-amount"
+                            style={{ fontSize: "20px", fontWeight: "700" }}
+                          >
+                            N500 / Per Child / Per term
+                          </h3>
                           <div class="sasup-pricing-box-bottom-list-2">
                             <ul>
                               <li>
@@ -260,6 +214,105 @@ const Pricing = () => {
                                 <i class="fal fa-check"></i>
                                 <span class="price-feature-text">
                                   Student Attendance
+                                </span>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                      <div class="sasup-pricing-box-2 mb-30">
+                        <div class="sasup-pricing-box-top-2 ">
+                          <div class="sasup-pricing-box-hover-bg">
+                            <img
+                              src="assets/img/shape/shape_circle_price.webp"
+                              alt="image not found"
+                            />
+                          </div>
+                          <span class="sasup-pricing-box-top-subtitle-2">
+                            PREMIUM
+                          </span>
+
+                          <p class="sasup-pricing-box-top-desc-2">
+                            For access to more features
+                          </p>
+                          <a
+                            href="/contact"
+                            class="sasup-pricing-box-top-action-2 active"
+                          >
+                            Get Started
+                          </a>
+                        </div>
+                        <div class="sasup-pricing-box-bottom-2">
+                          {/* <div class="sasup-pricing-box-bottom-title-wrap-2">
+                      <h4 class="sasup-pricing-box-bottom-price-2">
+                        $40
+                      </h4>
+                      <span class="sasup-pricing-box-bottom-subtitle-2">
+                        Per editor, per month
+                      </span>
+                    </div> */}
+                          <h3
+                            class="single-pricing-amount"
+                            style={{ fontSize: "20px", fontWeight: "700" }}
+                          >
+                            N1000 / Per Child / Per term
+                          </h3>
+                          <div class="sasup-pricing-box-bottom-list-2">
+                            <ul>
+                              <li>
+                                <i class="fal fa-check"></i>
+                                <span class="price-feature-text">
+                                  Educational account management
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fal fa-check"></i>
+                                <span class="price-feature-text">
+                                  Student Enrollment
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fal fa-check"></i>
+                                <span class="price-feature-text">
+                                  Report Card Preparation
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fal fa-check"></i>
+                                <span class="price-feature-text">
+                                  Generate Payment Receipt
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fal fa-check"></i>
+                                <span class="price-feature-text">
+                                  Online Exam
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fal fa-check"></i>
+                                <span class="price-feature-text">
+                                  Lesson Notes
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fal fa-check"></i>
+                                <span class="price-feature-text">
+                                  Student Attendance
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fal fa-check"></i>
+                                <span class="price-feature-text">
+                                  OSM(On Screen Marking)
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fal fa-check"></i>
+                                <span class="price-feature-text">
+                                  Intuitive grading
                                 </span>
                               </li>
                             </ul>
@@ -821,7 +874,7 @@ const Pricing = () => {
                   data-wow-delay=".2s"
                 >
                   <div class="logo mb-20">
-                    <a href="index-3.html">
+                    <a href="/">
                       <img
                         src={park}
                         alt="image not found"
@@ -941,35 +994,32 @@ const Pricing = () => {
                       <ul>
                         <li></li>
                         <li>
-                          <a href="service.html" style={{ color: "#042954" }}>
+                          <a href="/" style={{ color: "#042954" }}>
                             Home
                           </a>
                         </li>
                         <li>
-                          <a href="about.html" style={{ color: "#042954" }}>
+                          <a href="/about" style={{ color: "#042954" }}>
                             About
                           </a>
                         </li>
                         <li>
-                          <a
-                            href="service-details.html"
-                            style={{ color: "#042954" }}
-                          >
+                          <a href="/pricing" style={{ color: "#042954" }}>
                             Pricing
                           </a>
                         </li>
                         <li>
-                          <a href="about.html" style={{ color: "#042954" }}>
+                          <a href="/services" style={{ color: "#042954" }}>
                             Services
                           </a>
                         </li>
                         <li>
-                          <a href="portfolio.html" style={{ color: "#042954" }}>
+                          <a href="/" style={{ color: "#042954" }}>
                             Team
                           </a>
                         </li>
                         <li>
-                          <a href="about.html" style={{ color: "#042954" }}>
+                          <a href="/contact" style={{ color: "#042954" }}>
                             Contact Us
                           </a>
                         </li>
@@ -985,17 +1035,17 @@ const Pricing = () => {
                       <ul>
                         <li></li>
                         <li>
-                          <a href="about.html" style={{ color: "#042954" }}>
+                          <a href="/" style={{ color: "#042954" }}>
                             Privacy policy
                           </a>
                         </li>
                         <li>
-                          <a href="service.html" style={{ color: "#042954" }}>
+                          <a href="/" style={{ color: "#042954" }}>
                             Terms
                           </a>
                         </li>
                         <li>
-                          <a href="about.html" style={{ color: "#042954" }}>
+                          <a href="/" style={{ color: "#042954" }}>
                             Help
                           </a>
                         </li>
