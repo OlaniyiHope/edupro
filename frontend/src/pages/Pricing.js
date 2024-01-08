@@ -694,11 +694,8 @@ const Pricing = () => {
                       >
                         <div class="sasup-accordion-desc">
                           <p>
-                            A School Portal that enhances the Schools
-                            Administrations to not only work more efficiently
-                            but effortlessly as well. Our platform is extremely
-                            user friendly and has the embodiment of
-                            proffesionalism
+                            Our prices are fixed it is only negotiable on
+                            referring more schools to use the solution
                           </p>
                         </div>
                       </div>
