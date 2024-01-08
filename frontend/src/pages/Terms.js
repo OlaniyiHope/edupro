@@ -10,11 +10,11 @@ const Terms = () => {
             <div class="row justify-content-center">
               <div class="col-xl-7 col-lg-8">
                 <div class="df-section-wrapper text-center">
-                  <h2 class="section__title">Sasup Terms & Conditions</h2>
+                  <h2 class="section__title">Edu Pro Terms & Conditions</h2>
                   <p class="mt-25">
-                    Welcome to Sasup! We are delighted to have you as a valued
-                    customer. Before you proceed with our services, please take
-                    a moment to review our Terms & Conditions.
+                    Welcome to Edu Pro! Thank you for choosing our product and
+                    services. By using our Services, you are agreeing to these
+                    terms of use. Please read them carefully.
                   </p>
                 </div>
               </div>
@@ -28,82 +28,111 @@ const Terms = () => {
               <div class="col-xl-10">
                 <div class="sasup-policy__wrapper sasup-policy__translate p-relative z-index-1">
                   <div class="sasup-policy__item mb-35">
-                    <h3 class="sasup-policy__title">Acceptance of Terms</h3>
+                    <h3 class="sasup-policy__title">Using our service</h3>
                     <p>
-                      By accessing and using services, including our website and
-                      related platforms, you agree to comply with and be bound
-                      by these Terms & Conditions. If you do not agree with
-                      these terms, please do not use our services.
+                      Don’t misuse our Services. For example, don’t interfere
+                      with our Services or try to access them using a method
+                      other than the interface and the instructions that we
+                      provide. We may suspend or stop providing our Services to
+                      you if you do not comply with our terms or policies or if
+                      we are investigating suspected misconduct.
                     </p>
                   </div>
 
                   <div class="sasup-policy__item mb-35">
-                    <h3 class="sasup-policy__title">Services</h3>
                     <p>
-                      Sasup provides services for residential and commercial
-                      properties. Our services include [describe the range of
-                      services you provide]. We strive to deliver high-quality
-                      workmanship, but we do not guarantee that our services
-                      will be error-free or uninterrupted.
+                      Using our Services does not give you ownership of any
+                      intellectual property rights in our Services or the
+                      content you access. You may not use content from our
+                      Services unless you obtain permission from its owner.
+                      These terms do not grant you the right to use any branding
+                      or logos used in our Services. Dont remove, obscure, or
+                      alter any legal notices displayed in or along with our
+                      Services.
                     </p>
                   </div>
 
+                  <div class="sasup-policy__item mb-35">
+                    <p>
+                      Our Services display some content that is not Edu Pro.
+                      This content is the sole responsibility of the entity that
+                      makes it available. We may review content to determine
+                      whether it is illegal or violates our policies, and we may
+                      remove or refuse to display content that we reasonably
+                      believe violates our policies or the law. But that does
+                      not necessarily mean that we review content, so please
+                      dont assume that we do.{" "}
+                    </p>
+                    <p>
+                      In connection with your use of the Services, we may send
+                      you service announcements, administrative messages, and
+                      other information. You may opt out of some of those
+                      communications if you like.
+                    </p>
+                  </div>
+
+                  <div class="sasup-policy__item mb-35">
+                    <h3 class="sasup-policy__title">Your school portal</h3>
+                    <p>
+                      You will need a Edu Pro Account in order to use most of
+                      our services. You may create your own Edu Pro Account, or
+                      your Edu Pro Account may be assigned to you by an
+                      administrator, such as an employer from an educational
+                      institution with which you are registered as a student, a
+                      staff, or a Parent/Guardian of a student. If you are using
+                      a Edu Pro Account created for you by an administrator,
+                      different or additional terms may apply and your
+                      administrator may be able to access or disable your
+                      account. If you learn of any unauthorized use of your
+                      password or account, contact us immediately.
+                    </p>
+                  </div>
                   <div class="sasup-policy__item mb-35">
                     <h3 class="sasup-policy__title">
-                      Booking and Appointments
+                      Privacy and copyright protection
                     </h3>
                     <p>
-                      To book an appointment, you must provide accurate and
-                      complete information. We reserve the right to reschedule
-                      or cancel appointments due to unforeseen circumstances. If
-                      you need to reschedule or cancel an appointment, please
-                      notify us within a reasonable timeframe.
-                    </p>
-                  </div>
-
-                  <div class="sasup-policy__item mb-35">
-                    <h3 class="sasup-policy__title">Payment</h3>
-                    <p>
-                      Payment for our services is due at the time of completion.
-                      We accept [list accepted payment methods]. If payment is
-                      not received, we may withhold completed services until
-                      payment is made.
+                      Edu Pro privacy policies explain how we treat your
+                      personal data and protect your privacy when you use our
+                      Services. By using our Services, you agree that Edu Pro
+                      can use such data in accordance with our privacy policies.
                     </p>
                   </div>
                   <div class="sasup-policy__item mb-35">
-                    <h3 class="sasup-policy__title">Liability</h3>
+                    <h3 class="sasup-policy__title">
+                      Your content in our services
+                    </h3>
                     <p>
-                      Sasup is not liable for any damage, injury, or loss
-                      resulting from the use of our services, except in cases of
-                      gross negligence or intentional misconduct. It's your
-                      responsibility to maintain the safety of your property
-                      before and after our services
+                      The use of our service might sometimes demand that you
+                      submit your contents on our site. You retain ownership of
+                      any intellectual property rights that you hold in that
+                      content. In short, what belongs to you stays yours.
                     </p>
                   </div>
                   <div class="sasup-policy__item mb-35">
-                    <h3 class="sasup-policy__title">Intellectual Property</h3>
                     <p>
-                      All content and materials provided by Sasup, including but
-                      not limited to logos, images, and text, are protected by
-                      intellectual property laws and are owned by us.
+                      When you upload or otherwise submit content to our
+                      Services, you give Edu Pro a worldwide license to use,
+                      host, store, reproduce, modify, create derivative works
+                      (such as those resulting from translations, adaptations or
+                      other changes we make so that your content works better
+                      with our Services), communicate, publish, publicly
+                      perform, publicly display and distribute such content. The
+                      rights you grant in this license are for the limited
+                      purpose of operating, promoting, and improving our
+                      Services, and to develop new ones. This license continues
+                      even if you stop using our Services (for example, for a
+                      Poetry or Essay you submit in our online competitions).
+                      Make sure you have the necessary rights to grant us this
+                      license for any content that you submit to our Services.
                     </p>
-                  </div>
-                  <div class="sasup-policy__item mb-35">
-                    <h3 class="sasup-policy__title">Changes to Terms</h3>
                     <p>
-                      We may update these Terms & Conditions at any time. It's
-                      your responsibility to review these terms periodically.
-                      Continued use of our services after any changes indicates
-                      your acceptance of the updated terms.
+                      You can find more information about how Edu Pro uses and
+                      stores content in the privacy policy. If you submit
+                      feedback or suggestions about our Services, we may use
+                      your feedback or suggestions without obligation to you to
+                      improve our service.
                     </p>
-                    <ul>
-                      <li>Service Description</li>
-                      <li>Payment and Billing</li>
-                      <li>User Responsibilities</li>
-                      <li>Intellectual Property</li>
-                      <li>Privacy and Data Handling</li>
-                      <li>Dispute Resolution</li>
-                    </ul>
                   </div>
                   <div class="sasup-policy__contact">
                     <h3 class="sasup-policy__title sasup-policy__title-2">
@@ -116,30 +145,9 @@ const Terms = () => {
 
                     <ul>
                       <li>
-                        Email:{" "}
-                        <span>
-                          <a href="https://www.devsnews.com/cdn-cgi/l/email-protection#1f6c6a6f6f706d6b5f6c7e6c6a6f317c7072">
-                            <span
-                              class="__cf_email__"
-                              data-cfemail="fb888e8b8b94898fbb889a888e8bd5989496"
-                            >
-                              [email&#160;protected]
-                            </span>
-                          </a>
-                        </span>
+                        Email: <span>info@edupro.com.ng</span>
                       </li>
                     </ul>
-
-                    <div class="sasup-policy__address">
-                      <p class="mb-0">
-                        <a
-                          href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12797.802464900029!2d-83.13319788146339!3d36.68770817009452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885b172234e50f17%3A0x89b2bd832c241ea9!2sJonesville%2C%20VA%2024263%2C%20USA!5e0!3m2!1sen!2sbd!4v1692792416975!5m2!1sen!2sbd"
-                          target="_blank"
-                        >
-                          800S, Salt Lake City, USA
-                        </a>
-                      </p>
-                    </div>
                   </div>
                 </div>
               </div>
