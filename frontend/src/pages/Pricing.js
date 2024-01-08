@@ -716,11 +716,8 @@ const Pricing = () => {
                       >
                         <div class="sasup-accordion-desc">
                           <p>
-                            A School Portal that enhances the Schools
-                            Administrations to not only work more efficiently
-                            but effortlessly as well. Our platform is extremely
-                            user friendly and has the embodiment of
-                            proffesionalism
+                            You can either call us on our official number or
+                            send a message to our email...info@edupro.com.ng
                           </p>
                         </div>
                       </div>
