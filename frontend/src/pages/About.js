@@ -80,7 +80,7 @@ const About = () => {
                   <div class="feature-content-2">
                     <h4 class="feature-content-title-2">
                       <a style={{ color: "#042954" }}>
-                        Online Exams and OSM(On screen marking)
+                        Online Exams and marking
                       </a>
                     </h4>
                     <p
@@ -89,8 +89,7 @@ const About = () => {
                     >
                       Bulk exams can be set for different classes and time frame
                       can be fixed. Online exams are uploaded to the result
-                      portal immediately. OSM solution is available to mark
-                      Answer Scripts and assignments for your student
+                      portal immediately and can be marked
                     </p>
                   </div>
                   <div class="feature-action-2">
