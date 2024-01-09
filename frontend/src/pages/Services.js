@@ -159,7 +159,7 @@ const Services = () => {
                       <div class="sasup-feature-content">
                         <h4 class="sasup-feature-title">
                           <a href="service-details.html">
-                            Online Exams and OSM(Onscreen marking)
+                            Online Exams and Marking
                           </a>
                         </h4>
                       </div>
