@@ -277,7 +277,7 @@ const Home2 = () => {
                     <div class="sasup-service-box-content-4 text-center">
                       <h5 class="sasup-service-box-title-4">
                         <a href="/services" style={{ color: "#042954" }}>
-                          Online Exams and OSM(On screen marking)
+                          Online Exams and marking
                         </a>
                       </h5>
                       <p
@@ -286,8 +286,7 @@ const Home2 = () => {
                       >
                         Bulk exams can be set for different classes and time
                         frame can be fixed. Online exams are uploaded to the
-                        result portal immediately. OSM solution is available to
-                        mark Answer Scripts and assignments for your student
+                        result portal immediately and can be marked
                       </p>
                       <a
                         href="/services"
