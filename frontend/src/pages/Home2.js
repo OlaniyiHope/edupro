@@ -706,7 +706,7 @@ const Home2 = () => {
                                 <li>
                                   <i class="fal fa-check"></i>
                                   <span class="price-feature-text">
-                                    OSM(On Screen Marking)
+                                    Marking
                                   </span>
                                 </li>
                                 <li>
