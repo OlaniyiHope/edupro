@@ -75,8 +75,11 @@ const Home2 = () => {
                       encompassing features that makes school administration
                       stress-free.
                     </p>
-                    <a href="/contact" class="sasup-hero-started-btn-4">
+                    <a href="/contact" class="sasup-hero-started-btn-4" style={{marginLeft: "20px"}}>
                       <span>Get Started</span>
+                    </a>
+                          <a href="/contact" class="sasup-hero-started-btn-4">
+                      <span>Request Demo</span>
                     </a>
                   </div>
                 </div>
