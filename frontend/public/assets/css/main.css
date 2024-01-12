@@ -1808,7 +1808,7 @@ input:-ms-input-placeholder {
   --clr-body-gray-5: #8e8ca4;
   --clr-body-gray-6: #94999e;
   --clr-theme-1: #042954;
-  --clr-theme-2: #fb5050;
+  --clr-theme-2: #ffc107;
   --clr-theme-3: #0487ff;
   --clr-theme-4: #6a55ff;
   --clr-theme-5: #042954;
@@ -9615,7 +9615,7 @@ input:-ms-input-placeholder {
   background-color: #af85ff;
 }
 .single-price.item-4::after {
-  background-color: #fb5050;
+  background-color: #ffc107;
 }
 .single-price.item-2-4::after {
   background-color: #042954;
