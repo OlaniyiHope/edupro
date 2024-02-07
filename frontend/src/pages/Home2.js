@@ -1085,7 +1085,7 @@ const Home2 = () => {
                       Do you have any question?
                     </h4>
                     <span class="sasup-cta-subtitle-4 mb-30">
-                      We implore you to try out school solution without stress
+                      We implore you to try our school solution without stress
                     </span>
                     <a
                       href="/contact"
