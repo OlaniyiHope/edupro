@@ -96,7 +96,7 @@ const Pricing = () => {
                               class="single-pricing-amount"
                               style={{ fontWeight: "700", fontSize: "20px " }}
                             >
-                              N300 / Per Child / Per term
+                              N1000 / Per Child / Per term
                             </h3>
                             <ul>
                               <li>
@@ -170,7 +170,7 @@ const Pricing = () => {
                             class="single-pricing-amount"
                             style={{ fontSize: "20px", fontWeight: "700" }}
                           >
-                            N500 / Per Child / Per term
+                            N2000 / Per Child / Per term
                           </h3>
                           <div class="sasup-pricing-box-bottom-list-2">
                             <ul>
@@ -257,7 +257,7 @@ const Pricing = () => {
                             class="single-pricing-amount"
                             style={{ fontSize: "20px", fontWeight: "700" }}
                           >
-                            N1000 / Per Child / Per term
+                            N3000 / Per Child / Per term
                           </h3>
                           <div class="sasup-pricing-box-bottom-list-2">
                             <ul>
@@ -305,9 +305,7 @@ const Pricing = () => {
                               </li>
                               <li>
                                 <i class="fal fa-check"></i>
-                                <span class="price-feature-text">
-                                  Marking
-                                </span>
+                                <span class="price-feature-text">Marking</span>
                               </li>
                               <li>
                                 <i class="fal fa-check"></i>
