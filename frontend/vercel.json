@@ -1,5 +1,1 @@
-{
-  "rewrites": [
-    { "source": "/(.*)", "destination": "https://www.edupro.com.ng/$1"}
-  ]
-}
+
