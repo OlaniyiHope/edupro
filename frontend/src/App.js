@@ -11,6 +11,7 @@ import Login from "./pages/Login";
 import Test from "./pages/Test";
 import reviews from "./data";
 import Blog from "./pages/Blog";
+import Download from "./pages/Download";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
           <Route path="/login" element={<Login />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/download" element={<Download />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/terms" element={<Terms />} />
