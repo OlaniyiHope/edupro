@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+		<script type="text/javascript">
+			window.flatStyles = window.flatStyles || ''
+
+			window.lightspeedOptimizeStylesheet = function () {
+				const currentStylesheet = document.querySelector( '.tcb-lightspeed-style:not([data-ls-optimized])' )
+
+				if ( currentStylesheet ) {
+					try {
+						if ( currentStylesheet.sheet && currentStylesheet.sheet.cssRules ) {
+							if ( window.flatStyles ) {
+								if ( this.optimizing ) {
+									setTimeout( window.lightspeedOptimizeStylesheet.bind( this ), 24 )
+								} else {
+									this.optimizing = true;
+
+									let rulesIndex = 0;
+
+									while ( rulesIndex < currentStylesheet.sheet.cssRules.length ) {
+										const rule = currentStylesheet.sheet.cssRules[ rulesIndex ]
+										/* remove rules that already exist in the page */
+										if ( rule.type === CSSRule.STYLE_RULE && window.flatStyles.includes( `${rule.selectorText}{` ) ) {
+											currentStylesheet.sheet.deleteRule( rulesIndex )
+										} else {
+											rulesIndex ++
+										}
+									}
+									/* optimize, mark it such, move to the next file, append the styles we have until now */
+									currentStylesheet.setAttribute( 'data-ls-optimized', '1' )
+
+									window.flatStyles += currentStylesheet.innerHTML
+
+									this.optimizing = false
+								}
+							} else {
+								window.flatStyles = currentStylesheet.innerHTML
+								currentStylesheet.setAttribute( 'data-ls-optimized', '1' )
+							}
+						}
+					} catch ( error ) {
+						console.warn( error )
+					}
+
+					if ( currentStylesheet.parentElement.tagName !== 'HEAD' ) {
+						/* always make sure that those styles end up in the head */
+						const stylesheetID = currentStylesheet.id;
+						/**
+						 * make sure that there is only one copy of the css
+						 * e.g display CSS
+						 */
+						if ( ( ! stylesheetID || ( stylesheetID && ! document.querySelector( `head #${stylesheetID}` ) ) ) ) {
+							document.head.prepend( currentStylesheet )
+						} else {
+							currentStylesheet.remove();
+						}
+					}
+				}
+			}
+
+			window.lightspeedOptimizeFlat = function ( styleSheetElement ) {
+				if ( document.querySelectorAll( 'link[href*="thrive_flat.css"]' ).length > 1 ) {
+					/* disable this flat if we already have one */
+					styleSheetElement.setAttribute( 'disabled', true )
+				} else {
+					/* if this is the first one, make sure he's in head */
+					if ( styleSheetElement.parentElement.tagName !== 'HEAD' ) {
+						document.head.append( styleSheetElement )
+					}
+				}
+			}
+		</script>
+		<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	
+	<title>Linux - CyberHoot Cyber Library</title>
+	<meta name="description" content="Linux is an open-source operating system (OS), the software that manages a system’s hardware and resources memory and storage." />
+	<link rel="canonical" href="https://cyberhoot.com/cybrary/linux/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Linux - CyberHoot Cyber Library" />
+	<meta property="og:description" content="Linux is an open-source operating system (OS), the software that manages a system’s hardware and resources memory and storage." />
+	<meta property="og:url" content="https://cyberhoot.com/cybrary/linux/" />
+	<meta property="og:site_name" content="CyberHoot" />
+	<meta property="article:publisher" content="https://www.facebook.com/CyberHooter" />
+	<meta property="article:published_time" content="2020-11-18T17:46:48+00:00" />
+	<meta property="article:modified_time" content="2023-02-14T20:56:44+00:00" />
+	<meta property="og:image" content="https://cyberhoot.com/wp-content/uploads/2020/11/2.jpg" />
+	<meta property="og:image:width" content="1344" />
+	<meta property="og:image:height" content="742" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="author" content="Craig Taylor" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:creator" content="@cyberhoot" />
+	<meta name="twitter:site" content="@cyberhoot" />
+	<meta name="twitter:label1" content="Written by" />
+	<meta name="twitter:data1" content="Craig Taylor" />
+	<meta name="twitter:label2" content="Est. reading time" />
+	<meta name="twitter:data2" content="4 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://cyberhoot.com/cybrary/linux/#article","isPartOf":{"@id":"https://cyberhoot.com/cybrary/linux/"},"author":{"name":"Craig Taylor","@id":"https://cyberhoot.com/#/schema/person/fc24ea80247350dd2ce8312aa195e0aa"},"headline":"Linux","datePublished":"2020-11-18T17:46:48+00:00","dateModified":"2023-02-14T20:56:44+00:00","mainEntityOfPage":{"@id":"https://cyberhoot.com/cybrary/linux/"},"wordCount":725,"publisher":{"@id":"https://cyberhoot.com/#organization"},"image":{"@id":"https://cyberhoot.com/cybrary/linux/#primaryimage"},"thumbnailUrl":"https://cyberhoot.com/wp-content/uploads/2020/11/2.jpg","keywords":["Cybrary","Linux","OperatingSystem","OS"],"articleSection":["Cybrary"],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://cyberhoot.com/cybrary/linux/","url":"https://cyberhoot.com/cybrary/linux/","name":"Linux - CyberHoot Cyber Library","isPartOf":{"@id":"https://cyberhoot.com/#website"},"primaryImageOfPage":{"@id":"https://cyberhoot.com/cybrary/linux/#primaryimage"},"image":{"@id":"https://cyberhoot.com/cybrary/linux/#primaryimage"},"thumbnailUrl":"https://cyberhoot.com/wp-content/uploads/2020/11/2.jpg","datePublished":"2020-11-18T17:46:48+00:00","dateModified":"2023-02-14T20:56:44+00:00","description":"Linux is an open-source operating system (OS), the software that manages a system’s hardware and resources memory and storage.","breadcrumb":{"@id":"https://cyberhoot.com/cybrary/linux/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://cyberhoot.com/cybrary/linux/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://cyberhoot.com/cybrary/linux/#primaryimage","url":"https://cyberhoot.com/wp-content/uploads/2020/11/2.jpg","contentUrl":"https://cyberhoot.com/wp-content/uploads/2020/11/2.jpg","width":1344,"height":742,"caption":"linux cybrary"},{"@type":"BreadcrumbList","@id":"https://cyberhoot.com/cybrary/linux/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://cyberhoot.com/"},{"@type":"ListItem","position":2,"name":"Linux"}]},{"@type":"WebSite","@id":"https://cyberhoot.com/#website","url":"https://cyberhoot.com/","name":"CyberHoot","description":"Become More Aware, Become More Secure","publisher":{"@id":"https://cyberhoot.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://cyberhoot.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://cyberhoot.com/#organization","name":"CyberHoot","url":"https://cyberhoot.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://cyberhoot.com/#/schema/logo/image/","url":"https://cyberhoot.com/wp-content/uploads/2020/09/ch-owl-only.png","contentUrl":"https://cyberhoot.com/wp-content/uploads/2020/09/ch-owl-only.png","width":212,"height":320,"caption":"CyberHoot"},"image":{"@id":"https://cyberhoot.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/CyberHooter","https://twitter.com/cyberhoot","https://www.linkedin.com/company/cyberhoot","https://www.youtube.com/channel/UCS6-BHm9j6cZ2UZ5p3_pHzg"]},{"@type":"Person","@id":"https://cyberhoot.com/#/schema/person/fc24ea80247350dd2ce8312aa195e0aa","name":"Craig Taylor","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://cyberhoot.com/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/c947586936b4937b849058a214a2cf6b?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/c947586936b4937b849058a214a2cf6b?s=96&d=mm&r=g","caption":"Craig Taylor"},"url":"https://cyberhoot.com/author/craig/"}]}</script>
+	
+
+
+<link rel='dns-prefetch' href='//maps.googleapis.com' />
+<link rel='dns-prefetch' href='//static.addtoany.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="CyberHoot &raquo; Feed" href="https://cyberhoot.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="CyberHoot &raquo; Comments Feed" href="https://cyberhoot.com/comments/feed/" />
+		
+							<script src="//www.googletagmanager.com/gtag/js?id=G-WG5ZRWE8BF"  data-cfasync="false" data-wpfc-render="false" type="text/javascript" async></script>
+			<script data-cfasync="false" data-wpfc-render="false" type="text/javascript">
+				var mi_version = '8.26.0';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+								var MonsterInsightsDefaultLocations = {"page_location":"https:\/\/cyberhoot.com\/cybrary\/linux\/"};
+				if ( typeof MonsterInsightsPrivacyGuardFilter === 'function' ) {
+					var MonsterInsightsLocations = (typeof MonsterInsightsExcludeQuery === 'object') ? MonsterInsightsPrivacyGuardFilter( MonsterInsightsExcludeQuery ) : MonsterInsightsPrivacyGuardFilter( MonsterInsightsDefaultLocations );
+				} else {
+					var MonsterInsightsLocations = (typeof MonsterInsightsExcludeQuery === 'object') ? MonsterInsightsExcludeQuery : MonsterInsightsDefaultLocations;
+				}
+
+								var disableStrs = [
+										'ga-disable-G-WG5ZRWE8BF',
+									];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if (__gtagTrackerIsOptedOut()) {
+					for (var index = 0; index < disableStrs.length; index++) {
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				if ('undefined' === typeof gaOptout) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.MonsterInsightsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if (mi_track_user) {
+					function __gtagDataLayer() {
+						dataLayer.push(arguments);
+					}
+
+					function __gtagTracker(type, name, parameters) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply(null, arguments);
+							return;
+						}
+
+						if (type === 'event') {
+														parameters.send_to = monsterinsights_frontend.v4_id;
+							var hookName = name;
+							if (typeof parameters['event_category'] !== 'undefined') {
+								hookName = parameters['event_category'] + ':' + name;
+							}
+
+							if (typeof MonsterInsightsDualTracker.trackers[hookName] !== 'undefined') {
+								MonsterInsightsDualTracker.trackers[hookName](parameters);
+							} else {
+								__gtagDataLayer('event', name, parameters);
+							}
+							
+						} else {
+							__gtagDataLayer.apply(null, arguments);
+						}
+					}
+
+					__gtagTracker('js', new Date());
+					__gtagTracker('set', {
+						'developer_id.dZGIzZG': true,
+											});
+					if ( MonsterInsightsLocations.page_location ) {
+						__gtagTracker('set', MonsterInsightsLocations);
+					}
+										__gtagTracker('config', 'G-WG5ZRWE8BF', {"forceSSL":"true","link_attribution":"true"} );
+															window.gtag = __gtagTracker;										(function () {
+						/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+						/* ga and __gaTracker compatibility shim. */
+						var noopfn = function () {
+							return null;
+						};
+						var newtracker = function () {
+							return new Tracker();
+						};
+						var Tracker = function () {
+							return null;
+						};
+						var p = Tracker.prototype;
+						p.get = noopfn;
+						p.set = noopfn;
+						p.send = function () {
+							var args = Array.prototype.slice.call(arguments);
+							args.unshift('send');
+							__gaTracker.apply(null, args);
+						};
+						var __gaTracker = function () {
+							var len = arguments.length;
+							if (len === 0) {
+								return;
+							}
+							var f = arguments[len - 1];
+							if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+								if ('send' === arguments[0]) {
+									var hitConverted, hitObject = false, action;
+									if ('event' === arguments[1]) {
+										if ('undefined' !== typeof arguments[3]) {
+											hitObject = {
+												'eventAction': arguments[3],
+												'eventCategory': arguments[2],
+												'eventLabel': arguments[4],
+												'value': arguments[5] ? arguments[5] : 1,
+											}
+										}
+									}
+									if ('pageview' === arguments[1]) {
+										if ('undefined' !== typeof arguments[2]) {
+											hitObject = {
+												'eventAction': 'page_view',
+												'page_path': arguments[2],
+											}
+										}
+									}
+									if (typeof arguments[2] === 'object') {
+										hitObject = arguments[2];
+									}
+									if (typeof arguments[5] === 'object') {
+										Object.assign(hitObject, arguments[5]);
+									}
+									if ('undefined' !== typeof arguments[1].hitType) {
+										hitObject = arguments[1];
+										if ('pageview' === hitObject.hitType) {
+											hitObject.eventAction = 'page_view';
+										}
+									}
+									if (hitObject) {
+										action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+										hitConverted = mapArgs(hitObject);
+										__gtagTracker('event', action, hitConverted);
+									}
+								}
+								return;
+							}
+
+							function mapArgs(args) {
+								var arg, hit = {};
+								var gaMap = {
+									'eventCategory': 'event_category',
+									'eventAction': 'event_action',
+									'eventLabel': 'event_label',
+									'eventValue': 'event_value',
+									'nonInteraction': 'non_interaction',
+									'timingCategory': 'event_category',
+									'timingVar': 'name',
+									'timingValue': 'value',
+									'timingLabel': 'event_label',
+									'page': 'page_path',
+									'location': 'page_location',
+									'title': 'page_title',
+									'referrer' : 'page_referrer',
+								};
+								for (arg in args) {
+																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+										hit[gaMap[arg]] = args[arg];
+									} else {
+										hit[arg] = args[arg];
+									}
+								}
+								return hit;
+							}
+
+							try {
+								f.hitCallback();
+							} catch (ex) {
+							}
+						};
+						__gaTracker.create = newtracker;
+						__gaTracker.getByName = newtracker;
+						__gaTracker.getAll = function () {
+							return [];
+						};
+						__gaTracker.remove = noopfn;
+						__gaTracker.loaded = true;
+						window['__gaTracker'] = __gaTracker;
+					})();
+									} else {
+										console.log("");
+					(function () {
+						function __gtagTracker() {
+							return null;
+						}
+
+						window['__gtagTracker'] = __gtagTracker;
+						window['gtag'] = __gtagTracker;
+					})();
+									}
+			</script>
+				
+		<link rel='stylesheet' id='a-z-listing-block-css' href='https://cyberhoot.com/wp-content/cache/asset-cleanup/css/item/a-z-listing__css__a-z-listing-default-css-v18f91af903b2bb56526d1c87b5832de226430456.css' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}</style>
+<style id='global-styles-inline-css' type='text/css'>body{--wp--preset--color--black:#000000;--wp--preset--color--cyan-bluish-gray:#abb8c3;--wp--preset--color--white:#ffffff;--wp--preset--color--pale-pink:#f78da7;--wp--preset--color--vivid-red:#cf2e2e;--wp--preset--color--luminous-vivid-orange:#ff6900;--wp--preset--color--luminous-vivid-amber:#fcb900;--wp--preset--color--light-green-cyan:#7bdcb5;--wp--preset--color--vivid-green-cyan:#00d084;--wp--preset--color--pale-cyan-blue:#8ed1fc;--wp--preset--color--vivid-cyan-blue:#0693e3;--wp--preset--color--vivid-purple:#9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple:linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan:linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange:linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red:linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray:linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum:linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple:linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux:linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk:linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean:linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass:linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight:linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small:13px;--wp--preset--font-size--medium:20px;--wp--preset--font-size--large:36px;--wp--preset--font-size--x-large:42px;--wp--preset--spacing--20:0.44rem;--wp--preset--spacing--30:0.67rem;--wp--preset--spacing--40:1rem;--wp--preset--spacing--50:1.5rem;--wp--preset--spacing--60:2.25rem;--wp--preset--spacing--70:3.38rem;--wp--preset--spacing--80:5.06rem;--wp--preset--shadow--natural:6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep:12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp:6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined:6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp:6px 6px 0px rgba(0, 0, 0, 1)}:where(.is-layout-flex){gap:.5em}:where(.is-layout-grid){gap:.5em}body .is-layout-flow>.alignleft{float:left;margin-inline-start:0;margin-inline-end:2em}body .is-layout-flow>.alignright{float:right;margin-inline-start:2em;margin-inline-end:0}body .is-layout-flow>.aligncenter{margin-left:auto!important;margin-right:auto!important}body .is-layout-constrained>.alignleft{float:left;margin-inline-start:0;margin-inline-end:2em}body .is-layout-constrained>.alignright{float:right;margin-inline-start:2em;margin-inline-end:0}body .is-layout-constrained>.aligncenter{margin-left:auto!important;margin-right:auto!important}body .is-layout-constrained>:where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width:var(--wp--style--global--content-size);margin-left:auto!important;margin-right:auto!important}body .is-layout-constrained>.alignwide{max-width:var(--wp--style--global--wide-size)}body .is-layout-flex{display:flex}body .is-layout-flex{flex-wrap:wrap;align-items:center}body .is-layout-flex>*{margin:0}body .is-layout-grid{display:grid}body .is-layout-grid>*{margin:0}:where(.wp-block-columns.is-layout-flex){gap:2em}:where(.wp-block-columns.is-layout-grid){gap:2em}:where(.wp-block-post-template.is-layout-flex){gap:1.25em}:where(.wp-block-post-template.is-layout-grid){gap:1.25em}.has-black-color{color:var(--wp--preset--color--black)!important}.has-cyan-bluish-gray-color{color:var(--wp--preset--color--cyan-bluish-gray)!important}.has-white-color{color:var(--wp--preset--color--white)!important}.has-pale-pink-color{color:var(--wp--preset--color--pale-pink)!important}.has-vivid-red-color{color:var(--wp--preset--color--vivid-red)!important}.has-luminous-vivid-orange-color{color:var(--wp--preset--color--luminous-vivid-orange)!important}.has-luminous-vivid-amber-color{color:var(--wp--preset--color--luminous-vivid-amber)!important}.has-light-green-cyan-color{color:var(--wp--preset--color--light-green-cyan)!important}.has-vivid-green-cyan-color{color:var(--wp--preset--color--vivid-green-cyan)!important}.has-pale-cyan-blue-color{color:var(--wp--preset--color--pale-cyan-blue)!important}.has-vivid-cyan-blue-color{color:var(--wp--preset--color--vivid-cyan-blue)!important}.has-vivid-purple-color{color:var(--wp--preset--color--vivid-purple)!important}.has-black-background-color{background-color:var(--wp--preset--color--black)!important}.has-cyan-bluish-gray-background-color{background-color:var(--wp--preset--color--cyan-bluish-gray)!important}.has-white-background-color{background-color:var(--wp--preset--color--white)!important}.has-pale-pink-background-color{background-color:var(--wp--preset--color--pale-pink)!important}.has-vivid-red-background-color{background-color:var(--wp--preset--color--vivid-red)!important}.has-luminous-vivid-orange-background-color{background-color:var(--wp--preset--color--luminous-vivid-orange)!important}.has-luminous-vivid-amber-background-color{background-color:var(--wp--preset--color--luminous-vivid-amber)!important}.has-light-green-cyan-background-color{background-color:var(--wp--preset--color--light-green-cyan)!important}.has-vivid-green-cyan-background-color{background-color:var(--wp--preset--color--vivid-green-cyan)!important}.has-pale-cyan-blue-background-color{background-color:var(--wp--preset--color--pale-cyan-blue)!important}.has-vivid-cyan-blue-background-color{background-color:var(--wp--preset--color--vivid-cyan-blue)!important}.has-vivid-purple-background-color{background-color:var(--wp--preset--color--vivid-purple)!important}.has-black-border-color{border-color:var(--wp--preset--color--black)!important}.has-cyan-bluish-gray-border-color{border-color:var(--wp--preset--color--cyan-bluish-gray)!important}.has-white-border-color{border-color:var(--wp--preset--color--white)!important}.has-pale-pink-border-color{border-color:var(--wp--preset--color--pale-pink)!important}.has-vivid-red-border-color{border-color:var(--wp--preset--color--vivid-red)!important}.has-luminous-vivid-orange-border-color{border-color:var(--wp--preset--color--luminous-vivid-orange)!important}.has-luminous-vivid-amber-border-color{border-color:var(--wp--preset--color--luminous-vivid-amber)!important}.has-light-green-cyan-border-color{border-color:var(--wp--preset--color--light-green-cyan)!important}.has-vivid-green-cyan-border-color{border-color:var(--wp--preset--color--vivid-green-cyan)!important}.has-pale-cyan-blue-border-color{border-color:var(--wp--preset--color--pale-cyan-blue)!important}.has-vivid-cyan-blue-border-color{border-color:var(--wp--preset--color--vivid-cyan-blue)!important}.has-vivid-purple-border-color{border-color:var(--wp--preset--color--vivid-purple)!important}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background:var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple)!important}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background:var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan)!important}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background:var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange)!important}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background:var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red)!important}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background:var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray)!important}.has-cool-to-warm-spectrum-gradient-background{background:var(--wp--preset--gradient--cool-to-warm-spectrum)!important}.has-blush-light-purple-gradient-background{background:var(--wp--preset--gradient--blush-light-purple)!important}.has-blush-bordeaux-gradient-background{background:var(--wp--preset--gradient--blush-bordeaux)!important}.has-luminous-dusk-gradient-background{background:var(--wp--preset--gradient--luminous-dusk)!important}.has-pale-ocean-gradient-background{background:var(--wp--preset--gradient--pale-ocean)!important}.has-electric-grass-gradient-background{background:var(--wp--preset--gradient--electric-grass)!important}.has-midnight-gradient-background{background:var(--wp--preset--gradient--midnight)!important}.has-small-font-size{font-size:var(--wp--preset--font-size--small)!important}.has-medium-font-size{font-size:var(--wp--preset--font-size--medium)!important}.has-large-font-size{font-size:var(--wp--preset--font-size--large)!important}.has-x-large-font-size{font-size:var(--wp--preset--font-size--x-large)!important}.wp-block-navigation a:where(:not(.wp-element-button)){color:inherit}:where(.wp-block-post-template.is-layout-flex){gap:1.25em}:where(.wp-block-post-template.is-layout-grid){gap:1.25em}:where(.wp-block-columns.is-layout-flex){gap:2em}:where(.wp-block-columns.is-layout-grid){gap:2em}.wp-block-pullquote{font-size:1.5em;line-height:1.6}</style>
+<link rel='stylesheet' id='widgetopts-styles-css' href='https://cyberhoot.com/wp-content/cache/asset-cleanup/css/item/widget-options__assets__css__widget-options-css-va97daa7b19668fbcfa8138d04bcf0428f09b6795.css' type='text/css' media='all' />
+<link rel='stylesheet' id='onepress-fonts-css' href='https://fonts.googleapis.com/css?family=Raleway%3A400%2C500%2C600%2C700%2C300%2C100%2C800%2C900%7COpen+Sans%3A400%2C300%2C300italic%2C400italic%2C600%2C600italic%2C700%2C700italic&#038;subset=latin%2Clatin-ext&#038;display=swap' type='text/css' media='all' />
+<link rel='stylesheet' id='onepress-animate-css' href='https://cyberhoot.com/wp-content/themes/onepress/assets/css/animate.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='onepress-fa-css' href='https://cyberhoot.com/wp-content/themes/onepress/assets/fontawesome-v6/css/all.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='onepress-fa-shims-css' href='https://cyberhoot.com/wp-content/themes/onepress/assets/fontawesome-v6/css/v4-shims.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='onepress-bootstrap-css' href='https://cyberhoot.com/wp-content/themes/onepress/assets/css/bootstrap.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='onepress-style-css' href='https://cyberhoot.com/wp-content/cache/asset-cleanup/css/item/onepress__style-css-v5f8f8a340ee5d74bcf39cf40d7b5ab81f3906f1f.css' type='text/css' media='all' />
+<style id='onepress-style-inline-css' type='text/css'>#main .video-section section.hero-slideshow-wrapper{background:transparent}.hero-slideshow-wrapper:after{position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgba(0,0,0,.3);display:block;content:""}#parallax-hero .jarallax-container .parallax-bg:before{background-color:rgba(0,0,0,.3)}.body-desktop .parallax-hero .hero-slideshow-wrapper:after{display:none!important}#parallax-hero>.parallax-bg::before{background-color:rgba(0,0,0,.3);opacity:1}.body-desktop .parallax-hero .hero-slideshow-wrapper:after{display:none!important}a,.screen-reader-text:hover,.screen-reader-text:active,.screen-reader-text:focus,.header-social a,.onepress-menu a:hover,.onepress-menu ul li a:hover,.onepress-menu li.onepress-current-item>a,.onepress-menu ul li.current-menu-item>a,.onepress-menu>li a.menu-actived,.onepress-menu.onepress-menu-mobile li.onepress-current-item>a,.site-footer a,.site-footer .footer-social a:hover,.site-footer .btt a:hover,.highlight,#comments .comment .comment-wrapper .comment-meta .comment-time:hover,#comments .comment .comment-wrapper .comment-meta .comment-reply-link:hover,#comments .comment .comment-wrapper .comment-meta .comment-edit-link:hover,.btn-theme-primary-outline,.sidebar .widget a:hover,.section-services .service-item .service-image i,.counter_item .counter__number,.team-member .member-thumb .member-profile a:hover,.icon-background-default{color:#6498ac}input[type="reset"],input[type="submit"],input[type="submit"],input[type="reset"]:hover,input[type="submit"]:hover,input[type="submit"]:hover .nav-links a:hover,.btn-theme-primary,.btn-theme-primary-outline:hover,.section-testimonials .card-theme-primary,.woocommerce #respond input#submit,.woocommerce a.button,.woocommerce button.button,.woocommerce input.button,.woocommerce button.button.alt,.pirate-forms-submit-button,.pirate-forms-submit-button:hover,input[type="reset"],input[type="submit"],input[type="submit"],.pirate-forms-submit-button,.contact-form div.wpforms-container-full .wpforms-form .wpforms-submit,.contact-form div.wpforms-container-full .wpforms-form .wpforms-submit:hover,.nav-links a:hover,.nav-links a.current,.nav-links .page-numbers:hover,.nav-links .page-numbers.current{background:#6498ac}.btn-theme-primary-outline,.btn-theme-primary-outline:hover,.pricing__item:hover,.section-testimonials .card-theme-primary,.entry-content blockquote{border-color:#6498ac}.feature-item:hover .icon-background-default{color:#1c3645}.gallery-carousel .g-item{padding:0 1px}.gallery-carousel-wrap{margin-left:-1px;margin-right:-1px}.gallery-grid .g-item,.gallery-masonry .g-item .inner{padding:1px}.gallery-grid-wrap,.gallery-masonry-wrap{margin-left:-1px;margin-right:-1px}.gallery-justified-wrap{margin-left:-2px;margin-right:-2px}</style>
+<link rel='stylesheet' id='onepress-gallery-lightgallery-css' href='https://cyberhoot.com/wp-content/cache/asset-cleanup/css/item/onepress__assets__css__lightgallery-css-v6339f4f6fc3c33cdb44d69ea68d1c2429c8a873f.css' type='text/css' media='all' />
+<link rel='stylesheet' id='meks-social-widget-css' href='https://cyberhoot.com/wp-content/cache/asset-cleanup/css/item/meks-smart-social-widget__css__style-css-v51093fd12217405d1e8f9ed8e42bb4879f31566f.css' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-css' href='https://cyberhoot.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://cyberhoot.com/wp-content/plugins/elementor/assets/css/frontend.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='swiper-css' href='https://cyberhoot.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-global-css' href='https://cyberhoot.com/wp-content/uploads/elementor/css/global.css' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-10351-css' href='https://cyberhoot.com/wp-content/uploads/elementor/css/post-10351.css' type='text/css' media='all' />
+<link rel='stylesheet' id='addtoany-css' href='https://cyberhoot.com/wp-content/plugins/add-to-any/addtoany.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='onepress-plus-style-css' href='https://cyberhoot.com/wp-content/cache/asset-cleanup/css/item/onepress-plus__onepress-plus-css-vb60e6522054055cb3751cc03945b64d3b7a5b966.css' type='text/css' media='all' />
+<link rel='stylesheet' id='eael-general-css' href='https://cyberhoot.com/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='sib-front-css-css' href='https://cyberhoot.com/wp-content/cache/asset-cleanup/css/item/mailin__css__mailin-front-css-vba0dc06521e9ce31b50dc9fd813bc1fc76e8da3d.css' type='text/css' media='all' />
+<script   type="text/javascript" src="https://cyberhoot.com/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
+<script   type="text/javascript" src="https://cyberhoot.com/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<script   type="text/javascript" src="https://cyberhoot.com/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js" id="monsterinsights-frontend-script-js"></script>
+<script   data-cfasync="false" data-wpfc-render="false" type="text/javascript" id='monsterinsights-frontend-script-js-extra'>/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[]","home_url":"https:\/\/cyberhoot.com","hash_tracking":"false","v4_id":"G-WG5ZRWE8BF"};/* ]]> */
+</script>
+<script   type="text/javascript" id="addtoany-core-js-before">
+/* <![CDATA[ */
+window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};
+/* ]]> */
+</script>
+<script   type="text/javascript" async src="https://static.addtoany.com/menu/page.js" id="addtoany-core-js"></script>
+<script   type="text/javascript" async src="https://cyberhoot.com/wp-content/plugins/add-to-any/addtoany.min.js" id="addtoany-jquery-js"></script>
+<script type="text/javascript" id="sib-front-js-js-extra">
+/* <![CDATA[ */
+var sibErrMsg = {"invalidMail":"Please fill out valid email address","requiredField":"Please fill out required fields","invalidDateFormat":"Please fill out valid date format","invalidSMSFormat":"Please fill out valid phone number"};
+var ajax_sib_front_object = {"ajax_url":"https:\/\/cyberhoot.com\/wp-admin\/admin-ajax.php","ajax_nonce":"4ed5126bf9","flag_url":"https:\/\/cyberhoot.com\/wp-content\/plugins\/mailin\/img\/flags\/"};
+/* ]]> */
+</script>
+<script   type="text/javascript" src="https://cyberhoot.com/wp-content/cache/asset-cleanup/js/item/mailin__js__mailin-front-js-v32459536e8b1a9d6714930c20b730a3dffff793c.js" id="sib-front-js-js"></script>
+<script type="text/javascript" id="whp1205front.js1145-js-extra">
+/* <![CDATA[ */
+var whp_local_data = {"add_url":"https:\/\/cyberhoot.com\/wp-admin\/post-new.php?post_type=event","ajaxurl":"https:\/\/cyberhoot.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script   type="text/javascript" src="https://cyberhoot.com/wp-content/cache/asset-cleanup/js/item/security-hardening__modules__js__front-js-v3987aacab6cf6a8cb1b2534b990bed06604d2abc.js" id="whp1205front.js1145-js"></script>
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<style>@media only screen and (min-width:1140px){.demo-btn>a{background-color:#6498ac;color:#fff!important;border-radius:5px;display:flex;margin:16px 20px;height:41px;align-items:center;padding-right:17px!important;cursor:pointer;padding-top:2px}}.search-form{display:inline-block}.search-field{border-radius:3px}.search-submit{margin:20px 0 0 0px!important;border-radius:5px!important;background-color:#6498ac!important;padding:6px 12px!important;font-size:18px!important;line-height:1.3856!important;text-transform:none!important;font-weight:normal!important}.demo-btn>.elementor-button-content-wrapper>.elementor-button-text{color:#FFFFFF!important}.demo-btn-2>a{color:#fff!important;cursor:pointer}div.back-to-top{display:none}</style>
+<script>!function(w,d){if(!w.rdt){var p=w.rdt=function(){p.sendEvent?p.sendEvent.apply(p,arguments):p.callQueue.push(arguments)};p.callQueue=[];var t=d.createElement("script");t.src="https://www.redditstatic.com/ads/pixel.js",t.async=!0;var s=d.getElementsByTagName("script")[0];s.parentNode.insertBefore(t,s)}}(window,document);rdt('init','t2_3xbdzpby',{"optOut":!1,"useDecimalCurrencyValues":!0,"aaid":"<AAID-HERE>","email":"<EMAIL-HERE>","externalId":"<EXTERNAL-ID-HERE>","idfa":"<IDFA-HERE>"});rdt('track','PageVisit')</script><style type="text/css" id="tve_global_variables">:root{--tcb-color-0:rgb(28, 54, 69);--tcb-color-0-h:201;--tcb-color-0-s:42%;--tcb-color-0-l:19%;--tcb-color-0-a:1;--tcb-color-1:rgb(100, 152, 172);--tcb-color-1-h:196;--tcb-color-1-s:30%;--tcb-color-1-l:53%;--tcb-color-1-a:1;--tcb-color-2:rgb(255, 255, 255);--tcb-color-2-h:0;--tcb-color-2-s:0%;--tcb-color-2-l:100%;--tcb-color-2-a:1;--tcb-color-3:rgb(255, 255, 255);--tcb-color-3-h:0;--tcb-color-3-s:0%;--tcb-color-3-l:100%;--tcb-color-3-a:1;--tcb-color-4:rgb(51, 51, 51);--tcb-color-4-h:0;--tcb-color-4-s:0%;--tcb-color-4-l:20%;--tcb-color-4-a:1;--tcb-color-5:rgb(255, 255, 255);--tcb-color-5-h:0;--tcb-color-5-s:0%;--tcb-color-5-l:100%;--tcb-color-5-a:1;--tcb-color-6:rgb(245, 245, 245);--tcb-color-6-h:0;--tcb-color-6-s:0%;--tcb-color-6-l:96%;--tcb-color-6-a:1;--tcb-color-7:rgb(1, 76, 140);--tcb-color-7-h:207;--tcb-color-7-s:98%;--tcb-color-7-l:27%;--tcb-color-7-a:1;--tcb-color-8:rgb(105, 123, 143);--tcb-color-8-h:211;--tcb-color-8-s:15%;--tcb-color-8-l:48%;--tcb-color-8-a:1;--tcb-color-9:rgb(100, 152, 172);--tcb-color-9-h:196;--tcb-color-9-s:30%;--tcb-color-9-l:53%;--tcb-color-9-a:1;--tcb-background-author-image:url(https://secure.gravatar.com/avatar/c947586936b4937b849058a214a2cf6b?s=256&d=mm&r=g);--tcb-background-user-image:url();--tcb-background-featured-image-thumbnail:url(https://cyberhoot.com/wp-content/uploads/2020/11/2.jpg)}</style>
+<noscript><style>.lazyload[data-src]{display:none!important}</style></noscript><style>.lazyload{background-image:none!important}.lazyload:before{background-image:none!important}</style><style type="text/css" id="thrive-default-styles"></style><link rel="icon" href="https://cyberhoot.com/wp-content/uploads/2020/09/ch-owl-only.png" sizes="32x32" />
+<link rel="icon" href="https://cyberhoot.com/wp-content/uploads/2020/09/ch-owl-only.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://cyberhoot.com/wp-content/uploads/2020/09/ch-owl-only.png" />
+<meta name="msapplication-TileImage" content="https://cyberhoot.com/wp-content/uploads/2020/09/ch-owl-only.png" />
+		<style type="text/css" id="wp-custom-css">footer#colophon{margin-top:0px!important}.breadcrumbs{border-bottom:none!important}.breadcrumbs>.container{display:none!important}.logins>a{padding:0px!important}#menu-copyright{list-style:none}#nav_menu-3,#menu-contact{margin-bottom:0}.soc_rounded{background-color:#747474!important}.sign-up-btn{background-color:#6498ac;color:white!important;border-radius:5px;padding-left:0px!important;padding:8px 16px;font-size:20px;line-height:1.3856;border:1px solid #fff;text-decoration:none;margin-top:20px}.sign-up-btn>a{color:#fff}.sign-up-btn>a:hover{color:#fff}.search-submit{background-color:#1c3645!important;color:white!important;border-radius:5px!important;font-size:18px!important;border:1px solid transparent!important}</style>
+		<style class="wp-typography-print-styles" type="text/css">
+ 
+  
+  
+  
+  
+  
+  
+ 
+</style></head>
+
+<body class="post-template-default single single-post postid-10351 single-format-standard wp-custom-logo group-blog site-header-sticky elementor-default elementor-page elementor-page-10351">
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+	<div id="header-section" class="h-on-top no-transparent">		<header id="masthead" class="site-header header-contained is-sticky no-scroll no-t h-on-top" role="banner">
+			<div class="container">
+				<div class="site-branding">
+				<div class="site-brand-inner has-logo-img no-desc"><div class="site-logo-div"><a href="https://cyberhoot.com/" class="custom-logo-link  no-t-logo" rel="home" itemprop="url"><img width="176" height="75" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALAAAABLAQMAAADqLJ/HAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABVJREFUGBljGAWjYBSMglEwCoYaAAAGvQABIgha6wAAAABJRU5ErkJggg==" class="custom-logo lazyload" alt="CyberHoot Logo" itemprop="logo" decoding="async" data-src="https://cyberhoot.com/wp-content/uploads/2019/10/cropped-small_logo-3.png" data-eio-rwidth="176" data-eio-rheight="75" /><noscript><img width="176" height="75" src="https://cyberhoot.com/wp-content/uploads/2019/10/cropped-small_logo-3.png" class="custom-logo" alt="CyberHoot Logo" itemprop="logo" decoding="async" data-eio="l" /></noscript></a></div></div>				</div>
+				<div class="header-right-wrapper">
+					<a href="#0" id="nav-toggle">Menu<span></span></a>
+					<nav id="site-navigation" class="main-navigation" role="navigation">
+						<ul class="onepress-menu">
+							<li id="menu-item-27405" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-27405"><a href="https://cyberhoot.com/products/">Products</a>
+<ul class="sub-menu">
+	<li id="menu-item-27407" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27407"><a href="https://cyberhoot.com/hootphish/">HootPhish for Partners</a></li>
+	<li id="menu-item-13597" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13597"><a href="https://cyberhoot.com/partners/">Power for Partners</a></li>
+	<li id="menu-item-25740" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25740"><a href="https://cyberhoot.com/autopilot/">Autopilot for Partners</a></li>
+	<li id="menu-item-13595" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13595"><a href="https://cyberhoot.com/businesses/">Nest for Businesses</a></li>
+</ul>
+</li>
+<li id="menu-item-13031" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-13031"><a href="https://cyberhoot.com/pricing/">Pricing</a>
+<ul class="sub-menu">
+	<li id="menu-item-27669" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27669"><a href="/businesses/#business-pricing-card">Business</a></li>
+	<li id="menu-item-27670" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27670"><a href="/pricing/">MSP &#038; Partner</a></li>
+</ul>
+</li>
+<li id="menu-item-12371" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-12371"><a href="https://cyberhoot.com/resources/">Resources</a>
+<ul class="sub-menu">
+	<li id="menu-item-25221" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25221"><a href="https://cyberhoot.com/api/">API</a></li>
+	<li id="menu-item-12373" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12373"><a href="https://cyberhoot.com/category/blog/">Blog</a></li>
+	<li id="menu-item-12676" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12676"><a href="https://cyberhoot.com/contact-us/">Contact Us</a></li>
+	<li id="menu-item-12372" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12372"><a href="https://cyberhoot.com/cybrary/">Cybrary</a></li>
+	<li id="menu-item-13030" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13030"><a href="https://cyberhoot.com/features/">Features</a></li>
+	<li id="menu-item-12374" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12374"><a href="https://cyberhoot.com/category/howto/">HowTo</a></li>
+	<li id="menu-item-12370" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12370"><a href="https://cyberhoot.com/referral-program/">Referral Program</a></li>
+	<li id="menu-item-25746" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25746"><a href="https://cyberhoot.com/vciso/">vCISO</a></li>
+</ul>
+</li>
+<li id="menu-item-12364" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12364"><a href="https://cyberhoot.com/login/">Login &#038; Trainings</a></li>
+<li id="menu-item-18527" class="sign-up-btn menu-item menu-item-type-custom menu-item-object-custom menu-item-18527"><a href="/pricing/">Try for free</a></li>
+						</ul>
+					</nav>
+					
+				</div>
+			</div>
+		</header>
+		</div>
+	<div id="content" class="site-content">
+
+		        <div class="breadcrumbs">
+			<div class="container">
+                        </div>
+        </div>
+        
+		<div id="content-inside" class="container right-sidebar">
+			<div id="primary" class="content-area">
+				<main id="main" class="site-main" role="main">
+
+				
+					<article id="post-10351" class="post-10351 post type-post status-publish format-standard has-post-thumbnail hentry category-cybrary tag-cybrary-2 tag-linux tag-operatingsystem tag-os">
+	<header class="entry-header">
+		<h1 class="entry-title">Linux</h1>        		<div class="entry-meta">
+			<span class="posted-on">Posted on <a href="https://cyberhoot.com/cybrary/linux/" rel="bookmark"><time class="entry-date published" datetime="2020-11-18T12:46:48-05:00">November 18, 2020</time><time class="updated hide" datetime="2023-02-14T15:56:44-05:00">February 14, 2023</time></a></span><span class="byline"> by <span class="author vcard"><a  rel="author" class="url fn n" href="https://cyberhoot.com/author/craig/">Craig Taylor</a></span></span>		</div>
+        	</header>
+
+    
+	<div class="entry-content">
+				<div data-elementor-type="wp-post" data-elementor-id="10351" class="elementor elementor-10351">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-7f1d39bc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7f1d39bc" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-105cf9c3" data-id="105cf9c3" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-67b1c6d7 elementor-widget elementor-widget-image" data-id="67b1c6d7" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+														<a href="https://www.google.com/url?sa=i&#038;url=http%3A%2F%2Flpicentral.blogspot.com%2F2019%2F06%2Fdifference-between-linux-and-windows.html&#038;psig=AOvVaw1wNMzlCnnuKCAXAgqR9s9R&#038;ust=1605723895918000&#038;source=images&#038;cd=vfe&#038;ved=0CAIQjRxqFwoTCKDBofaZiu0CFQAAAAAdAAAAABAD">
+							<img fetchpriority="high" decoding="async" width="800" height="441" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAI1AQMAAABytBrkAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAF1JREFUGBntwTEBAAAAwiD7p14MH2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8BYcxAABrullTgAAAABJRU5ErkJggg==" class="attachment-large size-large wp-image-10353 lazyload" alt="linux cybrary"   data-src="https://cyberhoot.com/wp-content/uploads/2020/11/2-1024x565.jpg" data-srcset="https://cyberhoot.com/wp-content/uploads/2020/11/2-1024x565.jpg 1024w, https://cyberhoot.com/wp-content/uploads/2020/11/2-300x166.jpg 300w, https://cyberhoot.com/wp-content/uploads/2020/11/2-1x1.jpg 1w, https://cyberhoot.com/wp-content/uploads/2020/11/2-768x424.jpg 768w, https://cyberhoot.com/wp-content/uploads/2020/11/2.jpg 1344w" data-sizes="auto" data-eio-rwidth="1024" data-eio-rheight="565" /><noscript><img fetchpriority="high" decoding="async" width="800" height="441" src="https://cyberhoot.com/wp-content/uploads/2020/11/2-1024x565.jpg" class="attachment-large size-large wp-image-10353" alt="linux cybrary" srcset="https://cyberhoot.com/wp-content/uploads/2020/11/2-1024x565.jpg 1024w, https://cyberhoot.com/wp-content/uploads/2020/11/2-300x166.jpg 300w, https://cyberhoot.com/wp-content/uploads/2020/11/2-1x1.jpg 1w, https://cyberhoot.com/wp-content/uploads/2020/11/2-768x424.jpg 768w, https://cyberhoot.com/wp-content/uploads/2020/11/2.jpg 1344w" sizes="(max-width: 800px) 100vw, 800px" data-eio="l" /></noscript>								</a>
+													</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-717a67c5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="717a67c5" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-42c0b65f" data-id="42c0b65f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-6a7dd07e elementor-widget elementor-widget-text-editor" data-id="6a7dd07e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><strong>Linux</strong> is an <a href="https://cyberhoot.com/cybrary/open-source/">open-source</a> operating system (OS) that manages a system’s hardware resources including memory and storage. The OS rests between applications and hardware making connections between all of your software and the physical resources that do the work. Linux is similar to other operating systems you may have used such as Windows, Mac OS, or iOS. Like other systems, Linux has a Graphical User Interface (GUI), and the same types of software you are accustomed to, such as word processors, photo and video editors, databases and much more. In most cases, if software exists on a Windows or a MAC, it also exists for a Linux operating system as well.</p><p>Linux is mildly unconventional due to being an <a href="https://cyberhoot.com/cybrary/open-source/">open source</a> solution. The code used to create Linux is freely available to the public to view, edit, and (for users with the skills) to contribute to. This means that Linux is especially customizable because nearly anything can be swapped out of one program and replaced by another option.</p><p>Linux users must choose some core components, such as which system displays graphics, and other primary user-interface components.</p><p>You may already use Linux, whether you know it or not. Depending on which user survey you look at, between one- and two-thirds of the webpages on the Internet are generated by servers running Linux (WordPress being the most common example).  Many devices you own, such as Android phones and tablets and Chromebooks, digital storage devices, personal video recorders, cameras, smartwatches, and more, also run Linux. Your car has Linux running under the hood. Even Microsoft Windows features Linux components, as part of the <a href="https://opensource.com/article/19/7/ways-get-started-linux#wsl">Windows Subsystem for Linux (WSL).</a> </p><p><strong>Sources: </strong><a href="https://opensource.com/resources/linux">OpenSource</a>, <a href="https://www.redhat.com/en/topics/linux/what-is-linux">RedHat</a>, <a href="https://www.opensourceforu.com/2020/03/reasons-to-use-linux/#:~:text=1.,to%20viruses%20compared%20to%20Windows.">OpenSourceForU</a></p>						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-3acab5f8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3acab5f8" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-37d58e70" data-id="37d58e70" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-5b243ba5 elementor-widget elementor-widget-text-editor" data-id="5b243ba5" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<h3>Should SMBs be using Linux?</h3><div>Linux can be used by an SMB or MSP as the main Operating System of choice, but this is less common outside of specific niche industries (cybersecurity companies for example).  Linux tends to require more technical skills to operate than traditional Windows and MAC operating systems.</div><div> </div><div>Businesses with strong technical users should consider using Linux for their workstations and servers because of its security, flexibility, and great support community of individuals as well as commercial support from companies like Canonical, SUSE, and <a href="https://www.redhat.com/en/topics/linux/what-is-linux">Red Hat</a>.</div><div> </div><div><p>One of the main reasons to leverage the power of Linux is the stability of the operating system.  Linux and most unix variants take a very simplified approach to software development.  Linux applications are built with a single goal in mind whether it is to list the contents of a directory (the ls command) or to mount a file system (the mount command) small purpose built applications in linux are very focused and refined.  This is in contrast to many Windows based applications which have multiple purposes for their software solutions built into them.  That complexity can lead to additional bugs, stability issues, and challenges.</p><p>Another reason to consider using a Linux OS would be due to its &#8220;arguably&#8221; better security. The rationale given by some is that because Linux is open-source software, the source code is available for review, inspection and regular revision. A large number of developers all over the world have gone through the code, looking for security risks and patched them. Unlike a closed software development environment which cannot be easily inspected for flaws and security issues, Linux applications have been through additional scrutiny in many cases.  This is a contention issue, as not all security professionals believe that open source software is inherently more secure.  CyberHoot tends to disagree with that position and support the idea that many more eyes and developers looking at source code make these software solutions in Linux tougher to hack.</p><p>Ultimately, it comes down to your users and your company&#8217;s offerings.  In some cases, sophisticated technical users may ask for or even demand a Linux development environment to develop in. That is, unless the developers are coding windows applications in which case they&#8217;ll likely need to develop on windows operating systems all the same.</p></div>						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-6f5a82a2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6f5a82a2" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-44ad94d5" data-id="44ad94d5" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-57bc2082 elementor-widget elementor-widget-heading" data-id="57bc2082" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">To learn more about Linux OS, watch this short video:</h4>		</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-87df84a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="87df84a" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1cfc05c0" data-id="1cfc05c0" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-529d13bd elementor-widget elementor-widget-video" data-id="529d13bd" data-element_type="widget" data-settings="{&quot;youtube_url&quot;:&quot;https:\/\/www.youtube.com\/watch?v=JsWQUOEL0N8&quot;,&quot;video_type&quot;:&quot;youtube&quot;,&quot;controls&quot;:&quot;yes&quot;}" data-widget_type="video.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-wrapper elementor-open-inline">
+			<div class="elementor-video"></div>		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-93c0002 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="93c0002" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5f02d5ee" data-id="5f02d5ee" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-5df25077 elementor-widget elementor-widget-text-editor" data-id="5df25077" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<h3 style="text-align: center;"><span style="color: #1c3645;">Are you doing enough to protect your business?</span></h3><h3 style="text-align: center;"><span style="color: #1c3645;">Sign up with CyberHoot today and sleep better knowing your</span></h3><h3 style="text-align: center;"><span style="color: #1c3645;">employees are cyber trained and on guard!</span></h3>						</div>
+				</div>
+				<div class="elementor-element elementor-element-1fc789cb elementor-button-success elementor-align-center elementor-widget elementor-widget-button" data-id="1fc789cb" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-xl" href="https://cyberhoot.com/businesses/">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Sign Up Today!</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		<div class="addtoany_share_save_container addtoany_content addtoany_content_bottom"><div class="addtoany_header">Share this on your social networks.  Help Friends, Family, and Colleagues become more aware and secure.</div><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://cyberhoot.com/cybrary/linux/" data-a2a-title="Linux"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fcyberhoot.com%2Fcybrary%2Flinux%2F&amp;linkname=Linux" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fcyberhoot.com%2Fcybrary%2Flinux%2F&amp;linkname=Linux" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_linkedin" href="https://www.addtoany.com/add_to/linkedin?linkurl=https%3A%2F%2Fcyberhoot.com%2Fcybrary%2Flinux%2F&amp;linkname=Linux" title="LinkedIn" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fcyberhoot.com%2Fcybrary%2Flinux%2F&amp;linkname=Linux" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_print" href="https://www.addtoany.com/add_to/print?linkurl=https%3A%2F%2Fcyberhoot.com%2Fcybrary%2Flinux%2F&amp;linkname=Linux" title="Print" rel="nofollow noopener" target="_blank"></a></div></div>			</div>
+    
+    <footer class="entry-footer"><span class="cat-links">Posted in <a href="https://cyberhoot.com/category/cybrary/" rel="category tag">Cybrary</a></span><span class="tags-links">Tagged <a href="https://cyberhoot.com/tag/cybrary-2/" rel="tag">Cybrary</a>, <a href="https://cyberhoot.com/tag/linux/" rel="tag">Linux</a>, <a href="https://cyberhoot.com/tag/operatingsystem/" rel="tag">OperatingSystem</a>, <a href="https://cyberhoot.com/tag/os/" rel="tag">OS</a></span></footer>
+    </article>
+
+
+					
+				
+				</main>
+			</div>
+
+                            
+<div id="secondary" class="widget-area sidebar" role="complementary">
+	<aside id="search-5" class="widget widget_search"><h2 class="widget-title">Search</h2><form role="search" method="get" class="search-form" action="https://cyberhoot.com/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form></aside><aside id="custom_html-3" class="widget_text widget widget_custom_html"><h2 class="widget-title">Newsletter</h2><div class="textwidget custom-html-widget">
+
+<style>@font-face{font-display:block;font-family:Roboto;src:url(https://assets.sendinblue.com/font/Roboto/Latin/normal/normal/7529907e9eaf8ebb5220c5f9850e3811.woff2) format("woff2"),url(https://assets.sendinblue.com/font/Roboto/Latin/normal/normal/25c678feafdc175a70922a116c9be3e7.woff) format("woff")}@font-face{font-display:fallback;font-family:Roboto;font-weight:600;src:url(https://assets.sendinblue.com/font/Roboto/Latin/medium/normal/6e9caeeafb1f3491be3e32744bc30440.woff2) format("woff2"),url(https://assets.sendinblue.com/font/Roboto/Latin/medium/normal/71501f0d8d5aa95960f6475d5487d4c2.woff) format("woff")}@font-face{font-display:fallback;font-family:Roboto;font-weight:700;src:url(https://assets.sendinblue.com/font/Roboto/Latin/bold/normal/3ef7cf158f310cf752d5ad08cd0e7e60.woff2) format("woff2"),url(https://assets.sendinblue.com/font/Roboto/Latin/bold/normal/ece3a1d82f18b60bcce0211725c476aa.woff) format("woff")}#sib-container input:-ms-input-placeholder{text-align:left;font-family:"Helvetica",sans-serif;color:#c0ccda}#sib-container input::placeholder{text-align:left;font-family:"Helvetica",sans-serif;color:#c0ccda}#sib-container textarea::placeholder{text-align:left;font-family:"Helvetica",sans-serif;color:#c0ccda}</style>
+<link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
+
+
+
+<div class="sib-form" style="text-align: center; background-color: transparent; padding: 0px;">
+  <div id="sib-form-container" class="sib-form-container">
+    <div id="error-message" class="sib-form-message-panel" style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;max-width:540px;">
+      <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
+        <svg viewbox="0 0 512 512" class="sib-icon sib-notification__icon">
+          <path d="M256 40c118.621 0 216 96.075 216 216 0 119.291-96.61 216-216 216-119.244 0-216-96.562-216-216 0-119.203 96.602-216 216-216m0-32C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm-11.49 120h22.979c6.823 0 12.274 5.682 11.99 12.5l-7 168c-.268 6.428-5.556 11.5-11.99 11.5h-8.979c-6.433 0-11.722-5.073-11.99-11.5l-7-168c-.283-6.818 5.167-12.5 11.99-12.5zM256 340c-15.464 0-28 12.536-28 28s12.536 28 28 28 28-12.536 28-28-12.536-28-28-28z" />
+        </svg>
+        <span class="sib-form-message-panel__inner-text">
+                          Your subscription could not be saved. Please try again.
+                      </span>
+      </div>
+    </div>
+    <div></div>
+    <div id="success-message" class="sib-form-message-panel" style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#085229; background-color:#e7faf0; border-radius:3px; border-color:#13ce66;max-width:540px;">
+      <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
+        <svg viewbox="0 0 512 512" class="sib-icon sib-notification__icon">
+          <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 464c-118.664 0-216-96.055-216-216 0-118.663 96.055-216 216-216 118.664 0 216 96.055 216 216 0 118.663-96.055 216-216 216zm141.63-274.961L217.15 376.071c-4.705 4.667-12.303 4.637-16.97-.068l-85.878-86.572c-4.667-4.705-4.637-12.303.068-16.97l8.52-8.451c4.705-4.667 12.303-4.637 16.97.068l68.976 69.533 163.441-162.13c4.705-4.667 12.303-4.637 16.97.068l8.451 8.52c4.668 4.705 4.637 12.303-.068 16.97z" />
+        </svg>
+        <span class="sib-form-message-panel__inner-text">
+                          Subscription Successful! You are now subscribed to our newsletter!
+                      </span>
+      </div>
+    </div>
+    <div></div>
+    <div id="sib-container" class="sib-container--large sib-container--vertical" style="text-align:center; background-color:rgba(255,255,255,1); max-width:540px; border-radius:3px; border-width:0px; border-color:#C0CCD9; border-style:solid; padding: 0px;">
+      <form id="sib-form" method="POST" action="https://43607262.sibforms.com/serve/MUIEAHos-gbTY5JJlZElBY-EMGwGhTi2Z33nNskWgYwaE5MALMQ85riS2JU6BNYuU8v3XPYPIXV9_AMft8D0dVWIjwo6BXteSGlPtqXj_E2dpwtXGsF4dxvahigf_r28_9AOvslmTcEyKtLtwxHpiMRNtlJCsdcGZF038rbvMq_aHIFGGEXg4nopX2b8x0W-IZpeGsctOYMNW74E" data-type="subscription">
+        <div style="padding: 0px;">
+          <div class="sib-input sib-form-block" style="padding: 0px;">
+            <div class="form__entry entry_block">
+              <div class="form__label-row ">
+
+                <div class="entry__field" style="border: none">
+                  <input class="input" type="text" id="EMAIL" name="EMAIL" autocomplete="off" placeholder="Email Address" style="background-color: #f2f2f2; box-shadow: 0 1px 2px rgb(0 0 0 / 12%) inset; -webkit-box-shadow: 0 1px 2px rgb(0 0 0 / 12%) inset; border-radius: 3px;"
+data-required="true" required />
+                </div>
+              </div>
+
+              <label class="entry__error entry__error--primary" style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
+              </label>
+            </div>
+          </div>
+        </div>
+        <div style="padding: 0px;">
+          <div class="sib-form-block" style="text-align: left; padding: 0px;">
+            <button class="sib-form-block__button sib-form-block__button-with-loader" style="text-align:left; color:#FFFFFF; background-color:#1c3644; border-radius:5px; border-width:0px; letter-spacing: 1px; font-size: 18px; font-weight: normal;" form="sib-form" type="submit">
+              <svg class="icon clickable__icon progress-indicator__icon sib-hide-loader-icon" viewbox="0 0 512 512">
+                <path d="M460.116 373.846l-20.823-12.022c-5.541-3.199-7.54-10.159-4.663-15.874 30.137-59.886 28.343-131.652-5.386-189.946-33.641-58.394-94.896-95.833-161.827-99.676C261.028 55.961 256 50.751 256 44.352V20.309c0-6.904 5.808-12.337 12.703-11.982 83.556 4.306 160.163 50.864 202.11 123.677 42.063 72.696 44.079 162.316 6.031 236.832-3.14 6.148-10.75 8.461-16.728 5.01z" />
+              </svg>
+              Send Me Newsletters
+            </button>
+          </div>
+        </div>
+
+        <input type="text" name="email_address_check" value="" class="input--hidden">
+        <input type="hidden" name="locale" value="en">
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+<script>window.REQUIRED_CODE_ERROR_MESSAGE='Please choose a country code';window.LOCALE='en';window.EMAIL_INVALID_MESSAGE=window.SMS_INVALID_MESSAGE="Please enter a valid email address.";window.REQUIRED_ERROR_MESSAGE="Please enter a valid email address. ";window.GENERIC_INVALID_MESSAGE="Please enter a valid email address.";window.translation={common:{selectedList:'{quantity} list selected',selectedLists:'{quantity} lists selected'}};var AUTOHIDE=Boolean(0)</script>
+<script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
+
+
+
+</div></aside></div>
+            
+		</div>
+	</div>
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+					<div id="footer-widgets" class="footer-widgets section-padding ">
+				<div class="container">
+					<div class="row">
+														<div id="footer-1" class="col-md-3 col-sm-12 footer-column widget-area sidebar" role="complementary">
+									<aside id="text-7" class="footer-widget widget widget_text"><h2 class="widget-title">CYBERHOOT</h2>			<div class="textwidget"><p class="cb"><strong>Legal Corporation HQ</strong></p>
+<p class="cb"><em>Smyrna, DE</em></p>
+<p class="cb"><strong>Field Offices</strong></p>
+<p class="cb"><em>Portsmouth, NH</em></p>
+</div>
+		</aside>								</div>
+																<div id="footer-2" class="col-md-3 col-sm-12 footer-column widget-area sidebar" role="complementary">
+									<aside id="nav_menu-2" class="footer-widget widget widget_nav_menu"><h2 class="widget-title">PRODUCTS</h2><div class="menu-products-container"><ul id="menu-products" class="menu"><li id="menu-item-15975" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15975"><a href="https://cyberhoot.com/features/">Features</a></li>
+<li id="menu-item-9058" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9058"><a href="https://cyberhoot.com/individuals/">Individual Training</a></li>
+<li id="menu-item-27389" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27389"><a href="https://cyberhoot.com/hootphish/">HootPhish</a></li>
+<li id="menu-item-25738" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25738"><a href="https://cyberhoot.com/autopilot/">Autopilot</a></li>
+<li id="menu-item-13016" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13016"><a href="https://cyberhoot.com/businesses/">Nest</a></li>
+<li id="menu-item-5935" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5935"><a href="https://cyberhoot.com/partners/">Power</a></li>
+<li id="menu-item-11672" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11672"><a href="https://cyberhoot.com/referral-program/">Referral Program</a></li>
+<li id="menu-item-25748" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25748"><a href="https://cyberhoot.com/vciso/">vCISO</a></li>
+</ul></div></aside>								</div>
+																<div id="footer-3" class="col-md-3 col-sm-12 footer-column widget-area sidebar" role="complementary">
+									<aside id="nav_menu-3" class="footer-widget widget widget_nav_menu"><h2 class="widget-title">Contact</h2><div class="menu-contact-container"><ul id="menu-contact" class="menu"><li id="menu-item-12678" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12678"><a href="https://cyberhoot.com/contact-us/">Contact Us</a></li>
+<li id="menu-item-7482" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7482"><a href="https://cyberhoot.com/category/howto/">HowTo (Self Help)</a></li>
+<li id="menu-item-13468" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13468"><a href="https://cyberhoot.com/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-13469" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13469"><a href="https://nest.cyberhoot.com/tos">Terms Of Service</a></li>
+</ul></div></aside><aside id="mks_social_widget-3" class="footer-widget widget mks_social_widget">
+		
+								<ul class="mks_social_widget_ul">
+							<li><a href="https://www.facebook.com/CyberHoot" title="Facebook" class="socicon-facebook soc_rounded" target="_blank" rel="noopener" style="width: 22px; height: 22px; font-size: 12px;line-height:26px;"><span>facebook</span></a></li>
+							<li><a href="https://twitter.com/CyberHoots" title="X (ex Twitter)" class="socicon-twitter soc_rounded" target="_blank" rel="noopener" style="width: 22px; height: 22px; font-size: 12px;line-height:26px;"><span>twitter</span></a></li>
+							<li><a href="https://www.youtube.com/channel/UCS6-BHm9j6cZ2UZ5p3_pHzg" title="YouTube" class="socicon-youtube soc_rounded" target="_blank" rel="noopener" style="width: 22px; height: 22px; font-size: 12px;line-height:26px;"><span>youtube</span></a></li>
+							<li><a href="https://cyberhoot.com/feed/" title="RSS" class="socicon-rss soc_rounded" target="_blank" rel="noopener" style="width: 22px; height: 22px; font-size: 12px;line-height:26px;"><span>rss</span></a></li>
+						</ul>
+		
+
+		</aside>								</div>
+																<div id="footer-4" class="col-md-3 col-sm-12 footer-column widget-area sidebar" role="complementary">
+									<aside id="nav_menu-4" class="footer-widget widget widget_nav_menu"><h2 class="widget-title">RESOURCES</h2><div class="menu-resources-container"><ul id="menu-resources" class="menu"><li id="menu-item-2437" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2437"><a href="https://cyberhoot.com/category/blog/">Blog</a></li>
+<li id="menu-item-10789" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10789"><a href="https://cyberhoot.com/cyberhoot-casestudies-neoscope/">Case Study &#8211; MSP</a></li>
+<li id="menu-item-10790" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10790"><a href="https://cyberhoot.com/cyberhoot-casestudies-singledigits/">Case Study &#8211; SMB</a></li>
+<li id="menu-item-6709" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6709"><a href="https://cyberhoot.com/customers/">Testimonials</a></li>
+<li id="menu-item-4593" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4593"><a href="https://cyberhoot.com/cybrary/">Cybrary</a></li>
+<li id="menu-item-8493" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8493"><a href="https://cyberhoot.com/infographics/">InfoGraphics</a></li>
+<li id="menu-item-5116" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5116"><a href="https://cyberhoot.com/category/newsletters/">Newsletters</a></li>
+<li id="menu-item-9950" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-9950"><a href="https://cyberhoot.com/category/press-releases/">Press Releases</a></li>
+<li id="menu-item-5938" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5938"><a href="https://cyberhoot.com/category/training/">Video Training Library</a></li>
+</ul></div></aside>								</div>
+													</div>
+				</div>
+			</div>
+				
+		<div class="site-info">
+			<div class="container">
+									<div class="btt">
+						<a class="back-to-top" href="#page" title="Back To Top"><i class="fa fa-angle-double-up wow flash" data-wow-duration="2s"></i></a>
+					</div>
+								Copyright &copy; 2024 CyberHoot			</div>
+		</div>
+
+	</footer>
+	</div>
+
+
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<script>var url=new URL(window.location.href);var c=url.searchParams.get("referral-code");let button=document.querySelector('.demo-btn > a');let button2=document.querySelector('.demo-btn-2 > a');let button3=document.querySelector('a.demo-btn');if(button){button.removeAttribute("href");button.addEventListener('click',clickEvent)}
+if(button2){button2.removeAttribute("href");button2.addEventListener('click',clickEvent)}
+if(button3){button3.removeAttribute("href");button3.addEventListener('click',clickEvent)}
+var calendlyUrl='https://calendly.com/cyberhoot/30min?utm_source=website';if(c){sessionStorage.setItem('referral-code',c)}
+if(sessionStorage.getItem('referral-code')){calendlyUrl+='&a1='+sessionStorage.getItem('referral-code');var signupBtns=document.querySelectorAll('.signup-btn-link');for(var i=0;i<signupBtns.length;i++){if(signupBtns[i].tagName.toLowerCase()=='a'){signupBtns[i].href+='?ref='+sessionStorage.getItem('referral-code')}else{signupBtns[i].querySelector('a').href+='?ref='+sessionStorage.getItem('referral-code')}}}
+function clickEvent(event){rdt('track','Lead');Calendly.initPopupWidget({url:calendlyUrl});return!1}</script><script type='text/javascript'>($=>{if(window.sessionStorage){$(window).on('tcb_after_dom_ready',()=>{const message=sessionStorage.getItem('tcb_toast_message');if(message){tcbToast(sessionStorage.getItem('tcb_toast_message'),!1);sessionStorage.removeItem('tcb_toast_message')}})}
+function tcbToast(message,error,callback){if(typeof message!=='string'){message=message.message||message.error||message.success}
+if(!error){error=!1}
+TCB_Front.notificationElement.toggle(message,error?'error':'success',callback)}})(typeof ThriveGlobal==='undefined'?jQuery:ThriveGlobal.$j)</script><style type="text/css" id="tve_notification_styles"></style>
+<div class="tvd-toast tve-fe-message" style="display: none">
+	<div class="tve-toast-message tve-success-message">
+		<div class="tve-toast-icon-container">
+			<span class="tve_tick thrv-svg-icon"></span>
+		</div>
+		<div class="tve-toast-message-container"></div>
+	</div>
+</div><link rel='stylesheet' id='whp5864tw-bs4.css-css' href='https://cyberhoot.com/wp-content/cache/asset-cleanup/css/item/security-hardening__modules__inc__assets__css__tw-bs4-css-v324d20b61d65632a4b5449f66455eedb3b49efa7.css' type='text/css' media='all' />
+<link rel='stylesheet' id='whp6223font-awesome.min.css-css' href='https://cyberhoot.com/wp-content/plugins/wp-security-hardening/modules/inc/fa/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='whp4324front.css-css' href='https://cyberhoot.com/wp-content/cache/asset-cleanup/css/item/security-hardening__modules__css__front-css-v984206f9ee76f6b726ebf8f69af7c01abfd19fcb.css' type='text/css' media='all' />
+<script   type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASkFdBVeZHxvpMVIOSfk2hGiIzjOzQeFY" id="gmap-js"></script>
+<script   type="text/javascript" id="eio-lazy-load-js-before">
+/* <![CDATA[ */
+var eio_lazy_vars = {"exactdn_domain":"","skip_autoscale":0,"threshold":0};
+/* ]]> */
+</script>
+<script   type="text/javascript" src="https://cyberhoot.com/wp-content/plugins/ewww-image-optimizer/includes/lazysizes.min.js" id="eio-lazy-load-js"></script>
+<script   type="text/javascript" src="https://cyberhoot.com/wp-content/themes/onepress/assets/js/isotope.pkgd.min.js" id="onepress-gallery-masonry-js"></script>
+<script type="text/javascript" id="onepress-theme-js-extra">
+/* <![CDATA[ */
+var onepress_js_settings = {"onepress_disable_animation":"","onepress_disable_sticky_header":"","onepress_vertical_align_menu":"","hero_animation":"flipInX","hero_speed":"5000","hero_fade":"750","submenu_width":"0","hero_duration":"5000","hero_disable_preload":"","disabled_google_font":"","is_home":"","gallery_enable":"1","is_rtl":"","parallax_speed":"0.5"};
+/* ]]> */
+</script>
+<script   type="text/javascript" src="https://cyberhoot.com/wp-content/themes/onepress/assets/js/theme-all.min.js" id="onepress-theme-js"></script>
+<script type="text/javascript" id="tve-dash-frontend-js-extra">
+/* <![CDATA[ */
+var tve_dash_front = {"ajaxurl":"https:\/\/cyberhoot.com\/wp-admin\/admin-ajax.php","force_ajax_send":"1","is_crawler":"","recaptcha":[],"post_id":"10351"};
+/* ]]> */
+</script>
+<script   type="text/javascript" src="https://cyberhoot.com/wp-content/plugins/thrive-product-manager/thrive-dashboard/js/dist/frontend.min.js" id="tve-dash-frontend-js"></script>
+<script   type="text/javascript" src="https://cyberhoot.com/wp-content/themes/onepress/assets/js/owl.carousel.min.js" id="onepress-gallery-carousel-js"></script>
+<script   type="text/javascript" src="https://cyberhoot.com/wp-content/cache/asset-cleanup/js/item/onepress-plus__assets__js__slider-js-vf64da190bf56867d525a01932cb98f4c6aef170b.js" id="onepress-plus-slider-js"></script>
+<script type="text/javascript" id="onepress-plus-js-extra">
+/* <![CDATA[ */
+var OnePress_Plus = {"ajax_url":"https:\/\/cyberhoot.com\/wp-admin\/admin-ajax.php","browser_warning":" Your browser does not support the video tag. I suggest you upgrade your browser."};
+/* ]]> */
+</script>
+<script   type="text/javascript" src="https://cyberhoot.com/wp-content/cache/asset-cleanup/js/item/onepress-plus__assets__js__onepress-plus-js-ve3dba04d66d1c53c6bd61bbbcc6afd8a75d9bcae.js" id="onepress-plus-js"></script>
+<script type="text/javascript" id="eael-general-js-extra">
+/* <![CDATA[ */
+var localize = {"ajaxurl":"https:\/\/cyberhoot.com\/wp-admin\/admin-ajax.php","nonce":"4ad477fc7c","i18n":{"added":"Added ","compare":"Compare","loading":"Loading..."},"eael_translate_text":{"required_text":"is a required field","invalid_text":"Invalid","billing_text":"Billing","shipping_text":"Shipping","fg_mfp_counter_text":"of"},"page_permalink":"https:\/\/cyberhoot.com\/cybrary\/linux\/","cart_redirectition":"","cart_page_url":"","el_breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}};
+/* ]]> */
+</script>
+<script   type="text/javascript" src="https://cyberhoot.com/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/general.min.js" id="eael-general-js"></script>
+<script   type="text/javascript" src="https://cyberhoot.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js" id="elementor-webpack-runtime-js"></script>
+<script   type="text/javascript" src="https://cyberhoot.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js" id="elementor-frontend-modules-js"></script>
+<script   type="text/javascript" src="https://cyberhoot.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js" id="elementor-waypoints-js"></script>
+<script   type="text/javascript" src="https://cyberhoot.com/wp-includes/js/jquery/ui/core.min.js" id="jquery-ui-core-js"></script>
+<script   type="text/javascript" id="elementor-frontend-js-before">
+/* <![CDATA[ */
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.20.4","is_static":false,"experimentalFeatures":{"e_optimized_assets_loading":true,"additional_custom_breakpoints":true,"e_swiper_latest":true,"block_editor_assets_optimize":true,"ai-layout":true,"landing-pages":true,"e_image_loading_optimization":true},"urls":{"assets":"https:\/\/cyberhoot.com\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":10351,"title":"Linux%20-%20CyberHoot%20Cyber%20Library","excerpt":"","featuredImage":"https:\/\/cyberhoot.com\/wp-content\/uploads\/2020\/11\/2-1024x565.jpg"}};
+/* ]]> */
+</script>
+<script   type="text/javascript" src="https://cyberhoot.com/wp-content/plugins/elementor/assets/js/frontend.min.js" id="elementor-frontend-js"></script>
+<script type="text/javascript">var tcb_current_post_lists=JSON.parse('[]');var tcb_post_lists=tcb_post_lists?[...tcb_post_lists,...tcb_current_post_lists]:tcb_current_post_lists</script>
+</body>
+</html>
+
+<!-- Dynamic page generated in 0.218 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2024-04-24 05:19:14 -->
+
+<!-- Compression = gzip -->
