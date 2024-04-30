@@ -48,13 +48,14 @@ const Services = () => {
                     style={{ fontSize: "30px" }}
                   >
                     Be abreast with your child's educational progress with{" "}
-                    <br></br> Edu Pro Solutions
+                    <br></br> Edu Pro School Manaagement Solution
                   </h6>
                   <span
                     class="sasup-s-subtitle wow fadeInUp"
                     data-wow-delay="0"
                   >
-                    Our distinctive features for an all round school task.
+                    Our distinctive features for an all round school task
+                    includes
                   </span>
                 </div>
               </div>
@@ -204,7 +205,8 @@ const Services = () => {
                     Do you have any question?
                   </h4>
                   <span class="sasup-cta-subtitle-4 mb-30">
-                    We implore you to try out school solution without stress
+                    We implore you to try out our school management solution
+                    without stress
                   </span>
                   <a href="/contact" class="sasup-hero-started-btn-4">
                     <span>Contact Us</span>

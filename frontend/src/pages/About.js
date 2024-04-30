@@ -49,18 +49,18 @@ const About = () => {
               <div class="col-xxl-12">
                 <div class="section-title-2 text-center">
                   <h3 class="s-title visile-br-lg" style={{ color: "#042954" }}>
-                    About Edu Pro Solution
+                    Educational Management Solution
                   </h3>
                   <p class="s-desc" style={{ color: "#042954" }}>
-                    Welcome to Edu Pro Solutions, we envision a future where
-                    education is seamlessly integrated with technology,
-                    fostering a dynamic and engaging learning environment for
-                    all. We strive to be a leading force in shaping the future
-                    of education through our innovative software solutions. Our
-                    mission is to empower schools, educators and students with
-                    intuitive and effective software solutions that elevate the
-                    learning experience. Below is a list of some of the features
-                    you will get:
+                    Edu Pro is a School Management Solution. We envision a
+                    future where education is seamlessly integrated with
+                    technology, fostering a dynamic and engaging learning
+                    environment for all. We strive to be a leading force in
+                    shaping the future of education through our innovative
+                    software solutions. Our mission is to empower schools,
+                    educators and students with intuitive and effective software
+                    solutions that elevate the learning experience. Below is a
+                    list of some of the features you will get:
                   </p>
                 </div>
               </div>
@@ -80,16 +80,16 @@ const About = () => {
                   <div class="feature-content-2">
                     <h4 class="feature-content-title-2">
                       <a style={{ color: "#042954" }}>
-                        Online Exams and marking
+                        Online Exams and Grading
                       </a>
                     </h4>
                     <p
                       class="feature-content-desc-2"
                       style={{ color: "#042954" }}
                     >
-                      Bulk exams can be set for different classes and time frame
-                      can be fixed. Online exams are uploaded to the result
-                      portal immediately and can be marked
+                      Being a School Manaagement Solution, We provide Bulk exams
+                      for different classes and time . Online exams are uploaded
+                      to the result portal immediately and can be marked
                     </p>
                   </div>
                   <div class="feature-action-2">
@@ -229,7 +229,7 @@ const About = () => {
                       data-wow-delay=".2s"
                       style={{ color: "#042954" }}
                     >
-                      Role-Based Solution
+                      Role-Based Educational Manaagement Solution
                     </h3>
                     <p
                       class="s-desc wow fadeInUp line-height-24"
@@ -537,7 +537,7 @@ const About = () => {
                     </a>
                   </div>
                   <p class="mb-25" style={{ color: "#042954" }}>
-                    Your solution to school management hurdles. It has
+                    Your solution to school management solution hurdles. It has
                     encompassing features that makes school administration
                     stress-free.
                   </p>
