@@ -42,7 +42,9 @@ const Pricing = () => {
                   class="sasup-section-heading-5 text-center wow fadeInUp"
                   data-wow-delay=".4s"
                 >
-                  <h5 class="sasup-section-heading-5-subtitle">Our Pricing</h5>
+                  <h5 class="sasup-section-heading-5-subtitle">
+                    Edu Pro School Management Solution Prices
+                  </h5>
                   <h3
                     class="sasup-section-heading-5-title"
                     data-wow-delay=".2s"
