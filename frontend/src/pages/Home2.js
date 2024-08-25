@@ -30,7 +30,7 @@ const Home2 = () => {
                   alt="image not found"
                 />
               </div>
-              c
+
               <div class="shape-2">
                 <img
                   src="assets/img/icon/icon-4-4.webp"
