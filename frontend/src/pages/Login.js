@@ -4,7 +4,6 @@ import Header from "./Header";
 const Login = () => {
   return (
     <>
-      <Header />
       <main>
         <div class="error-area pt-115 pb-115">
           <div class="container">

@@ -12,7 +12,6 @@ const Pricing = () => {
   };
   return (
     <>
-      <Header />
       <main>
         <div class="breadcrumb-area pt-215 pb-130" style={backgroundStyle}>
           <div class="container">

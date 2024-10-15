@@ -12,7 +12,6 @@ const Services = () => {
   };
   return (
     <>
-      <Header />
       <main>
         <div
           class="breadcrumb-area pt-215 pb-140 mb-115 pb-130"
