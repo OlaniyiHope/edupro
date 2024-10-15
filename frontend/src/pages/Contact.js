@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from "react";
 import back from "./breads.jpg";
 import park from "./edu.PNG";
+import Header from "./Header";
 const Contact = () => {
   const backgroundStyle = {
     backgroundImage: `url('/static/media/breads.png')`,
   };
   return (
     <>
+      <Header />
       <main>
         <div
           class="breadcrumb-area pt-215 pb-140 mb-110 pb-130"

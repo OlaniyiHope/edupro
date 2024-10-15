@@ -7,6 +7,7 @@ import pro from "./protwo.webp";
 import Footer from "./Footer";
 import "./style.css";
 import Test from "./Test";
+import Header from "./Header";
 const Home2 = () => {
   const backgroundStyle = {
     backgroundImage: `url(${back})`,
@@ -16,6 +17,7 @@ const Home2 = () => {
   };
   return (
     <>
+      <Header />
       <body>
         <main>
           <div
