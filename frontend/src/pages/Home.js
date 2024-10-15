@@ -5,6 +5,7 @@ import backs from "./footimg.jpg";
 const Home = () => {
   return (
     <>
+      <Header />
       <section class="container">
         <div class="card__container swiper">
           <div class="card__content">

@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
 import Footer from "./Footer";
+import Header from "./Header";
 
 const Terms = () => {
   return (
     <>
+      <Header />
       <main>
         <section class="df-contact__area pt-190 pb-50 sasup-bg-gray-1">
           <div class="container">

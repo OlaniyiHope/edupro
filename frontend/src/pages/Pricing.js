@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import back from "./breads.jpg";
 import park from "./edu.PNG";
 import backs from "./footimg.jpg";
+import Header from "./Header";
 const Pricing = () => {
   const backgroundStyle = {
     backgroundImage: `url('/static/media/breads.png')`,
@@ -11,6 +12,7 @@ const Pricing = () => {
   };
   return (
     <>
+      <Header />
       <main>
         <div class="breadcrumb-area pt-215 pb-130" style={backgroundStyle}>
           <div class="container">

@@ -7,6 +7,7 @@ import r2 from "./r2.jpg";
 import r3 from "./r3.jpg";
 import backs from "./footimg.jpg";
 import r4 from "./r4.jpg";
+import Header from "./Header";
 const About = () => {
   const backgroundStyle = {
     backgroundImage: `url('/static/media/breads.png')`,
@@ -16,6 +17,7 @@ const About = () => {
   };
   return (
     <>
+      <Header />
       <main>
         <div
           class="breadcrumb-area pt-215 pb-140 mb-110 pb-130"
