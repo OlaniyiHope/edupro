@@ -64,15 +64,15 @@ const Cbt = () => {
               <div class="row align-items-center">
                 <div class="col-xxl-6 col-xl-6 col-lg-6">
                   <div class="sasup-hero-content-4">
-                    <h3 class="sasup-hero-title-4" style={{ color: "#fff107" }}>
+                    <h3 class="sasup-hero-title-4" style={{ color: "#ffc107" }}>
                       Practice <br />
                       Examination in
                       <br /> one sitting
                     </h3>
                     <p class="sasup-hero-text-4">
-                      Access past questions on any subject in WAEC, NECO, UTME,
-                      interview questions, entrance exams and field of study
-                      free for one month
+                      Access test questions on academic subjects(WAEC, NECO,
+                      UTME etc), professional certifications and entrance
+                      exams(SAT, IELTS etc) question for free
                     </p>
                     <a href="/contact" class="sasup-hero-started-btn-4">
                       <span>Get Started</span>
@@ -138,17 +138,8 @@ const Cbt = () => {
                         data-wow-delay=".2s"
                         style={{ color: "#042954" }}
                       >
-                        Practice with EDVES WAEC past question
+                        Practice with EDU PRO SOLUTION Computer Based Test
                       </h3>
-                      <p
-                        class="s-desc wow fadeInUp line-height-24"
-                        data-wow-delay=".4s"
-                        style={{ color: "#042954" }}
-                      >
-                        Learning experiences has never been better. Our Past
-                        questions helps structure your learnings, giving you
-                        more freedom to study and practice
-                      </p>
                     </div>
                     <div
                       class="service-right-list-2  mb-30 wow fadeInUp"
@@ -183,6 +174,13 @@ const Cbt = () => {
                         >
                           <i class="fal fa-check"></i> Free Subscription
                         </li>
+                        <a
+                          href="/contact"
+                          class="sasup-hero-started-btn-4"
+                          style={{ backgroundColor: "#042954", color: "white" }}
+                        >
+                          <span>Sign Up Now</span>
+                        </a>
                       </ul>
                     </div>
                     <div
@@ -199,7 +197,7 @@ const Cbt = () => {
             <div class="container">
               <div class="row align-items-center">
                 <div class="col-xxl-6 col-xl-6 col-lg-6">
-                  <div class="service-right-area-2 pl-70">
+                  <div class="service-right-area-2 ">
                     <div class="section-title-2 mb-30">
                       <h3
                         class="s-title visible-br-lg visible-br-md wow fadeInUp"
@@ -213,9 +211,10 @@ const Cbt = () => {
                         data-wow-delay=".4s"
                         style={{ color: "#042954" }}
                       >
-                        Learning experiences has never been better. Our Past
-                        questions helps structure your learnings, giving you
-                        more freedom to study and practice
+                        Learning experiences has never been better. Our Computer
+                        Based Questions helps structure your learnings, giving
+                        you more freedom to study and practice. Other Advantages
+                        are
                       </p>
                     </div>
                     <div
@@ -227,30 +226,34 @@ const Cbt = () => {
                           class="service-right-list-item"
                           style={{ color: "#042954" }}
                         >
-                          <i class="fal fa-check"></i> Unlimited access to
-                          expert verified answers
+                          All types of exam question
                         </li>
                         <br></br>
                         <li
                           class="service-right-list-item"
                           style={{ color: "#042954" }}
                         >
-                          <i class="fal fa-check"></i> No Ad Interuptions school
+                          <i class="fal fa-check"></i> Fill in the gap questions
                         </li>
                         <br></br>
                         <li
                           class="service-right-list-item"
                           style={{ color: "#042954" }}
                         >
-                          <i class="fal fa-check"></i> One month free practice
+                          <i class="fal fa-check"></i> Theory Questions
                         </li>
                         <br></br>
                         <li
                           class="service-right-list-item"
                           style={{ color: "#042954" }}
+                        ></li>
+                        <a
+                          href="/contact"
+                          class="sasup-hero-started-btn-4"
+                          style={{ backgroundColor: "#042954", color: "white" }}
                         >
-                          <i class="fal fa-check"></i> Free Subscription
-                        </li>
+                          <span>Sign Up Now</span>
+                        </a>
                       </ul>
                     </div>
                     <div
