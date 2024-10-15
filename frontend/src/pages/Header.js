@@ -52,18 +52,10 @@ const Header = () => {
                 </div>
                 <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-8">
                   <div class="sasup-header-action-btn">
-                    <a href="/signup" class="sasup-transparent-btn">
+                    <a href="/login" class="sasup-transparent-btn">
                       <i class="fal fa-user"></i>Log in
                     </a>
-                    <a
-                      href="/register"
-                      class="sasup-theme-btn ml-25 d-none d-sm-inline-block"
-                    >
-                      <span>
-                        {" "}
-                        <i class="fal fa-user"></i>Sign Up
-                      </span>
-                    </a>
+
                     <div class="mobile-bar-control mobile-bar-control-white d-inline-block d-lg-none">
                       <div class="line"></div>
                       <div class="line"></div>
@@ -98,16 +90,10 @@ const Header = () => {
           </div>
           <div class="responsive-sidebar-actions">
             <a
-              href="contact.html"
+              href="/login"
               class="sasup-border-btn d-block sasup-broder-btn-space-3 ms-0 text-center mb-2"
             >
               login
-            </a>
-            <a
-              href="contact.html"
-              class="sasup-theme-btn text-center d-inline-block d-sm-none w-100"
-            >
-              <span>Free Trial</span>
             </a>
           </div>
         </div>
