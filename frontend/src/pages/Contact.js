@@ -8,7 +8,6 @@ const Contact = () => {
   };
   return (
     <>
-      <Header />
       <main>
         <div
           class="breadcrumb-area pt-215 pb-140 mb-110 pb-130"

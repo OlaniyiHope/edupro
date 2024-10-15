@@ -17,7 +17,6 @@ const Home2 = () => {
   };
   return (
     <>
-      <Header />
       <body>
         <main>
           <div
