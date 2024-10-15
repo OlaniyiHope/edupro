@@ -12,6 +12,7 @@ import Test from "./pages/Test";
 import reviews from "./data";
 import Blog from "./pages/Blog";
 import Download from "./pages/Download";
+import Cbt from "./pages/Cbt";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home2 />} />
+          <Route path="/cbt" element={<Cbt />} />
           <Route path="/home" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/about" element={<About />} />
