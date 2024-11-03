@@ -216,9 +216,9 @@ const Innovate = () => {
                           </label>
                           <input
                             type="text"
-                            name="website"
+                            name="how"
                             placeholder="School Name"
-                            id="website"
+                            id="how"
                           />
                         </div>
                         <div class="col-xl-6">
