@@ -221,7 +221,7 @@ const Innovate = () => {
                             id="website"
                           />
                         </div>
-                        <div class="col-xl-12">
+                        <div class="col-xl-6">
                           <div class="post-input post-input-2">
                             <label for="name" class="post-input-label-defualt">
                               How many people are you inviting to this event*
