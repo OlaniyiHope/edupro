@@ -217,7 +217,7 @@ const Innovate = () => {
                           <input
                             type="text"
                             name="how"
-                            placeholder="School Name"
+                            placeholder="How"
                             id="how"
                           />
                         </div>
