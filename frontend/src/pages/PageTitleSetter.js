@@ -5,7 +5,8 @@ import { useLocation } from "react-router-dom";
 const pageTitleMap = {
   "/": "Edu Pro Solution - No 1 School Management System in Nigeria",
   "/innovation": "Innovating Education with Artificial Intelligence",
-  // Add more routes as necessary
+  "/about": "About Edu Pro Solution",
+  // Add other routes with titles as necessary
 };
 
 const PageTitleSetter = () => {
