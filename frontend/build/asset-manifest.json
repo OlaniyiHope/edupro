@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b413cd3d.css",
+    "main.js": "/static/js/main.d45c4fc9.js",
+    "static/media/r1.jpg": "/static/media/r1.295e9c75c762edbcaa77.jpg",
+    "static/media/exam.png": "/static/media/exam.25febd53be8644cb50fa.png",
+    "static/media/inn.PNG": "/static/media/inn.37cf6797b8ab897f4c18.PNG",
+    "static/media/r2.jpg": "/static/media/r2.d8d0ca928c48d124b465.jpg",
+    "static/media/r3.jpg": "/static/media/r3.1a4fa5d89022deb91d62.jpg",
+    "static/media/r4.jpg": "/static/media/r4.8b49aeeb31a5f0c92762.jpg",
+    "static/media/examtwo.png": "/static/media/examtwo.ce51f10ae02ba52e0ee0.png",
+    "static/media/examthree.png": "/static/media/examthree.b3255d065ec121e6f8e9.png",
+    "static/media/edu.PNG": "/static/media/edu.e2ea2fd0874b8db0a88b.PNG",
+    "static/media/white.png": "/static/media/white.e4578348dfe98c621f69.png",
+    "static/media/outo.png": "/static/media/outo.7e0735371875068cd776.png",
+    "static/media/breads.jpg": "/static/media/breads.1832a0d1b33a8ed1a267.jpg",
+    "static/media/protwo.webp": "/static/media/protwo.904b2d37cbb975d411ca.webp",
+    "static/media/footimg.jpg": "/static/media/footimg.22c9a79d8e71e6bc0bfd.jpg",
+    "index.html": "/index.html",
+    "main.b413cd3d.css.map": "/static/css/main.b413cd3d.css.map",
+    "main.d45c4fc9.js.map": "/static/js/main.d45c4fc9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b413cd3d.css",
+    "static/js/main.d45c4fc9.js"
+  ]
+}

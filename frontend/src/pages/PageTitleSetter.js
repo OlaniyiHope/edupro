@@ -49,6 +49,7 @@ const PageTitleSetter = () => {
   return (
     <Helmet>
       <title>{pageTitle}</title>
+      <meta property="og:title" content={pageTitle} />
     </Helmet>
   );
 };
