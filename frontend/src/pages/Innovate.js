@@ -3,6 +3,7 @@ import back from "./breads.jpg";
 import park from "./edu.PNG";
 import Header from "./Header";
 import inn from "./inn.PNG";
+import "./innovate.css";
 const Innovate = () => {
   const backgroundStyle = {
     backgroundImage: `url('/static/media/inn.PNG')`,
@@ -15,18 +16,9 @@ const Innovate = () => {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            height: "100vh",
           }}
         >
-          <img
-            src={inn}
-            alt="Innovate"
-            style={{
-              width: "500px",
-              height: "500px",
-              margin: "auto",
-            }}
-          />
+          <img src={inn} alt="Innovate" className="inno" />
         </div>
         <div class="contact-area">
           <div class="container">
@@ -44,7 +36,13 @@ const Innovate = () => {
                     method="post"
                     id="contact-form"
                   >
-                    <h4 style={{ textAlign: "center", marginBottom: "40px" }}>
+                    <h4
+                      style={{
+                        textAlign: "center",
+                        marginBottom: "40px",
+                        marginTop: "40px",
+                      }}
+                    >
                       Application for Custom Website
                     </h4>
                     <div class="row">
