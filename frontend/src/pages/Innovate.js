@@ -51,12 +51,7 @@ const Innovate = () => {
                           <label for="name" class="post-input-label-defualt">
                             Full Name *
                           </label>
-                          <input
-                            type="text"
-                            name="name"
-                            placeholder="Name"
-                            id="name"
-                          />
+                          <input type="text" name="name" id="name" />
                         </div>
                       </div>
                       <div class="col-xl-6 col-md-6">
@@ -64,12 +59,7 @@ const Innovate = () => {
                           <label for="email" class="post-input-label-defualt">
                             Email to contact you *
                           </label>
-                          <input
-                            type="email"
-                            name="email"
-                            id="email"
-                            placeholder="Email"
-                          />
+                          <input type="email" name="email" id="email" />
                         </div>
                       </div>
                       <div class="col-xl-6 col-md-6">
@@ -77,12 +67,7 @@ const Innovate = () => {
                           <label for="email" class="post-input-label-defualt">
                             Phone Number *
                           </label>
-                          <input
-                            type="email"
-                            name="email"
-                            id="email"
-                            placeholder="Email"
-                          />
+                          <input type="phone" name="phone" id="phone" />
                         </div>
                       </div>
                       <div class="col-xl-6 col-md-6">
