@@ -81,14 +81,9 @@ const Innovate = () => {
                       <div class="col-xl-12">
                         <div class="post-input post-input-2">
                           <label for="name" class="post-input-label-defualt">
-                            Business Name*
+                            Business Name *
                           </label>
-                          <input
-                            type="text"
-                            name="website"
-                            placeholder="Business Name"
-                            id="website"
-                          />
+                          <input type="text" name="business" id="business" />
                         </div>
                       </div>
 
