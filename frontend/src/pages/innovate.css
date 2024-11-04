@@ -9,3 +9,14 @@
   width: 500px;
   height: 500px;
 }
+.post-input-field {
+  width: 100%; /* Make sure it takes the full width */
+  padding: 10px; /* Same padding as input fields */
+  color: #707276;
+  background-color: #eeeff4;
+  border: 0;
+  border-radius: 4px;
+  padding: 15px 20px;
+  font-size: 14px; /* Ensure the same font size */
+  /* Add other styles as needed */
+}

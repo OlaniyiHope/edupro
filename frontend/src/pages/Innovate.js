@@ -115,30 +115,39 @@ const Innovate = () => {
                           ></textarea>
                         </div>
                       </div>
-                      <div class="col-xl-6 col-md-6">
-                        <div class="post-input post-input-2">
-                          <label for="email" class="post-input-label-defualt">
-                            How do you hear about this event*
+                      <div className="col-xl-6 col-md-6">
+                        <div className="post-input post-input-2">
+                          <label
+                            htmlFor="referral"
+                            className="post-input-label-defualt"
+                          >
+                            How did you hear about this event*
                           </label>
-                          <input
-                            type="email"
-                            name="email"
-                            id="email"
-                            placeholder="Email"
-                          />
+                          <select
+                            name="referral"
+                            id="referral"
+                            className="post-input-field" // Add any class for styling as needed
+                            required // Optional: mark as required
+                          >
+                            <option value="" disabled selected>
+                              Select an option
+                            </option>
+                            <option value="friend">From a friend</option>
+                            <option value="instagram">From Instagram</option>
+                            <option value="whatsapp">From WhatsApp</option>
+                            <option value="facebook">From Facebook</option>
+                            <option value="website">From the website</option>
+                            <option value="other">Other</option>
+                          </select>
                         </div>
                       </div>
+
                       <div class="col-xl-6 col-md-6">
                         <div class="post-input post-input-2">
                           <label for="email" class="post-input-label-defualt">
-                            How many people are you inviting for the event *
+                            How many people are you inviting *
                           </label>
-                          <input
-                            type="email"
-                            name="email"
-                            id="email"
-                            placeholder="Email"
-                          />
+                          <input type="text" name="invite" id="invite" />
                         </div>
                       </div>
                       <div class="col-xl-12">
