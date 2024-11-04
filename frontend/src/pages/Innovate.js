@@ -4,10 +4,43 @@ import park from "./edu.PNG";
 import Header from "./Header";
 import inn from "./inn.PNG";
 import "./innovate.css";
+import axios from "axios";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { useNavigate } from "react-router-dom";
+const initialState = {
+  fullname: "",
+  email: "",
+  instagram: "",
+  phone: "",
+  business: "",
+  problem: "",
+  hear: "",
+  invite: "",
+  plan: "",
+};
+
 const Innovate = () => {
-  const backgroundStyle = {
-    backgroundImage: `url('/static/media/inn.PNG')`,
+  const [formData, setFormData] = useState(initialState);
+  const navigate = useNavigate();
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      await axios.post(`https://eduproapi.vercel.app/api/innovate`, formData);
+      toast.success("User successfully created");
+      navigate("/"); // Navigate to the dashboard after successful registration
+    } catch (err) {
+      console.error("Error registering:", err);
+      toast.error("Unable to create user");
+    }
   };
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
   return (
     <>
       <main>
@@ -31,11 +64,7 @@ const Innovate = () => {
                   class="contact-form wow fadeInUp mb-50 mb-xl-0"
                   data-wow-delay=".2s"
                 >
-                  <form
-                    action="https://www.devsnews.com/template/sasup-prev/sasup/mail.php"
-                    method="post"
-                    id="contact-form"
-                  >
+                  <form onSubmit={handleSubmit} id="contact-form">
                     <h4
                       style={{
                         textAlign: "center",
@@ -46,126 +75,187 @@ const Innovate = () => {
                     >
                       Application for Custom Website
                     </h4>
-                    <div class="row">
-                      <div class="col-xl-6 col-md-6">
-                        <div class="post-input post-input-2">
-                          <label for="name" class="post-input-label-defualt">
+                    <div className="row">
+                      <div className="col-xl-6 col-md-6">
+                        <div className="post-input post-input-2">
+                          <label
+                            htmlFor="fullname"
+                            className="post-input-label-defualt"
+                          >
                             Full Name *
                           </label>
-                          <input type="text" name="name" id="name" />
+                          <input
+                            type="text"
+                            name="fullname"
+                            id="fullname"
+                            value={formData.fullname}
+                            onChange={handleChange}
+                            required
+                          />
                         </div>
                       </div>
-                      <div class="col-xl-6 col-md-6">
-                        <div class="post-input post-input-2">
-                          <label for="email" class="post-input-label-defualt">
+                      <div className="col-xl-6 col-md-6">
+                        <div className="post-input post-input-2">
+                          <label
+                            htmlFor="email"
+                            className="post-input-label-defualt"
+                          >
                             Email to contact you *
                           </label>
-                          <input type="email" name="email" id="email" />
+                          <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            value={formData.email}
+                            onChange={handleChange}
+                            required
+                          />
                         </div>
                       </div>
-                      <div class="col-xl-6 col-md-6">
-                        <div class="post-input post-input-2">
-                          <label for="email" class="post-input-label-defualt">
+                      <div className="col-xl-6 col-md-6">
+                        <div className="post-input post-input-2">
+                          <label
+                            htmlFor="phone"
+                            className="post-input-label-defualt"
+                          >
                             Phone Number *
                           </label>
-                          <input type="phone" name="phone" id="phone" />
+                          <input
+                            type="text"
+                            name="phone"
+                            id="phone"
+                            value={formData.phone}
+                            onChange={handleChange}
+                            required
+                          />
                         </div>
                       </div>
-                      <div class="col-xl-6 col-md-6">
-                        <div class="post-input post-input-2">
-                          <label for="email" class="post-input-label-defualt">
-                            Instagram handle *
+                      <div className="col-xl-6 col-md-6">
+                        <div className="post-input post-input-2">
+                          <label
+                            htmlFor="instagram"
+                            className="post-input-label-defualt"
+                          >
+                            Instagram handle(url) *
                           </label>
-                          <input type="text" name="instagram" id="instagram" />
+                          <input
+                            type="text"
+                            name="instagram"
+                            id="instagram"
+                            value={formData.instagram}
+                            onChange={handleChange}
+                            required
+                          />
                         </div>
                       </div>
-                      <div class="col-xl-12">
-                        <div class="post-input post-input-2">
-                          <label for="name" class="post-input-label-defualt">
+                      <div className="col-xl-12">
+                        <div className="post-input post-input-2">
+                          <label
+                            htmlFor="business"
+                            className="post-input-label-defualt"
+                          >
                             Business Name *
                           </label>
-                          <input type="text" name="business" id="business" />
+                          <input
+                            type="text"
+                            name="business"
+                            id="business"
+                            value={formData.business}
+                            onChange={handleChange}
+                            required
+                          />
                         </div>
                       </div>
-
-                      <div class="col-xl-12">
-                        <div class="post-input post-input-2">
-                          <label for="name" class="post-input-label-defualt">
-                            What problen do you wish AI can solve for your
-                            business*
+                      <div className="col-xl-12">
+                        <div className="post-input post-input-2">
+                          <label
+                            htmlFor="problem"
+                            className="post-input-label-defualt"
+                          >
+                            What problem do you wish AI can solve for your
+                            business *
                           </label>
-                          <div class="post-input has-textarea">
-                            <textarea
-                              id="comment"
-                              name="message"
-                              placeholder="Type here..."
-                            ></textarea>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-xl-12">
-                        <label for="comment" class="post-input-label-defualt">
-                          What problem do you think having a website can solve
-                          for your business *
-                        </label>
-                        <div class="post-input has-textarea">
                           <textarea
-                            id="comment"
-                            name="message"
+                            id="problem"
+                            name="problem"
+                            value={formData.problem}
+                            onChange={handleChange}
                             placeholder="Type here..."
+                            required
                           ></textarea>
                         </div>
                       </div>
                       <div className="col-xl-6 col-md-6">
                         <div className="post-input post-input-2">
                           <label
-                            htmlFor="referral"
+                            htmlFor="hear"
                             className="post-input-label-defualt"
                           >
-                            How did you hear about this event*
+                            How did you hear about this event *
                           </label>
                           <select
-                            name="referral"
-                            id="referral"
-                            className="post-input-field" // Add any class for styling as needed
-                            required // Optional: mark as required
+                            name="hear"
+                            id="hear"
+                            value={formData.hear}
+                            onChange={handleChange}
+                            required
+                            className="post-input-field"
                           >
-                            <option value="" disabled selected>
+                            <option value="" disabled>
                               Select an option
                             </option>
-                            <option value="friend">From a friend</option>
-                            <option value="instagram">From Instagram</option>
-                            <option value="whatsapp">From WhatsApp</option>
-                            <option value="facebook">From Facebook</option>
-                            <option value="website">From the website</option>
-                            <option value="other">Other</option>
+                            <option value="From a friend">From a friend</option>
+                            <option value="From Instagram">
+                              From Instagram
+                            </option>
+                            <option value="From WhatsApp">From WhatsApp</option>
+                            <option value="From Facebook">From Facebook</option>
+                            <option value="From the website">
+                              From the website
+                            </option>
+                            <option value="Other">Other</option>
                           </select>
                         </div>
                       </div>
-
-                      <div class="col-xl-6 col-md-6">
-                        <div class="post-input post-input-2">
-                          <label for="email" class="post-input-label-defualt">
+                      <div className="col-xl-6 col-md-6">
+                        <div className="post-input post-input-2">
+                          <label
+                            htmlFor="invite"
+                            className="post-input-label-defualt"
+                          >
                             How many people are you inviting *
                           </label>
-                          <input type="text" name="invite" id="invite" />
+                          <input
+                            type="text"
+                            name="invite"
+                            id="invite"
+                            value={formData.invite}
+                            onChange={handleChange}
+                            required
+                          />
                         </div>
                       </div>
-                      <div class="col-xl-12">
-                        <label for="comment" class="post-input-label-defualt">
-                          What plan do you want your school to subscribe to *
-                        </label>
-                        <div class="post-input has-textarea">
+                      <div className="col-xl-12">
+                        <div className="post-input post-input-2">
+                          <label
+                            htmlFor="plan"
+                            className="post-input-label-defualt"
+                          >
+                            What plan do you want your school to subscribe to *
+                          </label>
                           <textarea
-                            id="comment"
-                            name="message"
+                            id="plan"
+                            name="plan"
+                            value={formData.plan}
+                            onChange={handleChange}
                             placeholder="Type here..."
+                            required
                           ></textarea>
                         </div>
                       </div>
-                      <div class="col-xl-12">
-                        <div class="post-check mb-30">
-                          <input type="checkbox" />
+                      <div className="col-xl-12">
+                        <div className="post-check mb-30">
+                          <input type="checkbox" required />
                           <span>
                             By clicking this I have read and agree to the Terms
                             & Conditions.
@@ -403,6 +493,7 @@ const Innovate = () => {
           </div>
         </div>
       </footer>
+      <ToastContainer />
     </>
   );
 };
