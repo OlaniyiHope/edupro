@@ -36,7 +36,6 @@ const App = () => {
             path="/innovation"
             element={
               <>
-                <PageTitleSetter />
                 <Innovate />
               </>
             }
