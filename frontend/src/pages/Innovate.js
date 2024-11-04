@@ -41,6 +41,7 @@ const Innovate = () => {
                         textAlign: "center",
                         marginBottom: "40px",
                         marginTop: "40px",
+                        color: "#042954",
                       }}
                     >
                       Application for Custom Website
