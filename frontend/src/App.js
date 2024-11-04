@@ -14,6 +14,7 @@ import Blog from "./pages/Blog";
 import Download from "./pages/Download";
 import Cbt from "./pages/Cbt";
 import Innovate from "./pages/Innovate";
+import PageTitleSetter from "./pages/PageTitleSetter";
 
 const App = () => {
   return (
@@ -30,8 +31,16 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/terms" element={<Terms />} />
-          <Route path="/innovation" element={<Innovate />} />
 
+          <Route
+            path="/innovation"
+            element={
+              <>
+                <PageTitleSetter />
+                <Innovate />
+              </>
+            }
+          />
           <Route path="/blog" element={<Blog />} />
           <Route path="/terms" element={<Test reviews={reviews} />} />
         </Routes>
