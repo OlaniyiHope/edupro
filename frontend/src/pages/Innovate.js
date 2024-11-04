@@ -254,15 +254,6 @@ const Innovate = () => {
                           ></textarea>
                         </div>
                       </div>
-                      <div className="col-xl-12">
-                        <div className="post-check mb-30">
-                          <input type="checkbox" required />
-                          <span>
-                            By clicking this I have read and agree to the Terms
-                            & Conditions.
-                          </span>
-                        </div>
-                      </div>
                     </div>
 
                     <button
