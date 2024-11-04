@@ -241,7 +241,8 @@ const Innovate = () => {
                             htmlFor="plan"
                             className="post-input-label-defualt"
                           >
-                            What plan do you want your school to subscribe to *
+                            Why do you think having a website will help your
+                            business *
                           </label>
                           <textarea
                             id="plan"
