@@ -2,110 +2,39 @@ import React, { useEffect, useState } from "react";
 import back from "./breads.jpg";
 import park from "./edu.PNG";
 import Header from "./Header";
+import inn from "./inn.PNG";
 const Innovate = () => {
   const backgroundStyle = {
-    backgroundImage: `url('/static/media/breads.png')`,
+    backgroundImage: `url('/static/media/inn.PNG')`,
   };
   return (
     <>
       <main>
         <div
-          class="breadcrumb-area pt-215 pb-140 mb-110 pb-130"
-          style={backgroundStyle}
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            height: "100vh",
+          }}
         >
-          <div class="container">
-            <div class="breadcrumb-content text-center">
-              <h3 class="breadcrumb-title">Contact</h3>
-              <div class="breadcrumb-trail">
-                <nav>
-                  <ul class="trail-items">
-                    <li class="trail-item">
-                      <a href="index.html">
-                        <span>Home</span>
-                      </a>
-                    </li>
-                    <li class="trail-item">
-                      <span>Contact</span>
-                    </li>
-                  </ul>
-                </nav>
-              </div>
-            </div>
-          </div>
+          <img
+            src={inn}
+            alt="Innovate"
+            style={{
+              width: "500px",
+              height: "500px",
+              margin: "auto",
+            }}
+          />
         </div>
-
         <div class="contact-area">
           <div class="container">
             <div class="row pb-140 justify-content-between">
-              <div class="col-xxl-5 col-xl-6 col-lg-6 mb-40 mb-lg-0">
-                <div class="contact-left-info">
-                  <div class="contact-info-left-top mb-30">
-                    <h4 class="contact-info-title" style={{ color: "#042954" }}>
-                      Contact Information
-                    </h4>
-                  </div>
-                  <div class="contact-left-list-wrapper">
-                    <div class="single-contact-left-item mb-10">
-                      <div class="icon">
-                        <i class="fal fa-phone-alt"></i>
-                      </div>
-                      <div class="content">
-                        <h4 class="single-contact-left-label">Phone Number</h4>
-                        <span class="single-contact-left-info">
-                          +(234) 70 38 41 2640, +(234) 81 65 05 1826
-                        </span>
-                      </div>
-                    </div>
-                    <div class="single-contact-left-item mb-10">
-                      <div class="icon">
-                        <i class="fal fa-envelope"></i>
-                      </div>
-                      <div class="content">
-                        <h4 class="single-contact-left-label">Email Adress</h4>
-                        <span class="single-contact-left-info">
-                          <a>info@edupro.com.ng</a>
-                        </span>
-                      </div>
-                    </div>
-                    <div class="single-contact-left-item mb-10">
-                      <div class="icon">
-                        <i class="fal fa-map-marker-alt"></i>
-                      </div>
-                      <div class="content">
-                        <h4 class="single-contact-left-label"> Address</h4>
-                        <span class="single-contact-left-info">
-                          Lagos, Nigeria.
-                        </span>
-                      </div>
-                    </div>
-                    <div class="single-contact-left-item mb-10">
-                      <div class="icon">
-                        <i class="fal fa-share-alt"></i>
-                      </div>
-                      <div class="content">
-                        <h4 class="single-contact-left-label contact-left-label-space">
-                          Share
-                        </h4>
-                        <div class="share-social">
-                          <a
-                            href="https://facebook.com/edu_solution"
-                            data-color="#1877f2"
-                          >
-                            <i class="fab fa-facebook-f"></i>
-                          </a>
-                          <a
-                            href="https://instagram.com/edu_school_solutions"
-                            data-color="#1da1f2"
-                          >
-                            <i class="fab fa-instagram"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xxl-6 col-xl-6 col-lg-6">
+              <div
+                class="col-xxl-6 col-xl-6 col-lg-6"
+                style={{ margin: "auto" }}
+              >
                 <div
                   class="contact-form wow fadeInUp mb-50 mb-xl-0"
                   data-wow-delay=".2s"
@@ -176,7 +105,7 @@ const Innovate = () => {
                           <input
                             type="text"
                             name="website"
-                            placeholder="School Name"
+                            placeholder="Business Name"
                             id="website"
                           />
                         </div>
@@ -188,12 +117,13 @@ const Innovate = () => {
                             What problen do you wish AI can solve for your
                             business*
                           </label>
-                          <input
-                            type="text"
-                            name="website"
-                            placeholder="School Name"
-                            id="website"
-                          />
+                          <div class="post-input has-textarea">
+                            <textarea
+                              id="comment"
+                              name="message"
+                              placeholder="Type here..."
+                            ></textarea>
+                          </div>
                         </div>
                       </div>
                       <div class="col-xl-12">
@@ -209,30 +139,30 @@ const Innovate = () => {
                           ></textarea>
                         </div>
                       </div>
-                      <div class="col-xl-6">
+                      <div class="col-xl-6 col-md-6">
                         <div class="post-input post-input-2">
-                          <label for="name" class="post-input-label-defualt">
-                            How do you get to hear about this event?*
+                          <label for="email" class="post-input-label-defualt">
+                            How do you hear about this event*
                           </label>
                           <input
-                            type="text"
-                            name="how"
-                            placeholder="How"
-                            id="how"
+                            type="email"
+                            name="email"
+                            id="email"
+                            placeholder="Email"
                           />
                         </div>
-                        <div class="col-xl-6">
-                          <div class="post-input post-input-2">
-                            <label for="name" class="post-input-label-defualt">
-                              How many people are you inviting to this event*
-                            </label>
-                            <input
-                              type="text"
-                              name="website"
-                              placeholder="School Name"
-                              id="website"
-                            />
-                          </div>
+                      </div>
+                      <div class="col-xl-6 col-md-6">
+                        <div class="post-input post-input-2">
+                          <label for="email" class="post-input-label-defualt">
+                            How many people are you inviting for the event *
+                          </label>
+                          <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            placeholder="Email"
+                          />
                         </div>
                       </div>
                       <div class="col-xl-12">
