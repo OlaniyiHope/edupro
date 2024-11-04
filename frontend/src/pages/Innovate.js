@@ -75,12 +75,7 @@ const Innovate = () => {
                           <label for="email" class="post-input-label-defualt">
                             Instagram handle *
                           </label>
-                          <input
-                            type="email"
-                            name="email"
-                            id="email"
-                            placeholder="Email"
-                          />
+                          <input type="text" name="instagram" id="instagram" />
                         </div>
                       </div>
                       <div class="col-xl-12">
