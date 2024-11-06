@@ -28,11 +28,12 @@ const Innovate = () => {
     e.preventDefault();
     try {
       await axios.post(`https://eduproapi.vercel.app/api/innovate`, formData);
+
       toast.success("User successfully created");
       navigate("/"); // Navigate to the dashboard after successful registration
     } catch (err) {
       console.error("Error registering:", err);
-      toast.error("Unable to create user");
+      toast.error("Unable to submit");
     }
   };
 
