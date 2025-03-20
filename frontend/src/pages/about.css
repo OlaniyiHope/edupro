@@ -1,0 +1,19 @@
+.team-info {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.team-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #042954;
+}
+
+.team-role {
+  font-size: 16px;
+  color: #6c757d;
+}
+
+.team-image {
+  border-radius: 10px;
+}

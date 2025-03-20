@@ -3,10 +3,13 @@ import back from "./breads.jpg";
 import Footer from "./Footer";
 import park from "./edu.PNG";
 import r1 from "./r1.jpg";
+import hope from "./hope.jpg";
+import dami from "./dami.jpg";
 import r2 from "./r2.jpg";
 import r3 from "./r3.jpg";
 import backs from "./footimg.jpg";
 import r4 from "./r4.jpg";
+import "./about.css";
 import Header from "./Header";
 const About = () => {
   const backgroundStyle = {
@@ -283,57 +286,41 @@ const About = () => {
             </div>
           </div>
         </div>
-
-        {/* <div class="client-area pt-40 pb-115 mb-110" data-bg-color="#eeeff4">
+        {/* <div class="section-title-2 text-center">
+          <h3 class="s-title visile-br-lg" style={{ color: "#042954" }}>
+            Our Team
+          </h3>
+        </div>
+        <div class="service-area pb-110">
           <div class="container">
-            <div class="row">
-              <div class="col-xxl-12">
-                <div class="client-s-title-parent mb-28">
-                  <h4 class="client-s-title">
-                    6 Tips to
-                    <br />
-                    Our satisfy your clients
-                  </h4>
+            <div class="row align-items-center">
+              <div class="col-xxl-4 col-xl-4 col-lg-4">
+                <div class="service-left-2 pl-7 pr-10">
+                  <div class="row mb-60 mb-lg-0">
+                    <div class="col-xxl-12 col-xl-12 col-lg-6 col-md-12 col-sm-12">
+                      <div class="service-left-2-wrap">
+                        <div
+                          class="service-left-2-thumb mb-30 wow fadeInUp"
+                          data-wow-delay=".2s"
+                        >
+                          <img src={hope} alt="image not found" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-xxl-12">
-                  <div class="brand-active-2 swiper-container">
-                    <div class="swiper-wrapper">
-                      <div class="single-brand swiper-slide">
-                        <img
-                          src="assets/img/brand/band-1-1.webp"
-                          width="105"
-                          alt="image not found"
-                        />
-                      </div>
-                      <div class="single-brand swiper-slide">
-                        <img
-                          src="assets/img/brand/brand-1-2.webp"
-                          width="105"
-                          alt="image not found"
-                        />
-                      </div>
-                      <div class="single-brand swiper-slide">
-                        <img
-                          src="assets/img/brand/brand-1-3.webp"
-                          width="105"
-                          alt="image not found"
-                        />
-                      </div>
-                      <div class="single-brand swiper-slide">
-                        <img
-                          src="assets/img/brand/brand-1-4.webp"
-                          width="105"
-                          alt="image not found"
-                        />
-                      </div>
-                      <div class="single-brand swiper-slide">
-                        <img
-                          src="assets/img/brand/brand-1-5.webp"
-                          width="105"
-                          alt="image not found"
-                        />
+              <div class="col-xxl-4 col-xl-4 col-lg-4">
+                <div class="service-left-2 pl-7 pr-10">
+                  <div class="row mb-60 mb-lg-0">
+                    <div class="col-xxl-12 col-xl-12 col-lg-6 col-md-12 col-sm-12">
+                      <div class="service-left-2-wrap">
+                        <div
+                          class="service-left-2-thumb mb-30 wow fadeInUp"
+                          data-wow-delay=".2s"
+                        >
+                          <img src={dami} alt="image not found" />
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -341,158 +328,69 @@ const About = () => {
               </div>
             </div>
           </div>
-        </div> */}
-
-        {/* <div class="team-area pb-130">
+        </div>*/}
+        <div class="section-title-2 text-center">
+          <h3 class="s-title visile-br-lg" style={{ color: "#042954" }}>
+            Our Team
+          </h3>
+        </div>
+        <div class="service-area pb-110">
           <div class="container">
-            <div class="row mb-45">
-              <div class="col-xxl-12">
-                <div class="section-title-2 text-center">
-                  <h3
-                    class="s-title wow fadeInUp visile-br-lg"
-                    data-wow-delay=".2s"
-                  >
-                    Meet our
-                    <br />
-                    The team member
-                  </h3>
-                  <p class="s-desc wow fadeInUp" data-wow-delay=".4s">
-                    Naff the little rotter have gutted mate James cuppa baking
-                    legged.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="row mb-45">
-              <div
-                class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 wow fadeInUp"
-                data-wow-delay=".2s"
-              >
-                <div class="single-team mb-30">
-                  <div class="thumb">
-                    <img
-                      src="assets/img/team/team-1.webp"
-                      alt="image not found"
-                    />
-                  </div>
-                  <div class="content text-center">
-                    <div class="team-desc">
-                      <a href="team.html" class="job">
-                        Marketing
-                      </a>
-                      <h5>
-                        <a href="team-details.html" class="title">
-                          Druid Wensleydale
-                        </a>
-                      </h5>
-                    </div>
-                    <div class="team-social">
-                      <a href="#">
-                        <i class="fab fa-facebook-f"></i>
-                      </a>
-                      <a href="#">
-                        <i class="fab fa-twitter"></i>
-                      </a>
-                      <a href="#">
-                        <i class="fab fa-pinterest-p"></i>
-                      </a>
-                      <a href="#">
-                        <i class="fab fa-vimeo-v"></i>
-                      </a>
+            <div class="row align-items-center">
+              {/* Team Member 1 */}
+              <div class="col-xxl-4 col-xl-4 col-lg-4">
+                <div class="service-left-2 pl-7 pr-10 text-center">
+                  <div class="row mb-60 mb-lg-0">
+                    <div class="col-xxl-12 col-xl-12 col-lg-6 col-md-12 col-sm-12">
+                      <div class="service-left-2-wrap">
+                        <div
+                          class="service-left-2-thumb mb-30 wow fadeInUp"
+                          data-wow-delay=".2s"
+                        >
+                          <img
+                            src={hope}
+                            alt="image not found"
+                            class="team-image"
+                          />
+                        </div>
+                        <div class="team-info">
+                          <h4 class="team-name">Hope Olaniyi</h4>
+                          <p class="team-role">Founder</p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div
-                class="col-xxl-4 col-xl-4  col-lg-4 col-md-6 col-sm-6 wow fadeInUp"
-                data-wow-delay=".4s"
-              >
-                <div class="single-team mb-30">
-                  <div class="thumb">
-                    <img
-                      src="assets/img/team/team-2.webp"
-                      alt="image not found"
-                    />
-                  </div>
-                  <div class="content text-center">
-                    <div class="team-desc">
-                      <a href="team.html" class="job">
-                        Teacher
-                      </a>
-                      <h5>
-                        <a href="team-details.html" class="title">
-                          Suraiya akter rika
-                        </a>
-                      </h5>
-                    </div>
-                    <div class="team-social">
-                      <a href="#">
-                        <i class="fab fa-facebook-f"></i>
-                      </a>
-                      <a href="#">
-                        <i class="fab fa-twitter"></i>
-                      </a>
-                      <a href="#">
-                        <i class="fab fa-pinterest-p"></i>
-                      </a>
-                      <a href="#">
-                        <i class="fab fa-vimeo-v"></i>
-                      </a>
+
+              {/* Team Member 2 */}
+              <div class="col-xxl-4 col-xl-4 col-lg-4">
+                <div class="service-left-2 pl-7 pr-10 text-center">
+                  <div class="row mb-60 mb-lg-0">
+                    <div class="col-xxl-12 col-xl-12 col-lg-6 col-md-12 col-sm-12">
+                      <div class="service-left-2-wrap">
+                        <div
+                          class="service-left-2-thumb mb-30 wow fadeInUp"
+                          data-wow-delay=".2s"
+                        >
+                          <img
+                            src={dami}
+                            alt="image not found"
+                            class="team-image"
+                          />
+                        </div>
+                        <div class="team-info">
+                          <h4 class="team-name">Dami Arambami</h4>
+                          <p class="team-role">Co-Founder</p>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div
-                class="col-xxl-4  col-xl-4  col-lg-4 col-md-6 col-sm-6 wow fadeInUp"
-                data-wow-delay=".6s"
-              >
-                <div class="single-team mb-30">
-                  <div class="thumb">
-                    <img
-                      src="assets/img/team/team-3.webp"
-                      alt="image not found"
-                    />
-                  </div>
-                  <div class="content text-center">
-                    <div class="team-desc">
-                      <a href="team.html" class="job">
-                        Designer
-                      </a>
-                      <h5>
-                        <a href="team-details.html" class="title">
-                          Malcolm Function
-                        </a>
-                      </h5>
-                    </div>
-                    <div class="team-social">
-                      <a href="#">
-                        <i class="fab fa-facebook-f"></i>
-                      </a>
-                      <a href="#">
-                        <i class="fab fa-twitter"></i>
-                      </a>
-                      <a href="#">
-                        <i class="fab fa-pinterest-p"></i>
-                      </a>
-                      <a href="#">
-                        <i class="fab fa-vimeo-v"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-xxl-12">
-                <div class="text-center">
-                  <a href="team.html" class="team-action-btn">
-                    View All Team <i class="fal fa-arrow-right"></i>
-                  </a>
                 </div>
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
 
         <div class="cta-area wow fadeInUp" data-wow-delay=".6s">
           <div class="container">
