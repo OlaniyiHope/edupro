@@ -380,7 +380,7 @@ const About = () => {
                           />
                         </div>
                         <div class="team-info">
-                          <h4 class="team-name">Dami Arambami</h4>
+                          <h4 class="team-name">Oluwadamilare Arabambi</h4>
                           <p class="team-role">Co-Founder</p>
                         </div>
                       </div>
