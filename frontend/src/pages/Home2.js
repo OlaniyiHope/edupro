@@ -433,7 +433,7 @@ const Home2 = () => {
             </div>
           </div>
 
-          <div class="priceing-area pt-115 pb-115 fix">
+          {/*} <div class="priceing-area pt-115 pb-115 fix">
             <div class="container">
               <div class="row">
                 <div class="col-xxl-12">
@@ -485,12 +485,7 @@ const Home2 = () => {
                           </div>
                           <div class="sasup-pricing-box-bottom-2">
                             <div class="sasup-pricing-box-bottom-title-wrap-2">
-                              {/* <h4 class="sasup-pricing-box-bottom-price-2">
-                              $0.0
-                            </h4>
-                            <span class="sasup-pricing-box-bottom-subtitle-2">
-                              Free forever
-                            </span> */}
+                          
                             </div>
                             <div class="sasup-pricing-box-bottom-list-2">
                               <h3
@@ -559,14 +554,7 @@ const Home2 = () => {
                             </a>
                           </div>
                           <div class="sasup-pricing-box-bottom-2">
-                            {/* <div class="sasup-pricing-box-bottom-title-wrap-2">
-                            <h4 class="sasup-pricing-box-bottom-price-2">
-                              $40
-                            </h4>
-                            <span class="sasup-pricing-box-bottom-subtitle-2">
-                              Per editor, per month
-                            </span>
-                          </div> */}
+                         
                             <h3
                               class="single-pricing-amount"
                               style={{ fontSize: "20px", fontWeight: "700" }}
@@ -646,14 +634,7 @@ const Home2 = () => {
                             </a>
                           </div>
                           <div class="sasup-pricing-box-bottom-2">
-                            {/* <div class="sasup-pricing-box-bottom-title-wrap-2">
-                          <h4 class="sasup-pricing-box-bottom-price-2">
-                            $40
-                          </h4>
-                          <span class="sasup-pricing-box-bottom-subtitle-2">
-                            Per editor, per month
-                          </span>
-                        </div> */}
+                       
                             <h3
                               class="single-pricing-amount"
                               style={{ fontSize: "20px", fontWeight: "700" }}
@@ -723,235 +704,11 @@ const Home2 = () => {
                       </div>
                     </div>
                   </div>
-                  {/* <div
-                  class="tab-pane fade show "
-                  id="monthly-tab-content1"
-                  role="tabpanel"
-                  aria-labelledby="monthly-tab1"
-                >
-                  <div class="row">
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                      <div class="sasup-pricing-box-2 mb-30">
-                        <div class="sasup-pricing-box-top-2 ">
-                          <div class="sasup-pricing-box-hover-bg">
-                            <img
-                              src="assets/img/shape/shape_circle_price.webp"
-                              alt="image not found"
-                            />
-                          </div>
-                          <span class="sasup-pricing-box-top-subtitle-2">
-                            Free
-                          </span>
-                          <h3 class="sasup-pricing-box-top-title-2">Basic</h3>
-                          <p class="sasup-pricing-box-top-desc-2">
-                            For those getting started with
-                            <br />
-                            Company.
-                          </p>
-                          <a
-                            href="price-02.html"
-                            class="sasup-pricing-box-top-action-2 "
-                          >
-                            Get Started
-                          </a>
-                        </div>
-                        <div class="sasup-pricing-box-bottom-2">
-                          <div class="sasup-pricing-box-bottom-title-wrap-2">
-                            <h4 class="sasup-pricing-box-bottom-price-2">
-                              $30.0
-                            </h4>
-                            <span class="sasup-pricing-box-bottom-subtitle-2">
-                              Free forever
-                            </span>
-                          </div>
-                          <div class="sasup-pricing-box-bottom-list-2">
-                            <ul>
-                              <li>
-                                <i class="fal fa-check"></i>
-                                <span class="price-feature-text">
-                                  4 free projects
-                                </span>
-                              </li>
-                              <li>
-                                <i class="fal fa-check"></i>
-                                <span class="price-feature-text">
-                                  Data storage
-                                </span>
-                              </li>
-                              <li>
-                                <i class="fal fa-check"></i>
-                                <span class="price-feature-text">
-                                  For personal us
-                                </span>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                      <div class="sasup-pricing-box-2 mb-30">
-                        <div class="sasup-pricing-box-top-2 ">
-                          <div class="sasup-pricing-box-hover-bg">
-                            <img
-                              src="assets/img/shape/shape_circle_price.webp"
-                              alt="image not found"
-                            />
-                          </div>
-                          <span class="sasup-pricing-box-top-subtitle-2">
-                            BEST SELLER
-                          </span>
-                          <h3 class="sasup-pricing-box-top-title-2">
-                            Professional
-                          </h3>
-                          <p class="sasup-pricing-box-top-desc-2">
-                            For smaller teams and professional
-                            <br />
-                            users.
-                          </p>
-                          <a
-                            href="price-02.html"
-                            class="sasup-pricing-box-top-action-2 active"
-                          >
-                            Get Started
-                          </a>
-                        </div>
-                        <div class="sasup-pricing-box-bottom-2">
-                          <div class="sasup-pricing-box-bottom-title-wrap-2">
-                            <h4 class="sasup-pricing-box-bottom-price-2">
-                              $45
-                            </h4>
-                            <span class="sasup-pricing-box-bottom-subtitle-2">
-                              Per editor, per month
-                            </span>
-                          </div>
-                          <div class="sasup-pricing-box-bottom-list-2">
-                            <ul>
-                              <li>
-                                <i class="fal fa-check"></i>
-                                <span class="price-feature-text">
-                                  Unlimited projects
-                                </span>
-                              </li>
-                              <li>
-                                <i class="fal fa-check"></i>
-                                <span class="price-feature-text">
-                                  Data storage
-                                </span>
-                              </li>
-                              <li>
-                                <i class="fal fa-check"></i>
-                                <span class="price-feature-text">
-                                  For personal us
-                                </span>
-                              </li>
-                              <li>
-                                <i class="fal fa-check"></i>
-                                <span class="price-feature-text">
-                                  Mobile verison
-                                </span>
-                              </li>
-                              <li>
-                                <i class="fal fa-check"></i>
-                                <span class="price-feature-text">
-                                  Full security
-                                </span>
-                              </li>
-                              <li>
-                                <i class="fal fa-check"></i>
-                                <span class="price-feature-text">
-                                  Priority support
-                                </span>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                      <div class="sasup-pricing-box-2 mb-30">
-                        <div class="sasup-pricing-box-top-2 ">
-                          <div class="sasup-pricing-box-hover-bg">
-                            <img
-                              src="assets/img/shape/shape_circle_price.webp"
-                              alt="image not found"
-                            />
-                          </div>
-                          <span class="sasup-pricing-box-top-subtitle-2">
-                            POG CHAMP
-                          </span>
-                          <h3 class="sasup-pricing-box-top-title-2">
-                            Enterprise
-                          </h3>
-                          <p class="sasup-pricing-box-top-desc-2">
-                            For scaling teams requiring customization and
-                            security.
-                          </p>
-                          <a
-                            href="price-02.html"
-                            class="sasup-pricing-box-top-action-2 "
-                          >
-                            Get Started
-                          </a>
-                        </div>
-                        <div class="sasup-pricing-box-bottom-2">
-                          <div class="sasup-pricing-box-bottom-title-wrap-2">
-                            <h4 class="sasup-pricing-box-bottom-price-2">
-                              Custom
-                            </h4>
-                            <span class="sasup-pricing-box-bottom-subtitle-2">
-                              Contact our sales team
-                            </span>
-                          </div>
-                          <div class="sasup-pricing-box-bottom-list-2">
-                            <ul>
-                              <li>
-                                <i class="fal fa-check"></i>
-                                <span class="price-feature-text">
-                                  Private cloud hosting
-                                </span>
-                              </li>
-                              <li>
-                                <i class="fal fa-check"></i>
-                                <span class="price-feature-text">
-                                  SSO / SAML
-                                </span>
-                              </li>
-                              <li>
-                                <i class="fal fa-check"></i>
-                                <span class="price-feature-text">
-                                  Full security
-                                </span>
-                              </li>
-                              <li>
-                                <i class="fal fa-check"></i>
-                                <span class="price-feature-text">
-                                  Uptime agreement
-                                </span>
-                              </li>
-                              <li>
-                                <i class="fal fa-check"></i>
-                                <span class="price-feature-text">
-                                  Custom integrations
-                                </span>
-                              </li>
-                              <li>
-                                <i class="fal fa-check"></i>
-                                <span class="price-feature-text">
-                                  Priority support
-                                </span>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div> */}
+                 
                 </div>
               </div>
             </div>
-          </div>
+          </div>*/}
           {/*}    <div class="blog-area pt-120 pb-90">
             <div class="container">
               <div class="row">

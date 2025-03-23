@@ -188,7 +188,9 @@ const Footer = () => {
           <div class="sasup-has-copyright-border-top pt-25 pb-20">
             <div class="row">
               <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
-                <p class="sasup-copyright-text-4">2023 © Edu Pro.</p>
+                <p class="sasup-copyright-text-4">
+                  2023 © Edu Pro. || A product of Technology Point
+                </p>
               </div>
               <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                 <div class="sasup-copyright-menu-link-4 text-end">
